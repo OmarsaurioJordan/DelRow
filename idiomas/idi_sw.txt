@@ -1,0 +1,593 @@
+// arg0: ind de dialogo
+// ret: str del dialogo
+
+switch argument0 {
+
+	// para objeto txt
+	case 0:
+		return "Jina au barua pepe iliyosajiliwa";
+	case 1:
+		return "Nenosiri kuingia";
+	case 2:
+		return "Nenosiri mpya (si lazima)";
+	case 3:
+		return "Barua pepe kuunda akaunti";
+	case 4:
+		return "Jina lako la mtumiaji";
+	case 5:
+		return "Jina au barua pepe ya kutafuta";
+	case 6:
+		return "Nakala ya bure";
+
+	// para GUI
+	case 100:
+		return "Onyo: kuwa mwangalifu usitumie nywila yako kwa mitandao muhimu (usalama mdogo)";
+	case 101:
+		return "Kihispania";
+	case 102:
+		return "Wavuti + Laini";
+	case 103:
+		return "Hakuna hitilafu ya unganisho la mtandao";
+	case 104:
+		return "Reg:";
+	case 105:
+		return "Mod:";
+	case 106:
+		return "Sheria:";
+	case 107:
+		return "Januari";
+	case 108:
+		return "Februari";
+	case 109:
+		return "Bahari";
+	case 110:
+		return "Aprili";
+	case 111:
+		return "inaweza";
+	case 112:
+		return "Juni";
+	case 113:
+		return "Jul";
+	case 114:
+		return "Agosti";
+	case 115:
+		return "Sep";
+	case 116:
+		return "Oktoba";
+	case 117:
+		return "Novemba";
+	case 118:
+		return "Desemba";
+	case 119:
+		return "Mapacha";
+	case 120:
+		return "Taurusi";
+	case 121:
+		return "Gemini";
+	case 122:
+		return "Saratani";
+	case 123:
+		return "Leo";
+	case 124:
+		return "Bikira";
+	case 125:
+		return "Mizani";
+	case 126:
+		return "Nge";
+	case 127:
+		return "Mshale";
+	case 128:
+		return "Capricorn";
+	case 129:
+		return "Aquarium";
+	case 130:
+		return "Samaki";
+	case 131:
+		return "Kila mtu";
+	case 132:
+		return "Ni kwa maandishi marefu tu";
+	case 133:
+		return "Ni kazi tu hivi karibuni";
+	case 134:
+		return "Ya ulimwengu wote";
+	case 135:
+		return "Onyo Lazima uwe umeingia ili utafute kiotomatiki";
+	case 136:
+		return "Familia";
+	case 137:
+		return "Mkulima";
+	case 138:
+		return "Kupika";
+	case 139:
+		return "Fundi";
+	case 140:
+		return "Mchimbaji";
+	case 141:
+		return "mhunzi";
+	case 142:
+		return "Daktari";
+	case 143:
+		return "Kiongozi";
+	case 144:
+		return "Beki";
+	case 145:
+		return "Shujaa";
+	case 146:
+		return "Mpangaji";
+	case 147:
+		return "Mchawi";
+	case 148:
+		return "Kuhani";
+	case 149:
+		return "Msanii";
+	case 150:
+		return "Mwanariadha";
+	case 151:
+		return "Clown";
+	case 152:
+		return "Mwenza";
+	case 153:
+		return "Mfanyabiashara";
+	case 154:
+		return "Safi";
+	case 155:
+		return "Hippie";
+	case 156:
+		return "Tamer";
+	case 157:
+		return "Rubani";
+	case 158:
+		return "Usafirishaji";
+	case 159:
+		return "Mwandishi";
+	case 160:
+		return "Mhandisi";
+	case 161:
+		return "Mbunifu";
+	case 162:
+		return "Muuaji";
+	case 163:
+		return "Kisayansi";
+	case 164:
+		return "Majukumu";
+	case 165:
+		return "Kanda";
+	case 166:
+		return "Hisia";
+	case 167:
+		return "Zodiac";
+	case 168:
+		return "Mwanamke";
+	case 169:
+		return "Wat";
+	case 170:
+		return "Gro";
+	case 171:
+		return "Hewa";
+	case 172:
+		return "Mbaya";
+	case 173:
+		return "Neu";
+	case 174:
+		return "Goo";
+	case 175:
+		return "Pro";
+	case 176:
+		return "Wastani";
+	case 177:
+		return "Rasmi";
+	case 178:
+		return "Rekodi";
+	case 179:
+		return "Kila wiki:";
+	case 180:
+		return "Jumla:";
+	case 181:
+		return "Onyo Lazima uwe umeingia ili kufanya masimulizi rasmi";
+
+	// para nombre de zona
+	case 200:
+		return "Amerika ya Kaskazini (Kanada)";
+	case 201:
+		return "Amerika ya Kaskazini (USA)";
+	case 202:
+		return "Amerika ya Kaskazini (Mexiko)";
+	case 203:
+		return "Amerika ya Kusini (Kolombia)";
+	case 204:
+		return "Amerika ya Kusini (Brazili)";
+	case 205:
+		return "Amerika ya Kusini (Ajentina)";
+	case 206:
+		return "Ulaya (Uhispania)";
+	case 207:
+		return "Ulaya (Uingereza)";
+	case 208:
+		return "Ulaya (Ujerumani)";
+	case 209:
+		return "Ulaya (Urusi)";
+	case 210:
+		return "Mashariki (Arabia)";
+	case 211:
+		return "Mashariki (India)";
+	case 212:
+		return "Mashariki (Uchina)";
+	case 213:
+		return "Afrika (Misri)";
+	case 214:
+		return "Afrika (Kongo)";
+	case 215:
+		return "Afrika (Afrika Kusini)";
+	case 216:
+		return "Oceania (Australia)";
+	case 217:
+		return "Marekani Kaskazini";
+	case 218:
+		return "Amerika Kusini";
+	case 219:
+		return "Ulaya";
+	case 220:
+		return "Mashariki";
+	case 221:
+		return "Afrika";
+	case 222:
+		return "Ulimwengu (Wote)";
+
+	// para nombres de comportamientos
+	case 300:
+		return "Tetea nchi yako, usiondoke";
+	case 301:
+		return "Shambulia nchi ya nasibu";
+	case 302:
+		return "Shambulia nchi yenye nguvu";
+	case 303:
+		return "Shambulia nchi dhaifu";
+	case 304:
+		return "Shambulia nchi iliyo karibu";
+	case 305:
+		return "Kaa katika kikundi, fuata kikundi";
+	case 306:
+		return "Fuata raia mwingine asiye na mpangilio";
+
+	// mensajes HTTP
+	case 400:
+		return "Hitilafu isiyojulikana";
+	case 401:
+		return "Kosa la Kuunganisha Seva";
+	case 402:
+		return "Hitilafu ya hifadhidata ya seva";
+	case 403:
+		return "Toleo la Programu ya Kosa halifai";
+	case 404:
+		return "Hitilafu Vigezo havitoshi";
+	case 405:
+		return "Hitilafu ya Ombi la Seva";
+	case 406:
+		return "Jina la Mtumiaji la Onyo tayari lipo";
+	case 407:
+		return "Onyo Ulichokuwa ukitafuta hakikupatikana";
+	case 408:
+		return "Onyo Lazima uhariri mara moja kila saa";
+	case 409:
+		return "Mafanikio yamesajiliwa, angalia barua yako";
+	case 410:
+		return "Onyo Tafadhali ingiza barua pepe au jina halali";
+	case 411:
+		return "Onyo Nenosiri lazima liwe na urefu wa angalau herufi 6";
+	case 412:
+		return "Mafanikio Habari iliyosasishwa";
+	case 413:
+		return "Onyo Tafadhali sasisha data kwenye kichupo cha bendera";
+
+	// titulos de los temas del libro
+	case 500:
+		return "Kuhusu DelRow";
+	case 501:
+		return "Ingia na Usajili";
+	case 502:
+		return "Matibabu ya data";
+	case 503:
+		return "Picha za Profaili";
+	case 504:
+		return "Toleo la Profaili";
+	case 505:
+		return "Utafutaji wa Profaili";
+	case 506:
+		return "Nyumba ya familia)";
+	case 507:
+		return "Mazao (Mkulima)";
+	case 508:
+		return "Uokaji mkate (Cook)";
+	case 509:
+		return "Ushonaji (Fundi)";
+	case 510:
+		return "Mgodi (Mchimbaji)";
+	case 511:
+		return "Ufundi wa chuma (Mhunzi)";
+	case 512:
+		return "Hospitali (Daktari)";
+	case 513:
+		return "Mkutano (Kiongozi)";
+	case 514:
+		return "Mnara (Mlinzi)";
+	case 515:
+		return "Ngome (shujaa)";
+	case 516:
+		return "Makaburi (Cepulturero)";
+	case 517:
+		return "Tambiko (Mchawi)";
+	case 518:
+		return "Hekalu (Kuhani)";
+	case 519:
+		return "Conservatory (Msanii)";
+	case 520:
+		return "Mazoezi (Mwanariadha)";
+	case 521:
+		return "Michezo (Clown)";
+	case 522:
+		return "Moteli (Mwenza)";
+	case 523:
+		return "Soko (Mfanyabiashara)";
+	case 524:
+		return "Takataka (Safi)";
+	case 525:
+		return "Hifadhi (Hippie)";
+	case 526:
+		return "Katuni (Tamer)";
+	case 527:
+		return "Bandari (Rubani)";
+	case 528:
+		return "Mjumbe (Mjumbe)";
+	case 529:
+		return "Maktaba (Mwandishi)";
+	case 530:
+		return "Turbine (Mhandisi)";
+	case 531:
+		return "Ujenzi (Mbunifu)";
+	case 532:
+		return "Baa (Killer)";
+	case 533:
+		return "Maabara ya kisayansi)";
+	case 534:
+		return "Sehemu ya Tabia 1";
+	case 535:
+		return "Sehemu ya Tabia 2";
+	case 536:
+		return "Sasisho la Takwimu";
+	case 537:
+		return "Takwimu za Jumla";
+	case 538:
+		return "Takwimu za Takwimu";
+	case 539:
+		return "Picha za Vita";
+	case 540:
+		return "Vifungo vya Vita";
+	case 541:
+		return "Vita vya kawaida";
+	case 542:
+		return "Simulator ya Amri";
+	case 543:
+		return "Units Simulator";
+	case 544:
+		return "Vituo vya Simulator";
+	case 545:
+		return "Kuhusu Kitabu Hiki";
+
+	// parrafos de los temas del libro
+	case 700:
+		return "Programu maingiliano iliyoundwa na Omar Jordán (Omwekiatl), Kolombia 2021 (v $).##Jamii inayofaa inayolisha uigaji wa vita vya ulimwengu, unaweza:##- Badilisha picha yako ikufae.##- Onyesha kitu neno kwa neno.##- Tafuta wasifu mwingine.#- Chagua ukanda wa ulimwengu unaounga mkono.#- Chagua jukumu lako katika jamii.#- Chagua hali ya tabia.#- Tazama hali ya sasa ya vita na takwimu.#Toleo hili la PC lina injini ya kuiga, na vigezo vya hali ya juu.#Lugha rasmi: Kihispania.";
+	case 701:
+		return "Kujiandikisha tumia barua pepe, ambayo itapokea nywila.##Kuingia, tumia barua pepe uliyosajili na jina la mtumiaji; Wakati wa kusajili utaona jina la mtumiaji na nywila kwa barua pepe yako, hizi zinaweza kubadilishwa.##Baa ya tatu ya kuingia ni kuweka nywila mpya, ikiwa unataka kubadilisha ile ya awali, kuwa mwangalifu, Usitumie nywila muhimu.##Ikiwa hukumbuki nenosiri lako, tafadhali ingia tena ili upate moja kwa moja.##Shift + Futa: laini ya maandishi safi.";
+	case 702:
+		return "Habari yako haitauzwa au kushirikiwa na watu wengine, wala haitatumiwa kukuza matangazo, lakini takwimu za ulimwengu zinaweza kuonekana hadharani, ndio maana hii.##Nenosiri lako limesimbwa kwa njia fiche, lakini kuwa mwangalifu.##Unaweza kuelezea kile unachotaka katika wasifu wako, hakuna udhibiti au marufuku, kwa hivyo sio mfumo unaofaa kwa watoto au watu nyeti; bado tunaamini maadili yako (uwe mzuri huenda).";
+	case 703:
+		return "Kuhusu Picha:#Jina / Eneo / Jukumu.##Picha:#Ujenzi (Jukumu) / atarvatar / Zodiac.##Chini ya Picha: Nakala ya Bure, Tabia.#Chini kushoto, tarehe za: - Usajili katika mfumo.#- Marekebisho ya wasifu.#- Mara ya mwisho inafanya kazi.#Vifungo chini kulia: - Funga kikao (ondoka).#- Hariri wasifu (1 muda kila saa).";
+	case 704:
+		return "- Rekebisha jina lako (lazima iwe ya kipekee).##- Rekebisha ukanda unaounga mkono.##- Badilisha avatar na mishale ya kijani.#- Andika kitu (rangi nyekundu inaonyesha kubwa).#- Rekebisha tabia.#Vifungo chini kulia:#- Kijani: ghairi uhariri.#- Nyekundu: kubali na tuma mabadiliko.#Shift + Futa: laini ya maandishi safi.#Unaweza kunakili na kubandika (Ctrl + C) (Ctrl + V).";
+	case 705:
+		return "Unaweza kutafuta profaili ya mtumiaji ikiwa ina jina au barua pepe, andika na ubonyeze glasi ya kukuza; au bonyeza fimbo ikiwa unatafuta wasifu wako mwenyewe.##Utafutaji wa nasibu hukuruhusu kuchuja kwa:#- Kanda.##- Profaili zilizo na maandishi mengi.##- Inatumika kwa chini ya wiki.#Piga kete kutafuta.#Mara moja kwenye wasifu, kuna vifungo viwili kwa:#- Fanya utaftaji mwingine.#- Chukua skrini (png).";
+	case 706:
+		return "Kila mtu anaweza kuwa na kazi na nyumba na watoto, sio hapa, inageuka kuwa jukumu hili linawakilisha wale ambao wanaishi kwa familia yao, nyumba yao, kulea na kusomesha watoto wao; wanaishi katika nyumba nzuri na wanashirikiana na mwenzi ambaye anadai nia hiyo hiyo; labda ni jukumu la zamani zaidi na la asili.##Ni vitengo vya kimsingi, uwezo wao na vigezo ni vile ambavyo ulimwengu bila majukumu ungekuwa nao, lakini ... wanabeba nusu ya mbegu, na mbili za jukumu hili zinapokutana, zitakua mbegu, ambayo itakua na kuwa mkazi mmoja zaidi.";
+	case 707:
+		return "Ndio msingi wa chakula cha mji au jiji, bila chakula bila shaka idadi ya watu inafurahi, au iko hai ... kawaida hupatikana kwenye uwanja kijani na mkubwa, na visima vya kuchota maji chini ya ardhi, na kuzungukwa na mboga kama vile: shayiri, ndizi, mahindi, maharagwe, quinoa, kakao, karanga, ngano.##Katika vita wana aura ya chakula, kwa hivyo huwapa washirika chakula; Vitengo vinavyolishwa kwa kuhimizwa zaidi kushambulia kwa kasi ambayo inawapa faida; lakini ni chakula kibichi, kwa hivyo athari yake haidumu kwa muda mrefu, lazima wabaki kwenye aura.";
+	case 708:
+		return "Nani hapendi harufu ya mkate moto, au chakula chochote kipya kilichotengenezwa hivi karibuni, kwa sababu kuchochea hisia hiyo ni kazi ya jukumu hili, na sawa, pia kulisha ... anasimamia kugeuza mavuno kuwa kitoweo chenye lishe, utaalam wake ni: shayiri na mdalasini, keki ya ndizi, arepa ya mahindi, Burger ya maharage, biskuti za quinoa, dessert ya chokoleti, keki ya matunda iliyokaushwa.##Lisha mshirika mmoja kwa wakati mmoja, ambayo ni, kila wakati anapofanya uwezo wake maalum; Vitengo vinavyolishwa kwa kuhimizwa zaidi kushambulia kwa kasi ambayo inawapa faida; athari ya chakula hiki kizuri hudumu kwa muda mrefu.";
+	case 709:
+		return "Ustadi mwingi mikononi, uvumilivu na maoni muhimu ya kubadilisha kipande cha nyenzo kuwa ... nyenzo yenye thamani zaidi; iwe ni kutengeneza nguo za kuvaa, kuvaa na kulinda kutoka baridi, viatu vya kucheza, fanicha ya kutembelea au kulala kuota ulimwengu bila vita, watafanya hivyo.##Kila wakati uwezo wake maalum unasababishwa, atavaa kitengo cha washirika kwenye kofia nzuri ya mshtuko, hii inatoa silaha ya kitengo ambayo imevaliwa na vibao vilivyopokelewa.";
+	case 710:
+		return "Nyundo hizi kutoka kwa matumbo ya dunia hutoa malighafi kwa shughuli zote za utengenezaji, hawajali kelele za mashine za kusagwa au wanapumua hewa nzito ya chini ya ardhi, kwamba ikiwa, bila kuchoka wanatafuta kupata dhahabu, almasi, adamantium kupata pete au jino.##Wao ni wazuri katika kuzingirwa, wanaweza kubomoa kituo cha mijini cha maadui kana kwamba ni jiwe jingine dhaifu tu, wanakusanya pia thamani katika kuzingirwa kwao ili kutengeneza kituo chao cha mijini.";
+	case 711:
+		return "Raia huyu mwenye mikono machafu hajisumbui na joto la makao, anakaa hapo akibadilisha madini ghafi kuwa mabaki ya kila siku kama vile: sufuria, glasi, vifuniko, baa, na kila aina ya chuma; Kati yao panga la mara kwa mara, upanga, shoka la vita ... Kila mara huunda silaha ya ziada na kumpa mshirika, vitengo vilivyo na silaha hii ya ziada vina shambulio zaidi, lakini sio kila kitu ni sawa, mapema au baadaye na bahati mbaya silaha itavunjika.##";
+	case 712:
+		return "Afya, jambo kuu kwa kuishi na hata zaidi kwa kuishi vizuri; Jukumu hili linasimamia kuhakikisha ustawi wao; Kabla ya kufikia mwisho wa upasuaji au kutumia kemikali kali, wanajaribu kueneza tabia nzuri kama vile: kumwagilia maji vizuri, mazoezi (kubadilika + Cardio), kuwa na furaha na bila dhiki, kula usawa bila mafuta, au sukari na nyama chache, pumua sana , lala vizuri, na mara kwa mara mfungo na viungo vya uponyaji.##Naam, busara-simulation, wanaponya washirika, iwe uharibifu wa mwili au maambukizo ya virusi.";
+	case 713:
+		return "Kumekuwa na wakaazi wote ambao wana sauti ya amri, kutokuwa na bidii kutekeleza miradi na hisia kali ya heshima na kujitolea, jukumu hili linatoa katika jamii uwezo wa kupanga na kuelekeza maoni, miradi, mipango, maandamano; Ili kufanya hivyo, lazima asikilize wengine, kufungua vikao vya majadiliano, kuweka mpangilio na, muhimu zaidi, kuweka mfano.##Bila kujali tabia ya washirika wengine, jukumu hili linawashawishi kuifuata, kwa hivyo kukusanyika kikundi kidogo, kwa njia hii hautaenda peke yako, faida nyingine ya hii ni kwamba washiriki watalinganisha wakati wa kujibu shambulio la mmoja wao. .";
+	case 714:
+		return "Yeye ni sawa na polisi, utaalam wake ni ulinzi kwa hivyo hubeba ngao kubwa, badala ya kwenda vitani dhamira yake ni kuweka utulivu ndani ya jamii, kuwafanya watu wajisikie salama, na kupunguza tishio lolote.##Ni kitengo kinachostahimili zaidi, ndio uwezo wake; Kwa upande mwingine, hutoa mnara kama jengo, hushambulia adui, lakini ni polepole kuliko minara ya kampeni iliyofanywa moja kwa moja kwenye uwanja wa vita, hata hivyo ile ya mwisho hubomolewa kwa urahisi ikilinganishwa na ile ya ndani.##Kukataa kushambuliwa na wahalifu na vilipuzi.";
+	case 715:
+		return "Ni sawa na mwanajeshi, huyu ni shujaa katili ambaye huenda kwenye uwanja wa vita na kiu cha damu, akiharibu adui.##Labda unafikiria kuwa katika mchezo wa vita majukumu mengine yatakuwa na maana gani, sawa kuna usawa, usidanganywe, majukumu yote yana faida na hasara, na jamii inajielezea na kila mtu kama suala la ladha .. lakini ndio, hii inajulikana kwa kuwa ndiye aliye na shambulio kubwa zaidi (uwezo wa kupita).";
+	case 716:
+		return "Yeye ni nadra, kama kunguru, akiwa na unyong'onyevu na mawazo mazito ameona mazishi mengi, machozi mengi, mwisho mwingi; Kawaida ni vyombo vya faragha na vya kutafakari, jukumu lao ni kuwapa kupumzika na makaazi wafu; kifo, siri kuu maishani, jukumu hili linaishi kila wakati na ni nzuri kwa kutoa ushauri kwa waombolezaji.##Wakati anaua adui kwenye uwanja wa vita, anapona alama za maisha, kana kwamba ni vampire.";
+	case 717:
+		return "Kuwa mgeni ambaye amejitolea kwa sanaa ya arcane, kwa fumbo, kwa uchawi, kwa sababu hiyo hiyo kawaida huwa kimya juu ya kile anachojua, inasemekana kuwa hutumia wakati mwingi kusafiri katika ndoto zake na kutafakari kuliko katika maisha yenyewe; Anajaribu kutekeleza kazi kubwa ya alchemical, anachunguza siri za ulimwengu na ana mazungumzo na vyombo tofauti zaidi.##Wakati wa kufa inakuwa wigo ambao unafuata adui kumpa bahati mbaya katika mashambulio yake, hii ni athari ya aura, kwa hivyo inaathiri kadhaa kwa wakati mmoja; katika maisha haiwezi kubadilishwa na makuhani.";
+	case 718:
+		return "Ina hekalu ambalo hujitolea kujitolea kwake kwa maisha yote, hekalu hili kwa mfano linaashiria mungu wa kadhaa ambao wapo, wengine wakubwa kuliko wengine, wengine wamesahaulika na wengine ni wa mitindo zaidi; anaangalia morali ya jamii, akipima mizigo yake ya kihemko na ahadi ya msaada mkuu.##Kazi yake ni kubadilisha kitengo kiitikadi, ambayo inamaanisha kuwa inaweza kufanya mshirika wa adui, lakini hii ni uwezekano na jaribio moja, ambalo linaweza kuathiriwa na athari za bahati, kwa mfano: itakuwa na nafasi ndogo kabla ya laana ya mtazamaji.";
+	case 719:
+		return "Muziki, uchoraji, sanamu, uimbaji, uigizaji ... tofauti sana na nzuri ni anuwai ya sanaa na udhihirisho wake usio na kipimo, jukumu hili bila shaka linachukua ndoto na ndoto mbaya kwenye karatasi na sauti, kila jamii inahitaji kujieleza, hii ni ya kushangaza zaidi .##Katika vita atabeba gitaa, ambayo itapunguza hewa na msukumo, ikitoa bahati nzuri kwa mashambulio ya washirika; hata hivyo, athari hii ni ya muda mfupi, kwa hivyo inahitaji uwepo wa mara kwa mara wa aura.";
+	case 720:
+		return "Mtu mwenye nguvu sana, anayebadilika-badilika, mwenye nguvu, asiyechoka, mwerevu, ambaye anaishi tu kuwa kwenye mazoezi yake au kusafiri ulimwenguni bila kusimama, anapenda kushindana na kuhisi kuwa yeye ni bora na bora kuliko yeye na wengine; Lengo lake pekee ni kuvunja malengo, anafurahiya afya isiyo na kipimo lakini yuko katika rehema ya majeraha mengi.##Yeye hukimbia na hakuna kitu haraka kuliko mtu mwingine yeyote, ambayo inampa uhamaji mkubwa kwenye uwanja wa vita, pia ana uwezo wa kutoa pigo kubwa mara ya kwanza anaposhambulia, kama lunge na hali yake ya kusanyiko.";
+	case 721:
+		return "Michezo ya kubahatisha, Chess, cheki za Wachina, ngazi, Hifadhi, Poker, Uno, Uchawi, charadi na mengi zaidi, ambayo unapata hapa, katika ujenzi wa tabia hii ya urafiki, inayotoka na yenye furaha; Hakika hakuna kitu kama burudani na kicheko, lakini angalia, unakuwa mraibu hahaha.##Roulette yote ya Urusi, jukumu hili hubeba bomu yenye nguvu sana ambayo inaweza kutenganisha nyama kutoka mfupa, kutoka yenyewe, kutoka kwa washirika wake na kwa kweli kutoka kwa adui; mlipuko ni nasibu wakati unachukua uharibifu.";
+	case 722:
+		return "Jamii yenye afya huonyesha ujinsia wake bila miiko au maadili mabaya, hapa jukumu hili linatoa nafasi ya michezo ya kupendeza, ikiwa na roho ya uzazi au bora zaidi kwa burudani; Na kana kwamba haitoshi, inatoa huduma zake kama kampuni maalum (na uhuru wa kuchagua).##Chagua mshirika mmoja tu na uwaangaze, ukiwapa alama zaidi, alama za kushambulia, na kinga kwa athari za majukumu mengine; Hii itafuata na mmoja wa hao wawili akifa, kiunga na faida zake huvunjwa milele; udhaifu wa mshirika aliyeangaziwa ni rafiki yake wa kimsingi.";
+	case 723:
+		return "Bidhaa zilizotengenezwa na utengenezaji zinahitaji kuuzwa, kuuzwa, hiyo ndiyo kazi ya jukumu hili, ambalo pia linajua jinsi ya kufanya biashara nzuri kwa sababu ya haiba yake kwa sababu hakuna pesa kila wakati katika nyakati ngumu; jengo lake ni hobby kwa wale wanaotafuta vifaa vinavyohitajika kidogo; yeye ni mtaalam wa kutengeneza utajiri, yeye huondoa sarafu kutoka mahali ambapo hakuna.##Unaweza kuchukua silaha za adui na kofia na kuziweka, au kuwapa mshirika; kimsingi inageuza utengenezaji wa adui kuwa bidhaa kwa washirika.";
+	case 724:
+		return "Ana hamu ya kuona kila kitu safi, anajali sana utupaji wa taka, kauli mbiu yake ni Kupunguza, Kutumia tena, Kusanya tena; Kwa sababu hii inasaidia kupunguza uchafuzi wa mazingira; anapenda kuona makopo ya takataka yamepangwa na Karatasi, Plastiki, Elektroniki na Kikaboni, kwani hii inapunguza kazi katika jengo lake; pia anakata lawn.##Vita vinaacha maiti nyingi zilizooza, fujo zima, jukumu hili linapata maisha kidogo na kila maiti inayotengeneza.";
+	case 725:
+		return "Jiji linahitaji mbuga na akiba ya asili, kwa starehe, burudani na uhusiano na wanyama na mimea; Kiumbe hiki kinalinda nafasi hizi na hapo hapo husababisha maisha kutengwa kidogo na jiji; damu yake ina kipimo fulani cha uyoga wa hallucinogenic.##Anaweza, chini ya shinikizo la maandamano ya amani, kuchukua jukumu lao kutoka kwa maadui, akiwavua uwezo wao maalum, hii hufanya moja kwa moja kila wakati anaamsha uwezo wake.";
+	case 726:
+		return "Uhusiano wa kibinadamu na viumbe vingine katika maumbile ni ya zamani, kama wanyama wa pakiti, uwindaji, ushirika, matumizi; Jukumu hili huwainua mbwa na kuwatia tama na kuwafundisha, ili waweze kutumika kama kampuni kwa kila aina ya watu, sisi sote tunajua kuwa kuna wale ambao hata huwaona kama washiriki wa familia.##Anapoona adui, anaweza kumwita mbwa tu amsaidie kupigana, chombo hiki kitamfuata kila wakati, kina shambulio kidogo na maisha kuliko mwanadamu na kawaida hufa kwa maumivu ya maadili ikiwa mmiliki wake atakufa.";
+	case 727:
+		return "Tunaishi katika ulimwengu wa mwili, na umbali ambao hutenganisha nukta zote, kusafirisha kitu au mtu kutoka A hadi B daima imekuwa changamoto ya utaftaji, puto au meli za anga zimekuwa gari bora zaidi ya kuruka; katika jengo hili wanatoa huduma zao kuvuka umbali mrefu.##Wape baluni washirika wanapokuwa majini, kwa njia hii wanaweza kufikia marudio haraka, kwenye ardhi puto inashuka; Inapaswa kusisitizwa kuwa mapigano ya majini hutoa faida kwa wale ambao huenda kwenye puto.";
+	case 728:
+		return "Unataka kuelezea kitu kwa mtu, mhemko, wazo au biashara, lakini iko mbali, jukumu hili na ujenzi hukuruhusu kuacha ujumbe huo mikononi mwa mtaalam, kana kwamba telegraph ilikuwepo.##Kimkakati, ikiwa tabia yake ni kutetea: itashawishi washirika wanaotetea kushambulia adui jirani, bila kupuuza ulinzi; ikiwa tabia zao ni kufuata mtu: itahimiza washirika kutetea kituo kilicho katika mazingira magumu au tuseme wale wanaotetea shambulio kwa vikundi; kwa tabia nyingine: itafanya washirika kuishi kama yeye.##Baada ya kufikia kituo cha adui, mara moja tu, atahamisha kitengo kwenye foleni ya uumbaji kutoka kituo hicho kwenda kwake.";
+	case 729:
+		return "Mchanganyiko wa mwalimu na msanii, kwani anapenda kufundisha na kusambaza maarifa, na pia anapenda kuandika vitu halisi au visivyo vya kweli; jengo lake limejaa vitabu, vya masomo yote, sayansi, fasihi, hali ya kiroho, wasifu, historia, falsafa, mtindo wa maisha, n.k.##Kutoa bahati nzuri kwa mashambulio ya washirika, kupiga moja kwa wakati; buff huyu ni wa muda mrefu sana na ana nafasi kubwa za mgomo, kwa sababu maarifa ni nguvu.";
+	case 730:
+		return "Inatoa nishati, usimamizi wa moto umepita kwa muda mrefu, ni nini uwanja mpya wa umeme (angalau kwa wakati huu ulioiga), mitambo ya upepo hutoa nishati safi kwa kila mtu, na ni nini cha kufanya nayo? Kweli, ndoto ya ubinadamu imekuwa kuunda homunculus, golem; Wacha tutengeneze bati na akili ya bandia.##Unda roboti, ina muda mdogo wa maisha kwa sababu ya betri zake, lakini mshirika yeyote na jukumu hili anaweza kuzibadilisha; kubwa lakini haishambulii, bado ni udanganyifu sugu na uharibifu wa mnara kwa ubora; inadhoofisha na maji, inajifanya kama mtu aliyeipangilia au kuipangilia tena.";
+	case 731:
+		return "Je! Jamii inaweza kuwa bila majengo, iwe kibanda au jengo refu, hii ikiwa inaunda jiji kubwa na lenye mnene zaidi, bila kusahau kuwa lengo lake ni kutoa raha, utendaji, uboreshaji na athari ndogo ya mazingira; hutoa jengo kwa raia kadhaa kuishi.##Kwenye uwanja wa vita unaweza kuweka mnara wa kampeni ambao hupiga adui, haujashambuliwa na raia kwa sababu ya ugumu wake; Badala ya kutengeneza mpya unaweza kusawazisha iliyopo.";
+	case 732:
+		return "Sio kila mtu anayeishi katika jamii anafanya kazi ya kuiboresha, kuna wale ambao kwa sababu za kibinafsi huunda migogoro, wezi, wauaji, majambazi, ni masomo magumu na kawaida hupatikana usiku, wakinywa bia wakichanganya na raia waaminifu.##Mara kwa mara huwashambulia washirika wao kwa hila, kwa kawaida ni pigo kali kwa kushangaa; kuna nafasi ndogo ya kupata uharibifu tena, kwa jumla jukumu hili linachaguliwa na yeyote anayetaka kuhujumu eneo kutoka ndani.";
+	case 733:
+		return "Inasemekana kuwa masomo haya ni ya wazimu, huchunguza kila kitu wanachokiona, kutoka kwa kina cha anga, hadi ukaribu wa molekuli, lugha yao ni hesabu na leksimu yao ni ngumu; Katika jengo wanalotoa, majaribio mengi kawaida hufanywa ili kujaribu nadharia.##Katika chupa zao wamepanda virusi hatari sana, vyenye uwezo wa kujiua na kujieneza, sasa wanaitumia vitani kuambukiza adui mmoja kwa wakati mmoja; shambulio hili ni sawa na sumu, kuna nafasi ya kuponywa au kuharibiwa.";
+	case 734:
+		return "Kujitetea:#Vitengo vinatafuta kituo chao cha mijini au mshirika na kukaa karibu nayo, wakati ni vita kwa mabara, wanaweza kuona ikiwa kituo kinazingirwa na kwenda kwake.##Mashambulizi ya nasibu:#Watachagua kituo cha adui bila mpangilio na kwenda kwake, hii inaweza kuunda utawanyiko wa wanajeshi, pia kuna visa kadhaa ambavyo marudio yanaweza kuhesabiwa tena.##Shambulia Nguvu / dhaifu zaidi:#Wanalenga kituo cha adui ambacho kina kiwango cha chini / kidogo cha vitengo vinavyopatikana, ambayo ni kwamba, ongeza zilizo hai na zile za akiba.";
+	case 735:
+		return "Shambulia Jirani:#Inahakikisha kwamba kituo cha maadui lengwa ni karibu zaidi na kitengo ambacho sasa kinatafuta nani wa kushambulia.##Hoja katika Kikundi:#Vituo huhesabu duru kadhaa za vikundi, vitengo vya kituo hicho kilicho na tabia hii, kitakutana katika moja ya miduara hiyo; pia katika vitengo vya hali ya bara vinaweza kuchagua mduara wa washirika.##Fuata Kitengo kingine:#Raia mshirika huchaguliwa kwa nasibu kufuata, lakini hii haipaswi kuwa katika tabia ya kujihami au kufuata; Kwa kuongezea, ikiwa hatapata mtu, atarudi kwenye kituo chake cha mijini.";
+	case 736:
+		return "Programu hii ni ya hatua isiyo ya haraka, mikakati na marekebisho ya wasifu hushughulikiwa kwa utulivu, kwa hivyo, takwimu za ulimwengu zinasasishwa kila saa, na pia uwezekano wa kuhariri wasifu.##Mabadiliko unayofanya yataonekana katika takwimu katika saa 1!";
+	case 737:
+		return "Kwa juu unaweza kuchagua eneo au nchi ya kutazama, uteuzi utaonyeshwa kwenye ramani nyekundu.##Chini ya ramani unaweza kuona:#- Idadi ya watumiaji katika eneo hilo.##- Asilimia ya wanawake kwa heshima na jumla.#- Idadi ya watumiaji wanaofanya kazi.#- Rekodi ya watumiaji wanaofanya kazi.#Mtumiaji anafanya kazi ikiwa alikuwa kwenye programu katika wiki iliyopita.";
+	case 738:
+		return "Unaweza kubadilisha aina ya data ya kuchunguza kwa eneo lililochaguliwa:#- Majukumu: watumiaji katika kila jukumu.##- Kanda: kwa heshima na eneo la sasa.##- Hisia: kulingana na nyuso za avatar.#- Zodiac: ishara kwa ukanda.#Wazo ni kuona majukumu lakini sio tabia, kwa njia hii mkakati wa pamoja wa malengo unaweza kufanywa kwa majukumu, na ya angavu au ya nje kwa tabia.#- Kitufe cha kuokoa hukuruhusu kusafirisha data.#- Kitufe cha kamera kinachukua skrini.";
+	case 739:
+		return "Hapo juu, idadi ya uigaji:#Kila wiki (itasafishwa) / Imekusanywa.##Unaweza kuchagua eneo ambalo unataka kutazama, hii itaonyeshwa kwenye ramani kwa rangi nyekundu.##Uigaji wa kwanza wa juma ni Rasmi, na wengine wote wamepimwa, na Rekodi ni ya wakati wote.##Takwimu zinaonyesha nafasi ya ukanda, 1 ndio mahali pazuri, zinaweza kurudiwa ikiwa zitafungwa.##Aikoni: alama ya kiufundi, maadui wanaowindwa, kuzingirwa kumefanywa, maeneo yaliyotekwa, wakati wa kuishi, vitengo vinavyopatikana, vitengo vya jumla, maisha ya mwisho.";
+	case 740:
+		return "Vifungo 4 chini vitaanza:#Demo 1 na data ya nasibu.##Demo 2 na data ya kawaida.##3 Takwimu rasmi lakini ya vita.##4 Takwimu rasmi na matokeo.#- Hali ya nchi / hali ya bara.#- Kitufe cha kamera kinachukua skrini.#Takwimu za kawaida zina muundo wa faili (txt) iliyopatikana kwenye menyu ya takwimu.#Vita rasmi itakuwa kwenye skrini nyeusi, matokeo yanapakiwa kwenye seva, hii ni kuzuia kumaliza uigaji kwa urahisi wako.";
+	case 741:
+		return "Pata faili (txt) kama inavyoonyeshwa kwenye menyu ya takwimu.##Ndani yake utaona matriki kadhaa, ile inayotupendeza ni ile ya (jukumu), hapo unaweza kubadilisha maadili kulingana na vitengo ngapi unavyotaka katika kila moja, kwa kila eneo.##Safu wima ni majukumu kama unavyoyaona kwenye kichwa (jukumu).##Safu ni kanda, kama unavyoziona kwenye kichwa (nchi).#Tabia zitakuwa za kubahatisha kila wakati; basi (idadi ya watu inayofanya kazi) inafafanua watumiaji wanaofanya kazi, weka nambari kubwa sana ikiwa unataka.";
+	case 742:
+		return "- Vuta karibu na gurudumu la panya.##- Sogeza kamera kwa kubofya kulia.##- Chagua vyombo na bonyeza-kushoto.#- Acha masimulizi na Escape.#- Kuharakisha au kupunguza chini na Juu na chini Juu kushoto: habari ya jumla, kasi ya mwisho itategemea PC yako, data rasmi au la.#Kulia juu: habari ya jumla: idadi kubwa ya watu, vitengo vya kuishi, vyombo vya kuishi, rekodi ya vitu hai, jumla ya vyombo viliundwa.#Halafu bora 3 kulingana na: vitengo vinavyopatikana, maadui wanawindwa, kuzingirwa kumefanywa, maeneo yaliyoshindwa.#Mwishowe, nafasi kulingana na uhai.#Chini kushoto, muktadha (uteuzi).";
+	case 743:
+		return "Jinsia na zodiac haziathiri uigaji, lakini ikiwa hali inayofanya kazi, mafao ya maisha hutolewa.##Vyombo vinaweza kusonga kwa ardhi au maji, mwisho huu hupunguza harakati na shambulio; wanaweza kwenda kwa adui, mshirika au kituo cha mijini, migongano pia hugunduliwa.##Kila mara watatafuta maadui katika maono yao na watashambulia ikiwa wako karibu, bila mpangilio kidogo; pia mara kwa mara uwezo maalum wa kila jukumu utatekelezwa.##Majukumu ambayo hutumia athari kwa vitengo vingine hayawezi kutumiwa kwa kibinafsi, wala hayaathiri washirika au maadui wa jukumu sawa, kwa mfano: dawa Haiwezi kuponya au kuponya dawa nyingine.";
+	case 744:
+		return "Kila kituo cha mijini kina idadi ya watu wa asili, ambayo inaweza tu kuwa na kikomo cha vitengo vya kuishi kwa wakati mmoja, na itakuwa ikisababisha zaidi kama.##Sehemu za maisha za kila kituo ni thamani ya msingi pamoja na idadi ya watu wa kwanza, mara kwa mara idadi ya maadui na washirika walio karibu wanahesabiwa, kuzingirwa kulipokea ni tofauti ya hii na kikomo.##Jukumu la kitengo huchaguliwa bila mpangilio na kipaumbele, tabia hubadilika tu kwa nasibu.##Kila kituo huhesabu nafasi ya miduara michache ya vikundi, hufanya hivyo kwa kutafuta vikundi vya vitengo, vituo vya adui, na vikundi vya maadui.";
+	case 745:
+		return "Kusonga kwa kasi tumia vitufe vya Kushoto / Kulia; bonyeza Enter ili nenda kwa ukurasa wa nasibu, Nafasi ya jukumu la nasibu.##Nambari kwenye picha kwenye ukurasa wa kwanza ni idadi ya watumiaji waliosajiliwa.##Kumbuka:#";
+
+	// mini nombre de zona
+	case 900:
+		return "Mbwa";
+	case 901:
+		return "MATUMIZI";
+	case 902:
+		return "Mex";
+	case 903:
+		return "Kabichi";
+	case 904:
+		return "Bra";
+	case 905:
+		return "Hoja";
+	case 906:
+		return "Esp";
+	case 907:
+		return "Ing";
+	case 908:
+		return "Ale";
+	case 909:
+		return "Rus";
+	case 910:
+		return "Ara";
+	case 911:
+		return "Ind";
+	case 912:
+		return "Chi";
+	case 913:
+		return "Egi";
+	case 914:
+		return "Na";
+	case 915:
+		return "Kusini";
+	case 916:
+		return "Aus";
+	case 917:
+		return "N.A";
+	case 918:
+		return "S.A";
+	case 919:
+		return "EUR";
+	case 920:
+		return "ORI";
+	case 921:
+		return "AFR";
+	case 922:
+		return "Jumla";
+
+	// para nombres de comportamientos abreviados (no traducir)
+	case 1000:
+		return "Tetea";
+	case 1001:
+		return "A.aza";
+	case 1002:
+		return "A. alikuwa";
+	case 1003:
+		return "A. deb";
+	case 1004:
+		return "A.cer";
+	case 1005:
+		return "Kikundi";
+	case 1006:
+		return "Segui";
+
+	// abreviacion roles (no traducir)
+	case 1100:
+		return "Familia";
+	case 1101:
+		return "Agri";
+	case 1102:
+		return "Imepikwa";
+	case 1103:
+		return "Sanaa";
+	case 1104:
+		return "Yangu";
+	case 1105:
+		return "Herr";
+	case 1106:
+		return "Kati";
+	case 1107:
+		return "Kiongozi";
+	case 1108:
+		return "Kushindwa";
+	case 1109:
+		return "Guer";
+	case 1110:
+		return "Cepu";
+	case 1111:
+		return "Mchawi";
+	case 1112:
+		return "Sace";
+	case 1113:
+		return "Arti";
+	case 1114:
+		return "Depo";
+	case 1115:
+		return "Paya";
+	case 1116:
+		return "Acom";
+	case 1117:
+		return "Kula";
+	case 1118:
+		return "Safi";
+	case 1119:
+		return "Kiboko";
+	case 1120:
+		return "Dome";
+	case 1121:
+		return "Pilo";
+	case 1122:
+		return "Wanaume";
+	case 1123:
+		return "Kuandika";
+	case 1124:
+		return "Inge";
+	case 1125:
+		return "Arch";
+	case 1126:
+		return "Aces";
+	case 1127:
+		return "Mamia";
+
+	default: return "";
+}

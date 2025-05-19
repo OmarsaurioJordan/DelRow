@@ -1,0 +1,593 @@
+// arg0: ind de dialogo
+// ret: str del dialogo
+
+switch argument0 {
+
+	// para objeto txt
+	case 0:
+		return "Igama noma i-imeyili ebhalisiwe";
+	case 1:
+		return "Ukufaka iphasiwedi";
+	case 2:
+		return "Iphasiwedi entsha (kuyakhetheka)";
+	case 3:
+		return "I-imeyili yokwakha i-akhawunti";
+	case 4:
+		return "Igama lakho lomsebenzisi";
+	case 5:
+		return "Igama noma i-imeyili yokusesha";
+	case 6:
+		return "Umbhalo wamahhala";
+
+	// para GUI
+	case 100:
+		return "Isexwayiso: qaphela ukuthi ungasebenzisi i-password yakho kumanethiwekhi abalulekile (security low)";
+	case 101:
+		return "ISpanishi";
+	case 102:
+		return "I-Web + Soft";
+	case 103:
+		return "Alikho iphutha lokuxhumeka kwe-inthanethi";
+	case 104:
+		return "Reg:";
+	case 105:
+		return "Imodi:";
+	case 106:
+		return "Umthetho:";
+	case 107:
+		return "Januwari";
+	case 108:
+		return "Februwari";
+	case 109:
+		return "Ulwandle";
+	case 110:
+		return "Eph";
+	case 111:
+		return "kungenzeka";
+	case 112:
+		return "UJun";
+	case 113:
+		return "Jul";
+	case 114:
+		return "Aug";
+	case 115:
+		return "Septhemba";
+	case 116:
+		return "Okthoba";
+	case 117:
+		return "Novemba";
+	case 118:
+		return "Dis";
+	case 119:
+		return "Ama-Aries";
+	case 120:
+		return "I-Taurus";
+	case 121:
+		return "IGemini";
+	case 122:
+		return "Umdlavuza";
+	case 123:
+		return "Leo";
+	case 124:
+		return "I-Virgo";
+	case 125:
+		return "ILibra";
+	case 126:
+		return "Scorpio";
+	case 127:
+		return "I-Sagittarius";
+	case 128:
+		return "ICapricorn";
+	case 129:
+		return "I-Aquarium";
+	case 130:
+		return "Ama-Pisces";
+	case 131:
+		return "Wonke umuntu";
+	case 132:
+		return "Ngemibhalo emide kuphela";
+	case 133:
+		return "Kusanda kusebenza kuphela";
+	case 134:
+		return "Kuwo wonke umhlaba";
+	case 135:
+		return "Isexwayiso Kufanele ungene ngemvume ekusesheni okuzenzakalelayo";
+	case 136:
+		return "Umndeni";
+	case 137:
+		return "Umlimi";
+	case 138:
+		return "Pheka";
+	case 139:
+		return "Ingcweti";
+	case 140:
+		return "Umvukuzi";
+	case 141:
+		return "umkhandi wensimbi";
+	case 142:
+		return "Udokotela";
+	case 143:
+		return "Umholi";
+	case 144:
+		return "Umvikeli";
+	case 145:
+		return "UQhawe";
+	case 146:
+		return "Isihleli";
+	case 147:
+		return "Umlumbi";
+	case 148:
+		return "Umpristi";
+	case 149:
+		return "Umculi";
+	case 150:
+		return "Umsubathi";
+	case 151:
+		return "Umhlekisi";
+	case 152:
+		return "Umngane";
+	case 153:
+		return "Usomabhizinisi";
+	case 154:
+		return "Ukuhlanza";
+	case 155:
+		return "Hippie";
+	case 156:
+		return "UTamer";
+	case 157:
+		return "Umshayeli wendiza";
+	case 158:
+		return "I-Delivery courier";
+	case 159:
+		return "Umbhali";
+	case 160:
+		return "Unjiniyela";
+	case 161:
+		return "Umakhi";
+	case 162:
+		return "Umbulali";
+	case 163:
+		return "Kwezesayensi";
+	case 164:
+		return "Izindima";
+	case 165:
+		return "Izindawo";
+	case 166:
+		return "Imizwelo";
+	case 167:
+		return "Zodiac";
+	case 168:
+		return "Owesifazane";
+	case 169:
+		return "Wat";
+	case 170:
+		return "Gro";
+	case 171:
+		return "Umoya";
+	case 172:
+		return "Kubi";
+	case 173:
+		return "Neu";
+	case 174:
+		return "Goo";
+	case 175:
+		return "I-Pro";
+	case 176:
+		return "Isilinganiso";
+	case 177:
+		return "Okusemthethweni";
+	case 178:
+		return "Qopha";
+	case 179:
+		return "Masonto onke:";
+	case 180:
+		return "Inani:";
+	case 181:
+		return "Isexwayiso Kufanele ungene ngemvume ukuze wenze ukulingisa okusemthethweni";
+
+	// para nombre de zona
+	case 200:
+		return "I-Nyakatfo Melika (Canada)";
+	case 201:
+		return "I-Nyakatfo Melika (USA)";
+	case 202:
+		return "I-Nyakatfo Melika (Mexico)";
+	case 203:
+		return "I-Ningizimu Melika (Colombia)";
+	case 204:
+		return "I-Ningizimu Melika (eBrazil)";
+	case 205:
+		return "I-Ningizimu Melika (Argentina)";
+	case 206:
+		return "IYurophu (Spain)";
+	case 207:
+		return "IYurophu (iNgilandi)";
+	case 208:
+		return "IYurophu (eJalimane)";
+	case 209:
+		return "IYurophu (Russia)";
+	case 210:
+		return "EMpumalanga (e-Arabia)";
+	case 211:
+		return "EMpumalanga (India)";
+	case 212:
+		return "EMpumalanga (China)";
+	case 213:
+		return "I-Afrika (iGibhithe)";
+	case 214:
+		return "I-Afrika (iCongo)";
+	case 215:
+		return "I-Afrika (South Africa)";
+	case 216:
+		return "I-Oceania (Australia)";
+	case 217:
+		return "i-America esenyakatho";
+	case 218:
+		return "i-South America";
+	case 219:
+		return "IYurophu";
+	case 220:
+		return "EMpumalanga";
+	case 221:
+		return "Afrika";
+	case 222:
+		return "Umhlaba (Konke)";
+
+	// para nombres de comportamientos
+	case 300:
+		return "Vikela izwe lakho, ungahambi";
+	case 301:
+		return "Hlasela izwe elingahleliwe";
+	case 302:
+		return "Ukuhlasela izwe eliqine kakhulu";
+	case 303:
+		return "Ukuhlasela izwe elibuthakathaka";
+	case 304:
+		return "Ukuhlasela izwe eliseduzane";
+	case 305:
+		return "Hlala eqenjini, landela iqembu";
+	case 306:
+		return "Landela esinye isakhamuzi esingahleliwe";
+
+	// mensajes HTTP
+	case 400:
+		return "Iphutha elingaziwa";
+	case 401:
+		return "Iphutha Lokuxhuma Kweseva";
+	case 402:
+		return "Iphutha ledatha yesiphakeli";
+	case 403:
+		return "Uhlobo lwephutha lohlelo lokusebenza alulungile";
+	case 404:
+		return "Iphutha Amapharamitha anganele";
+	case 405:
+		return "Iphutha Lesicelo Sesiphakeli";
+	case 406:
+		return "Igama lomsebenzisi eliyisixwayiso selivele likhona";
+	case 407:
+		return "Isexwayiso Obukade ukufuna akutholakalanga";
+	case 408:
+		return "Isexwayiso Kufanele uhlele kanye njalo ngehora";
+	case 409:
+		return "Impumelelo ibhalisiwe, hlola imeyili yakho";
+	case 410:
+		return "Isexwayiso Sicela ufake i-imeyili noma igama elivumelekile";
+	case 411:
+		return "Isexwayiso Iphasiwedi kufanele okungenani ibe nezinhlamvu eziyi-6 ubude";
+	case 412:
+		return "Imininingwane ivuselelwe imininingwane";
+	case 413:
+		return "Isexwayiso Sicela ubuyekeze idatha kuthebhu yefulegi";
+
+	// titulos de los temas del libro
+	case 500:
+		return "Mayelana neDelRow";
+	case 501:
+		return "Ngemvume futhi Bhalisa";
+	case 502:
+		return "Ukwelashwa kwedatha";
+	case 503:
+		return "Izithonjana Zephrofayela";
+	case 504:
+		return "I-Profile Edition";
+	case 505:
+		return "Ukuseshwa Kwephrofayela";
+	case 506:
+		return "Ikhaya lomndeni)";
+	case 507:
+		return "Nqampuna (Umlimi)";
+	case 508:
+		return "Indawo ekubhakelwa kuyo (Cook)";
+	case 509:
+		return "Ukuthungwa (Ingcweti)";
+	case 510:
+		return "Imayini (Imayini)";
+	case 511:
+		return "Umsebenzi Wensimbi";
+	case 512:
+		return "Isibhedlela (Udokotela)";
+	case 513:
+		return "Iforamu (Umholi)";
+	case 514:
+		return "Umbhoshongo (Defender)";
+	case 515:
+		return "Amabhalekisi (Warrior)";
+	case 516:
+		return "Amathuna (Cepulturero)";
+	case 517:
+		return "Isiko (Wizard)";
+	case 518:
+		return "Ithempeli (Umpristi)";
+	case 519:
+		return "I-Conservatory (Umculi)";
+	case 520:
+		return "Ijimu (Umsubathi)";
+	case 521:
+		return "Imidlalo (Clown)";
+	case 522:
+		return "I-Motel (Companion)";
+	case 523:
+		return "Imakethe (Trader)";
+	case 524:
+		return "Udoti (Acashile)";
+	case 525:
+		return "Ipaki (Hippie)";
+	case 526:
+		return "I-Cattery (Tamer)";
+	case 527:
+		return "I-Port (Pilot)";
+	case 528:
+		return "Isilayezi (Isithunywa)";
+	case 529:
+		return "Umtapo Wezincwadi (Umbhali)";
+	case 530:
+		return "I-Turbine (Unjiniyela)";
+	case 531:
+		return "Isakhiwo (Umakhi Wezakhiwo)";
+	case 532:
+		return "Indawo yokuphuzela utshwala (Killer)";
+	case 533:
+		return "Ilebhu Yesayensi)";
+	case 534:
+		return "Indlela Yokuziphatha Ingxenye 1";
+	case 535:
+		return "Indlela Yokuziphatha Ingxenye 2";
+	case 536:
+		return "Ukuvuselelwa Kwezibalo";
+	case 537:
+		return "Izibalo Ezijwayelekile";
+	case 538:
+		return "Idatha yezibalo";
+	case 539:
+		return "Izimpawu Zempi";
+	case 540:
+		return "Izinkinobho Zempi";
+	case 541:
+		return "Impi yangokwezifiso";
+	case 542:
+		return "Umyalo Simulator";
+	case 543:
+		return "Amayunithi Simulator";
+	case 544:
+		return "Izikhungo ze-Simulator";
+	case 545:
+		return "Mayelana Nale Ncwadi";
+
+	// parrafos de los temas del libro
+	case 700:
+		return "Isoftware esebenzayo eyenziwe ngu-Omar Jordán (Omwekiatl), Colombia 2021 (v $).##Umphakathi obonakalayo owondla ukulingiswa kwempi yomhlaba, unga:##- Yenza i-avatar yakho ngendlela oyifisayo.##- Veza okuthile ngokwezwi nezwi.##- Sesha amanye amaphrofayli.#- Khetha indawo yomhlaba esekelayo.#- Khetha indima yakho emphakathini.#- Khetha indlela yokuziphatha.#- Buka isimo sempi samanje nezibalo.#Le nguqulo ye-PC inenjini yokulingisa, enamapharamitha athuthukile.#Ulimi olusemthethweni: iSpanishi.";
+	case 701:
+		return "Ukubhalisa sebenzisa i-imeyili, ezothola iphasiwedi.##Ukungena ngemvume, sebenzisa i-imeyili obhalise ngayo noma igama lomsebenzisi; Lapho ubhalisa uzobona igama lomsebenzisi nephasiwedi engahleliwe ku-imeyili yakho, lokhu kungashintshwa.##Ibha yesithathu yokungena ngemvume ukubeka iphasiwedi entsha, uma kwenzeka ufuna ukushintsha eyedlule, qaphela, Ungasebenzisi amaphasiwedi abalulekile.##Uma ungakhumbuli iphasiwedi yakho, sicela ungene ngemvume futhi ukuze uthole eyodwa engahleliwe.##Shift + Delete: ulayini wombhalo ohlanzekile.";
+	case 702:
+		return "Imininingwane yakho ngeke ithengiswe noma yabelwe abantu besithathu, futhi ngeke isetshenziselwe ukukhuthaza ukukhangisa, kepha izibalo zomhlaba wonke zomphakathi zingabonakala esidlangalaleni, yilokho okushiwo yilokhu.##Iphasiwedi yakho ibethelwe, kepha qaphela.##Ungachaza okufunayo kuphrofayela yakho, akukho ukuvinjelwa noma ukuvinjelwa, ngakho-ke akuyona uhlelo olufanele izingane noma abantu ababucayi; sisathemba izimiso zakho zokuziphatha (yiba muhle).";
+	case 703:
+		return "Mayelana nesithombe:#Igama / iZoni / Indima.##Isithombe:#Ukwakha (Indima) / atarvatar / Zodiac.##Ngaphansi kwesithombe: Umbhalo Wamahhala, Ukuziphatha.#Ngezansi kwesobunxele, izinsuku zika: - Ukubhalisa ohlelweni.#- Ukuguqulwa kwephrofayili.#- Isikhathi sokugcina sisebenza.#Izinkinobho ezingezansi kwesokudla: - Vala iseshini (phuma).#- Hlela iphrofayili (1 isikhathi njalo ngehora).";
+	case 704:
+		return "- Shintsha igama lakho (kufanele lihluke).##- Shintsha indawo eyisekelayo.##- Shintsha i-avatar ngemicibisholo eluhlaza.#- Bhala okuthile (isizinda esibomvu sibonisa okukhulu).#- Shintsha indlela yokuziphatha.#Izinkinobho ezingezansi kwesokudla:#- Okuluhlaza okotshani: khansela ukuhlela.#- Okubomvu: yamukela futhi uthumele izinguquko.#Shift + Delete: ulayini wombhalo ohlanzekile.#Ungakopisha futhi unamathisele (Ctrl + C) (Ctrl + V).";
+	case 705:
+		return "Ungasesha iphrofayili yomsebenzisi uma inegama noma i-imeyili, uyibhale phansi bese uqhafaza ingilazi yokukhulisa; noma cindezela induku uma ufuna iphrofayili yakho.##Ukusesha okungahleliwe kukuvumela ukuthi uhlunge nge:#- Zone.##- Amaphrofayli anombhalo omkhulu.##- Iyasebenza isikhathi esingaphansi kwesonto.#Shaya idayisi ukuze useshe.#Kanye kuphrofayili, kunezinkinobho ezimbili zoku:#- Yenza olunye usesho.#- Thatha isithombe-skrini (png).";
+	case 706:
+		return "Wonke umuntu angaba nomsebenzi nekhaya elinezingane, hhayi lapha, kuvela ukuthi le ndima imele labo abaphilela umndeni wabo, ikhaya labo, abakhulisa futhi bafundise inzalo yabo; bahlala endlini entofontofo futhi bahlangana nomlingani othi unesithakazelo esifanayo; mhlawumbe kuyindima endala futhi engokwemvelo kakhulu.##Angamayunithi ayisisekelo, amakhono abo kanye nemingcele yilokho izwe ebelingenazo izindima ebelinakho, kepha ... baphatha uhhafu wembewu, futhi lapho ezimbili zale ndima efanayo zihlangana, ziyokhula zibe yizala, elizokhula futhi libe omunye owahlala ngaphezulu.";
+	case 707:
+		return "Ziyisisekelo sokudla kwedolobha noma kwedolobha, ngaphandle kokudla ngokungangabazeki abantu bajabule, noma bayaphila ... zivame ukutholakala emasimini aluhlaza nasendaweni enkulu, nemithombo yokukhipha amanzi angaphansi komhlaba, futhi ezungezwe imifino enjenge: i-oats, ubhanana, ummbila, ubhontshisi, i-quinoa, ukhokho, amakinati, ukolweni.##Empini bane-aura yokudla, ngakho-ke banikeza ababambisene nabo ukudla; Amayunithi ondliwa ngokukhuthazwa kakhudlwana ukuhlasela ngokushesha okubanikeza ithuba; kepha kungukudla okuluhlaza, ngakho-ke umphumela wayo awuhlali isikhathi eside, kufanele bahlale ku-aura.";
+	case 708:
+		return "Ngubani ongathandi iphunga lesinkwa esishisayo, noma yikuphi ukudla okusanda kwenziwa, ngoba ukuvusa lowo muzwa kungumsebenzi wale ndima, futhi kulungile, futhi ukondla ... uphethe ukuguqula isivuno sibe yisibiliboco esinomsoco, okukhethekile kwakhe ngu: i-oats enesinamoni, ikhekhe likabhanana, i-arepa yommbila, i-burger kabhontshisi, amakhukhi e-quinoa, i-dessert chocolate, ikhekhe lezithelo elomisiwe Yondla umlingani munye ngesikhathi, okungukuthi, isikhathi ngasinye lapho enza ikhono lakhe elikhethekile; Amayunithi ondliwa ngokukhuthazwa kakhudlwana ukuhlasela ngokushesha okubanikeza ithuba; umphumela walokhu kudla okuhle uhlala isikhathi eside.##";
+	case 709:
+		return "Ikhono eliningi ezandleni, ukubekezela kanye nemibono edingekayo yokuguqula ucezu lwento lube ... into ebaluleke kakhulu; kungaba ukwenza izingubo zokugqoka, ukugqoka nokuvikela emakhazeni, izicathulo zokudansa, ifenisha yokuvakashela noma ukulala uphupha ngomhlaba ongenazimpi, bazokwenza.##Njalo lapho kuvuselelwa ikhono lakhe elikhethekile, uzogqokisa iyunithi ehlangene ne-cape shockproof epholile, lokhu kunikeza izikhali zamayunithi ezigqitshwe ukushaywa okutholakele.";
+	case 710:
+		return "Lezi zimvukuzane ezivela emathunjini omhlaba zikhipha impahla eluhlaza kuyo yonke imisebenzi yokukhiqiza, azinendaba nomsindo wemishini yokuchoboza noma ziphefumula umoya ominyene ongaphansi komhlaba, wokuthi uma, ngokungakhathali befuna ukuthola igolide, idayimane, adamantium ukuthola indandatho noma izinyo.##Banekhono ekuvinjezelweni, bangadiliza isikhungo sasemadolobheni esitha njengokungathi ngelinye nje itshe elintekenteke, baphinde baqoqe okubalulekile ekuvinjelweni kwabo ukulungisa indawo yabo yasemadolobheni.";
+	case 711:
+		return "Lesi sakhamuzi esinamawala asizihluphi ngokushisa kwesisekelo, sihlala lapho siguqula amaminerali aluhlaza abe yizinto zobuciko zansuku zonke ezinjengalezi: amabhodwe, izingilazi, izisekelo, imigoqo, nazo zonke izinhlobo zensimbi ezisontekile; Phakathi kwabo ucelemba ngezikhathi ezithile, inkemba, imbazo yempi ... Njalo njalo udala isikhali esengeziwe futhi asinike umlingani, amayunithi alesi sikhali esingeziwe ahlaselwa kakhulu, kepha hhayi konke kuphelele, ngakho-ke kungekudala noma kamuva ngelinye ibhadi isikhali sizophuka.##";
+	case 712:
+		return "Impilo, into esemqoka ngokuphila futhi nangaphezulu ngokuphila okuhle; Le ndima iphethe ukuqinisekisa inhlalakahle yabo; Ngaphambi kokufika ekugcineni kokuhlinzwa noma kokudla amakhemikhali aqinile, bazama ukusabalalisa imikhuba emihle efana nale: hydrate kahle, ukuzivocavoca umzimba (flexibility + cardio), bajabule futhi bangabi nengcindezi, badle okulinganiselayo ngaphandle kwamafutha, noma ushukela nezinyama ezimbalwa, baphefumule kakhulu , ulale kahle, futhi ngezikhathi ezithile uzila ukudla nezinongo zokuphulukisa.##Futhi-ke, ukuhlakanipha kokulingisa, baphulukisa ababambisene nabo, kungaba ukulimala ngokomzimba noma ukutheleleka ngegciwane.";
+	case 713:
+		return "Bekulokhu kukhona labo bantu abanezwi lokuyala, ukungasebenzi kahle ukwenza amaphrojekthi kanye nomuzwa oqinile wokuhlonishwa nokuzidela, le ndima inikeza emphakathini ikhono lokuqoqa nokuqondisa imibono, amaphrojekthi, izinhlelo, imibhikisho; Ukuze enze lokhu, kufanele alalele abanye, avule izinkundla zezingxoxo, abeke ukuhleleka futhi, okubaluleke kakhulu, abeke isibonelo.##Ngaphandle kokuziphatha kwabanye ababambisene nabo, le ndima ibanxenxa ukuba bayilandele, ngaleyo ndlela bahlanganise iqembu elincane, ngale ndlela ngeke uhambe wedwa, enye inzuzo yalokhu ukuthi amalungu azovumelanisa lapho ephendula ukuhlaselwa komunye wabo .";
+	case 714:
+		return "Ulingana nephoyisa, okukhethekile kuyisivikelo ngakho-ke uphatha isihlangu esikhulu, kunokuba aye empini inhloso yakhe ukubeka ukuhleleka emphakathini, okwenza abantu bazizwe bephephile, banciphise noma iluphi usongo.##Yiyunithi elwa kakhulu, lelo likhono lalo; Ngakolunye uhlangothi, ihlinzeka ngombhoshongo njengesakhiwo, idubula isitha, kepha ihamba kancane kunemibhoshongo yomkhankaso eyenziwe ngqo emkhakheni wempi, yize kunjalo eyokugcina idilizwa kalula uma iqhathaniswa neyangaphakathi.##Ukumelana nokuhlaselwa yizigebengu neziqhumane.";
+	case 715:
+		return "Kuyalingana nendoda yezempi, leli qhawe elinonya eliphuma liye enkundleni yempi linxanela igazi, libhubhisa isitha.##Mhlawumbe ucabanga ukuthi emdlalweni wempi ezinye izindima zizoba nomqondo muni, kuhle kube nokulinganisela, ungakhohliswa, zonke izindima zinezinzuzo nezinkinga, futhi umphakathi uziveza nawo wonke umuntu njengokuthanda ... kepha yebo, lokhu kuhlukaniswa ngokuba yilowo onokuhlaselwa okuphezulu kakhulu (ikhono lokwenziwa).";
+	case 716:
+		return "Uyivelakancane, njengegwababa, onenhliziyo ecasukile futhi ejulile useke wabona imingcwabo eminingi, izinyembezi eziningi, iziphetho eziningi; Imvamisa ziyizikhungo ezizimele futhi ezizindlayo, indima yazo ukunikeza ukuphumula nokulala koshonile; ukufa, imfihlakalo enkulu empilweni, le ndima ihlale iphilwa futhi ilungele ukweluleka abalilayo.##Lapho ebulala isitha enkundleni yempi, uthola amaphuzu okuphila, sengathi yi-vampire.";
+	case 717:
+		return "Ukuba ngumuntu ongaziwa ozinikele kwezobuciko be-arcane, kwabangaqondakali, kubuthakathi, ngenxa yesizathu esifanayo uvame ukuthula athule ngalokho akwaziyo, kuthiwe uchitha isikhathi esiningi ehamba emaphusheni nasekuzindleni kwakhe kunakuyo impilo uqobo; Uzama ukwenza umsebenzi omkhulu we-alchemical, ahlole izimfihlo zomhlaba futhi abe nezingxoxo nezinhlangano ezahlukahlukene kakhulu.##Lapho kufa kuba yinto elandela isitha simnikeze amashwa ekuhlaselweni kwakhe, lokhu kungumphumela we-aura, ngakho-ke kuthinta abaningana ngasikhathi sinye; empilweni akunakuguqulwa ngabapristi.";
+	case 718:
+		return "Linethempeli lapho linikezela khona ukuzinikela kwalo impilo yonke, leli thempeli lifanekisela unkulunkulu wabaningana ukuthi kukhona, abanye badala kunabanye, abanye bakhohliwe kakhulu kanti abanye banemfashini; ubheka isimilo somphakathi, akalale imithwalo yemizwa yakhe ngokuthembisa usizo oluphakeme.##Umsebenzi wawo ukuguqula iyunithi ngokombono, okusho ukuthi ingenza umlingani wesitha, kepha lokhu kungenzeka ngomzamo owodwa, ongathinteka yimiphumela yenhlanhla, isibonelo: izoba nethuba eliphansi ngaphambi kwesiqalekiso i-specter.";
+	case 719:
+		return "Umculo, ukudweba, ukubaza, ukucula, ukulingisa ... ukwehluka kakhulu futhi kuhle ububanzi bobuciko nokubonakaliswa okungapheli, le ndima ngokungangabazeki ithwebula amaphupho namaphupho amabi ephepheni nasemisindweni, yonke imiphakathi idinga ukuziveza, lokhu kungokwedlula konke .##Empini uzophatha isigingci, esizokhulisa umoya ngokukhuthazeka, sinikeze inhlanhla engcono ekuhlaselweni kwababambisene nabo; noma kunjalo, lo mphumela ungowesikhashana, ngakho-ke kudinga ukuba khona njalo kwe-aura.";
+	case 720:
+		return "Umuntu onamandla kakhulu, oguquguqukayo, oqinile, ongakhathali, onekhono, ophila kuphela ukuba sejimini yakhe noma ahambele umhlaba ngaphandle kokuma, uthanda ukuncintisana futhi azizwe ukuthi ungcono futhi ungcono kunaye nabanye; Inhloso yakhe kuphela ukwephula imigomo, ujabulela impilo engenakuqhathaniswa kepha usezingeni lokulimala kaningi.##Uyagijima futhi akukho okushesha ukwedlula noma ngubani omunye, okunikeza ukuhamba okukhulu enkundleni yempi, futhi unamandla okushaya kakhulu lapho ehlasela okokuqala, njengendunduma ene-inertia yakhe eqoqiwe.";
+	case 721:
+		return "Imidlalo yenhlanhla, i-Chess, ama-Chinese checkers, iladi, amaPaki, i-Poker, i-Uno, iMilingo, ama-charades nokunye okuningi, okutholayo lapha, ekwakheni lo mlingiswa onobungane, ophumayo futhi ojabulayo; Akukho lutho olufana nokuzilibazisa nokuhleka, kepha qaphela, uthola umlutha hahaha.##Yonke i-roulette yaseRussia, le ndima iphatha ibhomu elinamandla amakhulu elingavimba ngayo inyama ethanjeni, uqobo lwayo, kubalingani bayo futhi nakanjani kusuka esitheni; ukuqhuma kwenzeka ngokungahleliwe lapho kulimala.";
+	case 722:
+		return "Umphakathi ophilile uveza ubulili bawo ngaphandle kwezimfashini noma isimilo esibi ngokweqile, lapha le ndima inikela indawo yemidlalo evusa inkanuko, kungaba nomoya wokuzala noma okungcono okwamanje kwezokungcebeleka; Futhi sengathi lokho bekunganele, inikeza izinsizakalo zayo njengenkampani ekhethekile (enenkululeko yokuzikhethela).##Khetha umlingani oyedwa bese ubakhanyisa, ubanikeze amaphuzu amaningi we-hit, amaphuzu okuhlasela, kanye nokuzivikela emiphumeleni yezinye izindima; Lokhu kuzolandela futhi lapho omunye walaba ababili efa, ukuxhumana nezinzuzo zako kuphulwe unomphela; ubuthakathaka bomlingani okhanyiselwe ngumngane wakhe oyisisekelo.";
+	case 723:
+		return "Imikhiqizo eyenziwe ngokukhiqiza idinga ukuthengiswa, kuthengiswe, lokho kungumsebenzi wale ndima, nayo eyaziyo ukuthi ingenza kanjani ukuhweba okuhle ngenxa yothando lwayo ngoba ayikho imali ngaso sonke isikhathi ezikhathini ezinzima; isakhiwo sakhe siyinto yokuzilibazisa kulabo abafuna amagajethi angadingeki kangako; ungungoti ekwenzeni imali, ukhipha izinhlamvu zemali lapho kungekho khona.##Ungathatha izikhali zezitha namakhanda uwagcine, noma ubanikeze abalingani bakho; ngokuyisisekelo iguqula ukukhiqizwa kwesitha kube yizimpahla zabahlanganyeli.";
+	case 724:
+		return "Unesifiso sokubona konke kuhlanzekile, unendaba kakhulu nokulahlwa kukadoti, isiqubulo sakhe sithi Reduce, Reuse, Recycle; Ngoba lokhu kusiza ukunciphisa ukungcoliswa komhlaba; uthanda ukubona imigqomo kadoti ihlelwa yiPhepha, iPlastikhi, iElectronics kanye neOrganic, ngoba lokhu kwehlisa umsebenzi esakhiweni sakhe; futhi ugunda utshani.##Impi ishiya izidumbu eziningi ezibolile, ukungcola okuphelele, le ndima izuza impilo encane ngesidumbu ngasinye esisebenzayo.";
+	case 725:
+		return "Idolobha lidinga amapaki nezindawo zemvelo zokuzijabulisa, ezokungcebeleka nokuxhumana nezilwane nezitshalo; Lokhu kuvikela lezi zikhala futhi khona lapho kuhola impilo eqhele kude nedolobha; igazi lakhe linomthamo othile wamakhowe we-hallucinogenic.##Angakwazi, ngaphansi kwengcindezi yombhikisho onokuthula, athathe indima yabo ezitheni, ebaphuca ikhono labo elikhethekile, lokhu ukwenza ngakunye isikhathi ngasinye lapho esebenzisa amandla akhe.";
+	case 726:
+		return "Ubudlelwano bomuntu nezinye izidalwa emvelweni budala, njengezilwane zamaphakethe, ukuzingela, ubungane, ukusetshenziswa; Le ndima ikhulisa izinja namagama futhi ibaqeqeshe, ukuze basebenze njengenkampani kuzo zonke izinhlobo zabantu, sonke siyazi ukuthi kukhona nalabo abababona njengamalungu omndeni.##Lapho ebona isitha, angabiza inja kuphela ezomsiza ekulweni, le nhlangano iyohlala imlandela, inokuhlaselwa okuncane nokuphila kunomuntu futhi imvamisa ifa ngobuhlungu bokuziphatha uma umnikazi wayo efa.";
+	case 727:
+		return "Siphila ezweni elibonakalayo, ngamabanga ahlukanisa wonke amaphuzu, ukuhambisa okuthile noma othile kusuka ku-A kuye ku-B bekuhlale kuyinselelo yokwenza kahle, ibhaluni noma izindiza zasemoyeni bekulokhu kuyimoto ehamba kahle kakhulu; Kulesi sakhiwo banikela ngezinsizakalo zabo ukuwela amabanga amade.##Nikeza amabhaluni kubabambisene nabo uma besemanzini, ngale ndlela bangafinyelela lapho beya khona ngokushesha, emhlabathini ibhaluni lehla; Kumele kugcizelelwe ukuthi ukulwa emanzini kunika ithuba labo abaya ebhaluni.";
+	case 728:
+		return "Ufuna ukuveza okuthile komunye umuntu, imizwa, umbono noma ibhizinisi, kepha kukude kakhulu, kahle le ndima nokwakhiwa kukuvumela ukuthi ushiye lowo mlayezo ezandleni zochwepheshe, sengathi i-telegraph ikhona.##Strategic, uma isimilo sayo kungukuvikela: izoncenga abavikeli bayo ukuthi bahlasele isitha esingumakhelwane, ngaphandle kokungakunaki ukuzivikela; uma ukuziphatha kwabo kungukulandela othile: kuzokhuthaza ababambisene nabo ukuthi bavikele isikhungo esisengozini noma kunalokho labo abavikela ukuhlaselwa ngamaqembu; kokunye ukuziphatha: kuzokwenza ababambisene nabo baziphathe njengaye.##Lapho efika esikhungweni sezitha, kanye nje, uzothutha iyunithi kulayini wokudala asuke kuleso sikhungo aye kwesakhe.";
+	case 729:
+		return "Inhlanganisela kathisha nomculi, ngoba uthanda ukufundisa nokudlulisa ulwazi, futhi uthanda nokubhala izinto zangempela noma ezingezona ezangempela; isakhiwo salo sigcwele izincwadi, zazo zonke izifundo, isayensi, izincwadi, ingokomoya, ama-biographies, umlando, ifilosofi, indlela yokuphila, njll.##Nikeza inhlanhla enkulu ekuhlaselweni okuhlangene, ukushaya ngakunye ngesikhathi; le buff ihlala isikhathi eside futhi inamathuba aphezulu wesiteleka abucayi, ngoba ulwazi lungamandla.";
+	case 730:
+		return "Inikeza amandla, ukuphathwa komlilo sekuphele isikhathi eside, yini okusha isizinda sombani (okungenani ngalesi sikhathi esilingisiwe), imishini yomoya inikeza amandla ahlanzekile kuwo wonke umuntu, nokuthi wenzeni ngayo? Yebo, iphupho lesintu bekungukudala i-homunculus, i-golem; Masenze ithini elinobuhlakani bokufakelwa.##Dala i-robot, inesikhathi esilinganiselwe sempilo ngenxa yamabhethri ayo, kepha noma yimuphi umlingani onale ndima angawabuyisela; giant kodwa ayihlaseli, noma kunjalo kungukuzikhohlisa nokumelana nokudilizwa kombhoshongo ngokugqamile; iba buthakathaka ngamanzi, iziphathise okwomuntu oyiklame kabusha noma wayifaka kabusha.";
+	case 731:
+		return "Ngabe umphakathi ungaba yini ngaphandle kwezakhiwo, kungaba iqhugwane noma ibhilidi, lokhu kwakha idolobha elikhulu neliminyene kakhulu, ngaphandle kokukhohlwa ukuthi inhloso yalo ukunikeza induduzo, ukusebenza, ukwenza kahle kanye nomthelela omncane kwezemvelo; inikeza isakhiwo izakhamizi eziningana ukuba ziphile.##Enkundleni yempi ungabeka umbhoshongo womkhankaso odubula isitha, awuhlaselwa yizakhamizi ngenxa yokuqina kwawo; Esikhundleni sokwenza esisha ungakhuphula esivele sikhona.";
+	case 732:
+		return "Akuwona wonke umuntu ophila emphakathini osebenzela ukuwuthuthukisa, kunalabo okuthi ngenxa yezizathu zomuntu siqu bakhe izingxabano, amasela, ababulali, izigelekeqe, bayizifundo ezinzima futhi imvamisa batholakala ebusuku, bephuza ubhiya behlangana nezakhamizi ezithembekile.##Ngezikhathi ezithile bahlasela abalingani babo ngokukhohlisa, imvamisa kuyisigameko esinamandla sokumangala; mancane amathuba okuthola umonakalo emuva, ngokujwayelekile le ndima ikhethwa yinoma ngubani ofisa ukonakalisa indawo ngaphakathi.";
+	case 733:
+		return "Kuthiwa lezi zifundo ziyahlanya, babhekisisa konke abakubonayo, kusukela ekujuleni kwesikhala esingaphandle, kuye ekusondelaneni kwama-molecule, ulimi lwabo izibalo kanye nesichazamazwi sabo siyinkimbinkimbi; Esakhiweni abasinikezayo, izivivinyo eziningi zivame ukwenziwa ukuhlola imicabango.##Emabhodleleni abo bahlakulele igciwane eliyingozi kakhulu, elikwazi ukuzibulala nokuzidlulisa, manje balisebenzisa empini ukuthelela isitha esisodwa ngasikhathi sinye; lokhu kuhlasela kufana nobuthi, kunethuba lokuphulukiswa noma lokulimala.";
+	case 734:
+		return "Ukuzivikela:#Amayunithi abheka indawo yawo yasemadolobheni noma ehlangene futhi ahlale eseduze nayo, lapho kuyimpi yamazwekazi, angabona ukuthi ngabe isikhungo siyavinjezelwa yini bese siya kuso.##Ukuhlasela Okungahleliwe:#Bazokhetha isikhungo sezitha ngokungahleliwe bese beya kuso, lokhu kungadala ukuhlakazeka kwamasosha, kukhona nezimo ezithile lapho indawo ingabalwa khona kabusha.##Ukuhlasela Okuqine / Okubuthakathaka:#Bakhomba isikhungo sezitha esinamanani amaningi / amancane kakhulu wamayunithi atholakalayo, okungukuthi, engeza abaphilayo nababekiwe.";
+	case 735:
+		return "Umakhelwane Wokuhlasela:#Uqinisekisa ukuthi isikhungo sezitha okuhlosiwe yiso esiseduzane kakhulu neyunithi okwamanje efuna ukuthi ihlaselwe ngubani.##Hambisa Eqenjini:#Izikhungo zibala imibuthano embalwa yamaqembu, amayunithi esikhungo ashiwo anokuziphatha, azohlangana komunye waleyo mibuthano; futhi kumayunithi wemodi yezwekazi angakhetha umbuthano ohlangene.##Landela Elinye iYunithi:#Isakhamuzi esisebenzisanayo sikhethwa ngokungahleliwe ukulandela, kepha lokhu akumele kube ekuziphatheni okuvikelayo noma kokulandela; Ngaphezu kwalokho, uma engamtholi umuntu, uzojwayela ukubuyela esikhungweni sakhe sasemadolobheni.";
+	case 736:
+		return "Le software ingeyesenzo esingajahile, amasu nokuhlelwa kwephrofayili kusingathwa ngomoya ophansi, ngakho-ke, izibalo zomhlaba wonke ziyavuselelwa njalo ngehora, kanye nethuba lokuhlela iphrofayili.##Izinguquko ozenzayo zizobonakala ezibalweni ngehora elingu-1!";
+	case 737:
+		return "Phezulu ungakhetha indawo noma izwe ozolibuka, ukukhethwa kuzobonakala ebalazweni ngokubomvu.##Ngezansi kwemephu ungabona:#- Inani labasebenzisi abasendaweni.##- Amaphesenti wabesifazane maqondana nengqikithi.#- Inani labasebenzisi abasebenzayo.#- Qopha abasebenzisi abasebenzayo.#Umsebenzisi uyasebenza uma ebekwi-application ngesonto eledlule.";
+	case 738:
+		return "Ungaguqula uhlobo lwedatha ozoyibuka yendawo ekhethiwe:#- Izindima: abasebenzisi endimeni ngayinye.##- Izindawo: maqondana nendawo yamanje.##- Imizwelo: ngokuya ngobuso be-avatar.#- Zodiac: izimpawu zendawo.#Umqondo ukubona izindima kepha hhayi izindlela zokuziphatha, ngale ndlela isu elihlangene lenhloso lingenziwa lezindima, futhi linembile noma langaphandle ngokuziphatha.#- Inkinobho yokulondoloza ikuvumela ukuthekelisa idatha.#- Inkinobho yekhamera ithatha isithombe-skrini.";
+	case 739:
+		return "Ngenhla, inani lokufaniswa:#Masonto onke (kuzohlanzwa) / Kuqoqiwe.##Ungakhetha indawo ofuna ukuyibuka, lokhu kuzobonakala ebalazweni ngokubomvu.##Ukulingiswa kokuqala kweviki yi-Official, kanti okunye kube yi-Averaged, kanti neRekhodi ingeyesikhathi sonke.##Imininingwane ikhombisa isikhundla sendawo, i-1 iyindawo engcono kakhulu, ingaphindwa uma ibopha.##Izithombe: amaphuzu ezobuchwepheshe, izitha ezizingelwayo, ukuvinjezelwa kwenziwe, izindawo ezinqotshiwe, isikhathi sokuphila, amayunithi atholakalayo, amayunithi aphelele, impilo yokugcina.";
+	case 740:
+		return "Izinkinobho ezi-4 ezansi ziqala impi:#Idemo engu-1 enedatha engahleliwe.##2 Idemo enedatha yangokwezifiso.##3 Idatha esemthethweni kepha eyokulwa.##4 Imininingwane esemthethweni nemiphumela.#- Imodi yezwe / imodi yezwekazi.#- Inkinobho yekhamera ithatha isithombe-skrini.#Idatha yangokwezifiso inefomethi yefayela (txt) etholakala kwimenyu yezibalo.#Impi esemthethweni izoba esikrinini esimnyama, imiphumela ilayishwa kuseva, lokhu ukugwema ukuqeda ukulingisa ngokukuvumela.";
+	case 741:
+		return "Thola ifayili (txt) njengoba kukhonjisiwe kumenyu yezibalo.##Kuyo uzobona amamatrices amaningana, lowo asithandayo nguyena we- (role), lapho ungashintsha amanani ngokuya ngamayunithi amangaki owafunayo ngakunye, endaweni ngayinye.##Amakholomu yizindima njengoba uzibona kunhlokweni (indima).##Imigqa yizindawo, njengoba uzibona kunhlokweni (amazwe).#Ukuziphatha kuzohlala kungahleliwe; bese (inani labantu elisebenzayo) lichaza abasebenzisi abasebenzayo, beka inombolo ephezulu kakhulu uma ufuna.";
+	case 742:
+		return "- Sondeza isondo legundane.##- Hambisa ikhamera ngokuchofoza kwesokudla.##- Khetha izinhlangano ngokuchofoza kwesobunxele.#- Shiya ukulingisa nge-Escape.#- Sheshisa noma wehlise ijubane phezulu nangaphezulu phezulu kwesobunxele: imininingwane ejwayelekile, isivinini sokugcina sizoncika kwi-PC yakho, idatha esemthethweni noma cha.#Phezulu kwesokudla: imininingwane ejwayelekile: inani eliphakeme labantu, amayunithi aphilayo, amabhizinisi aphilayo, irekhodi lamabhizinisi aphilayo, amabhizinisi aphelele adaliwe.#Ngemuva kwalokho ama-3 amahle kakhulu ngokuya ngamayunithi atholakalayo, izitha ziyazingelwa, ukuvinjezelwa kwenziwe, izindawo ezinqotshiwe.#Ekugcineni, izikhundla ngokwamandla.#Ngezansi kwesobunxele, kokuqukethwe (ukukhetha).";
+	case 743:
+		return "Ubulili ne-zodiac akuphazamisi ukulingisa, kepha uma isimo sisebenza, kunikezwa amabhonasi empilo.##Amabhizinisi angahamba ngomhlaba noma ngamanzi, lokhu kokugcina kubambezela ukunyakaza nokuhlasela; bangaya ngasesitha, umfelandawonye noma isikhungo sasemadolobheni, ukushayisana nakho kuyatholakala.##Njalo lapho befuna izitha ebangeni labo lokubuka futhi bazohlasela uma besondele, ngokungahleliwe okuncane; futhi ngezikhathi ezithile amakhono akhethekile endima ngayinye azokwenziwa.##Izindima ezisebenzisa imiphumela kwamanye amayunithi azikwazi ukuzisebenzisa, futhi azithinti ababambisene nabo noma izitha zeqhaza elifanayo, isb. Umuthi Awukwazi ukuphulukisa noma ukwelapha omunye umuthi.";
+	case 744:
+		return "Isikhungo ngasinye sasemadolobheni sinabantu bokuqala, esingaba nomkhawulo wezindawo zokuhlala ngasikhathi sinye, futhi sizobe siveza kakhulu njenge.##Amaphoyinti empilo yesikhungo ngasinye ayinani eliyisisekelo kanye nenani labantu bokuqala, ngezikhathi ezithile inani lezitha eziseduze nabalingani balo libalwa, ukuvinjezelwa okutholakele umehluko walokhu ngomkhawulo.##Izindima zeyunithi zikhethwa ngokungahleliwe ngokubaluleka, izindlela zokuziphatha zishintsha ngokungahleliwe.##Isikhungo ngasinye sibala indawo yemibuthano yokuqoqa embalwa, sikwenza lokho ngokusesha ukuqoqwa kwamayunithi, izikhungo zezitha, namaqembu ezitha.";
+	case 745:
+		return "Ukuzulazula ngokushesha sebenzisa izinkinobho ze-Left / Right; cindezela u-Enter ukuze uzulazule ekhasini elingahleliwe, Isikhala ngendima engahleliwe.##Inombolo esemfanekisweni ekhasini lokuqala iyinani eliphelele labasebenzisi ababhalisiwe.##Qaphela:#";
+
+	// mini nombre de zona
+	case 900:
+		return "Inja";
+	case 901:
+		return "SEBENZISA";
+	case 902:
+		return "Mex";
+	case 903:
+		return "Iklabishi";
+	case 904:
+		return "UBra";
+	case 905:
+		return "Ukuphikisana";
+	case 906:
+		return "Esp";
+	case 907:
+		return "Ing";
+	case 908:
+		return "U-Ale";
+	case 909:
+		return "URus";
+	case 910:
+		return "I-Ara";
+	case 911:
+		return "Ind";
+	case 912:
+		return "Chi";
+	case 913:
+		return "Egi";
+	case 914:
+		return "Nge";
+	case 915:
+		return "ENingizimu";
+	case 916:
+		return "I-Aus";
+	case 917:
+		return "INA";
+	case 918:
+		return "S.A";
+	case 919:
+		return "EUR";
+	case 920:
+		return "I-ORI";
+	case 921:
+		return "I-AFR";
+	case 922:
+		return "TOT";
+
+	// para nombres de comportamientos abreviados (no traducir)
+	case 1000:
+		return "Vikela";
+	case 1001:
+		return "A.aza";
+	case 1002:
+		return "A. kwaba";
+	case 1003:
+		return "A.deb";
+	case 1004:
+		return "A.cer";
+	case 1005:
+		return "Iqembu";
+	case 1006:
+		return "Segui";
+
+	// abreviacion roles (no traducir)
+	case 1100:
+		return "Umndeni";
+	case 1101:
+		return "Agri";
+	case 1102:
+		return "Kuphekiwe";
+	case 1103:
+		return "Ubuciko";
+	case 1104:
+		return "Okwami";
+	case 1105:
+		return "Herr";
+	case 1106:
+		return "Medi";
+	case 1107:
+		return "Umholi";
+	case 1108:
+		return "Unqobe";
+	case 1109:
+		return "Isiqondisi";
+	case 1110:
+		return "Cepu";
+	case 1111:
+		return "Umlumbi";
+	case 1112:
+		return "I-Sace";
+	case 1113:
+		return "I-Arti";
+	case 1114:
+		return "Idepo";
+	case 1115:
+		return "I-Paya";
+	case 1116:
+		return "I-Acom";
+	case 1117:
+		return "Yidla";
+	case 1118:
+		return "Hlanza";
+	case 1119:
+		return "Imvubu";
+	case 1120:
+		return "Dome";
+	case 1121:
+		return "UPilo";
+	case 1122:
+		return "Okwamadoda";
+	case 1123:
+		return "Kubhala";
+	case 1124:
+		return "Inge";
+	case 1125:
+		return "I-Arch";
+	case 1126:
+		return "I-Aces";
+	case 1127:
+		return "Amakhulu";
+
+	default: return "";
+}

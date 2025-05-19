@@ -1,0 +1,594 @@
+// arg0: ind de dialogo
+// ret: str del dialogo
+
+switch argument0 {
+
+// para objeto txt
+case 0:
+return "Name or registered email";
+case 1:
+return "Password to enter";
+case 2:
+return "New password (optional)";
+case 3:
+return "Email to create account";
+case 4:
+return "Your username";
+case 5:
+return "Name or email to search";
+case 6:
+return "Free text";
+
+// para GUI
+case 100:
+return "Warning: be careful not to use your password for important networks (low security)";
+case 101:
+return "English";
+case 102:
+return "Web + Soft";
+case 103:
+return "No internet connection error";
+case 104:
+return "Reg:";
+case 105:
+return "Mod:";
+case 106:
+return "Act:";
+case 107:
+return "Jan";
+case 108:
+return "Feb";
+case 109:
+return "Sea";
+case 110:
+return "Apr";
+case 111:
+return "may";
+case 112:
+return "Jun";
+case 113:
+return "Jul";
+case 114:
+return "Aug";
+case 115:
+return "Sep";
+case 116:
+return "Oct";
+case 117:
+return "Nov";
+case 118:
+return "Dec";
+case 119:
+return "Aries";
+case 120:
+return "Taurus";
+case 121:
+return "Gemini";
+case 122:
+return "Cancer";
+case 123:
+return "Leo";
+case 124:
+return "Virgo";
+case 125:
+return "Libra";
+case 126:
+return "Scorpio";
+case 127:
+return "Sagittarius";
+case 128:
+return "Capricorn";
+case 129:
+return "Aquarium";
+case 130:
+return "Pisces";
+case 131:
+return "Everyone";
+case 132:
+return "Only with long texts";
+case 133:
+return "Only recently active";
+case 134:
+return "Of all the world";
+case 135:
+return "Warning You must be logged in to auto-search";
+case 136:
+return "Family";
+case 137:
+return "Farmer";
+case 138:
+return "Cook";
+case 139:
+return "Craftsman";
+case 140:
+return "Miner";
+case 141:
+return "blacksmith";
+case 142:
+return "Doctor";
+case 143:
+return "Leader";
+case 144:
+return "Defender";
+case 145:
+return "Warrior";
+case 146:
+return "Planer";
+case 147:
+return "Magician";
+case 148:
+return "Priest";
+case 149:
+return "Artist";
+case 150:
+return "Athlete";
+case 151:
+return "Clown";
+case 152:
+return "Companion";
+case 153:
+return "Businessman";
+case 154:
+return "Cleaner";
+case 155:
+return "Hippie";
+case 156:
+return "Tamer";
+case 157:
+return "Pilot";
+case 158:
+return "Delivery courier";
+case 159:
+return "Writer";
+case 160:
+return "Engineer";
+case 161:
+return "Architect";
+case 162:
+return "Assassin";
+case 163:
+return "Scientific";
+case 164:
+return "Roles";
+case 165:
+return "Zones";
+case 166:
+return "Emotions";
+case 167:
+return "Zodiac";
+case 168:
+return "Fem";
+case 169:
+return "Wat";
+case 170:
+return "Gro";
+case 171:
+return "Air";
+case 172:
+return "Bad";
+case 173:
+return "Neu";
+case 174:
+return "Goo";
+case 175:
+return "Pro";
+case 176:
+return "Average";
+case 177:
+return "Official";
+case 178:
+return "Record";
+case 179:
+return "Weekly:";
+case 180:
+return "Total:";
+case 181:
+return "Warning You must be logged in to make an official simulation";
+
+// para nombre de zona
+case 200:
+return "North America (Canada)";
+case 201:
+return "North America (USA)";
+case 202:
+return "North America (Mexico)";
+case 203:
+return "South America (Colombia)";
+case 204:
+return "South America (Brazil)";
+case 205:
+return "South America (Argentina)";
+case 206:
+return "Europe (Spain)";
+case 207:
+return "Europe (England)";
+case 208:
+return "Europe (Germany)";
+case 209:
+return "Europe (Russia)";
+case 210:
+return "East (Arabia)";
+case 211:
+return "East (India)";
+case 212:
+return "East (China)";
+case 213:
+return "Africa (Egypt)";
+case 214:
+return "Africa (Congo)";
+case 215:
+return "Africa (South Africa)";
+case 216:
+return "Oceania (Australia)";
+case 217:
+return "North America";
+case 218:
+return "South America";
+case 219:
+return "Europe";
+case 220:
+return "East";
+case 221:
+return "Africa";
+case 222:
+return "World (All)";
+
+// para nombres de comportamientos
+case 300:
+return "Defend your country, don't leave";
+case 301:
+return "Attack a random country";
+case 302:
+return "Attack the strongest country";
+case 303:
+return "Attack the weakest country";
+case 304:
+return "Attack the nearest country";
+case 305:
+return "Stay in group, follow group";
+case 306:
+return "Follow another random citizen";
+
+// mensajes HTTP
+case 400:
+return "Unknown Error";
+case 401:
+return "Server Connection Error";
+case 402:
+return "Server database error";
+case 403:
+return "Error App version is inappropriate";
+case 404:
+return "Error Insufficient parameters";
+case 405:
+return "Server Request Error";
+case 406:
+return "Warning Username already exists";
+case 407:
+return "Warning What you were looking for was not found";
+case 408:
+return "Warning You must edit once every hour";
+case 409:
+return "Success Registered, check your mail";
+case 410:
+return "Warning Please enter a valid email or name";
+case 411:
+return "Warning The password must be at least 6 characters long";
+case 412:
+return "Success Updated information";
+case 413:
+return "Warning Please update the data in the flag tab";
+
+// titulos de los temas del libro
+case 500:
+return "About DelRow";
+case 501:
+return "Login and Register";
+case 502:
+return "Data treatment";
+case 503:
+return "Profile Icons";
+case 504:
+return "Profile Edition";
+case 505:
+return "Profile Search";
+case 506:
+return "Family home)";
+case 507:
+return "Crop (Farmer)";
+case 508:
+return "Bakery (Cook)";
+case 509:
+return "Tailoring (Craftsman)";
+case 510:
+return "Mine (Miner)";
+case 511:
+return "Metalwork (Blacksmith)";
+case 512:
+return "Hospital (Doctor)";
+case 513:
+return "Forum (Leader)";
+case 514:
+return "Tower (Defender)";
+case 515:
+return "Barracks (Warrior)";
+case 516:
+return "Cemetery (Cepulturero)";
+case 517:
+return "Ritual (Wizard)";
+case 518:
+return "Temple (Priest)";
+case 519:
+return "Conservatory (Artist)";
+case 520:
+return "Gym (Athlete)";
+case 521:
+return "Games (Clown)";
+case 522:
+return "Motel (Companion)";
+case 523:
+return "Market (Trader)";
+case 524:
+return "Trash (Cleaner)";
+case 525:
+return "Park (Hippie)";
+case 526:
+return "Cattery (Tamer)";
+case 527:
+return "Port (Pilot)";
+case 528:
+return "Messenger (Messenger)";
+case 529:
+return "Library (Writer)";
+case 530:
+return "Turbine (Engineer)";
+case 531:
+return "Building (Architect)";
+case 532:
+return "Bar (Killer)";
+case 533:
+return "Scientific laboratory)";
+case 534:
+return "Behavior Part 1";
+case 535:
+return "Behavior Part 2";
+case 536:
+return "Statistics Update";
+case 537:
+return "General Statistics";
+case 538:
+return "Statistics Data";
+case 539:
+return "War Icons";
+case 540:
+return "War Buttons";
+case 541:
+return "Custom War";
+case 542:
+return "Command Simulator";
+case 543:
+return "Units Simulator";
+case 544:
+return "Simulator Centers";
+case 545:
+return "About This Book";
+
+// parrafos de los temas del libro
+case 700:
+return "Interactive software created by Omar Jordán (Omwekiatl), Colombia 2021 (v $).##Virtual community that feeds a world war simulation, you can:##- Customize your avatar.##- Express something verbatim.##- Search for other profiles.#- Select the world zone that it supports.#- Choose your role in society.#- Choose a mode of behavior.#- View the current war status and statistics.#This version for PC has the simulation engine, with advanced parameters.#Official language: Spanish.";
+case 701:
+return "To register use an email, which will receive a password.##To log in, use the email with which you registered or the username; When registering you will see a random username and password in your email, these can be changed.##The third bar of the login is to put a new password, in case you want to change the previous one, be careful, Do not use important passwords.##If you don't remember your password, please sign in again to get a random one.##Shift + Delete: clean text line.";
+case 702:
+return "Your information will not be sold or shared with third parties, nor will it be used to promote advertising, but the global statistics of the community can be seen publicly, that's what this is about.##Your Password is encrypted, but be careful.##You can express what you want in your profile, there is no censorship or prohibition, so it is not a system suitable for minors or sensitive people; we still trust your ethics (be good creep).";
+case 703:
+return "About Image:#Name / Zone / Role.##Image:#Building (Role) / Ávatar / Zodiac.##Under Image: Free Text, Behavior.#Bottom left, dates of: - Registration in the system.#- Modification of profile.#- Last time active.#Bottom right buttons: - Close session (log out).#- Edit profile (1 time every hour).";
+case 704:
+return "- Modify your name (it must be unique).##- Modify the zone it supports.##- Modify avatar with the green arrows.#- Write something (reddish background indicates vast).#- Modify the behavior.#Bottom right buttons:#- Green: cancel editing.#- Red: accept and send changes.#Shift + Delete: clean text line.#You can copy and paste (Ctrl + C) (Ctrl + V).";
+case 705:
+return "You can search for a user profile if it has their name or email, write it down and click the magnifying glass; or press the stick if you are looking for your own profile.##The random search allows you to filter by:#- ​​Zone.##- Profiles with vast text.##- Active for less than a week.#Hit the dice to search.#Once in a profile, there are two buttons to:#- Do another search.#- Take a screenshot (png).";
+case 706:
+return "Everyone can have a job and a home with children, well not here, it turns out that this role represents those who live for their family, their home, raise and educate their offspring; they live in a comfortable house and associate with a partner who professes the same interest; perhaps it is the oldest and most natural role.##They are basic units, their abilities and parameters are those that a world without roles would have, but ... they carry half a seed, and when two of this same role meet, they will grow into a spawn, which will grow and become one more inhabitant.";
+case 707:
+return "They are the basis of the subsistence of a town or city, without food doubtfully the population is happy, or alive ... they are usually found in green and vast fields, with wells to extract underground water, and surrounded by vegetables such as: oats , banana, corn, beans, quinoa, cocoa, peanuts, wheat.##In the battle they have a food aura, therefore they give food to the allies; Units fed by being more encouraged attack faster which gives them an advantage; but it is raw food, so its effect does not last long, they must remain in the aura.";
+case 708:
+return "Who does not love the smell of hot bread, or any freshly made food, because evoking that feeling is the job of this role, and okay, also feeding ... he is in charge of turning the harvest into a nutritious delicacy, his specialty is: oats with cinnamon, banana cake, corn arepa, bean burger, quinoa cookies, chocolate dessert, dried fruit cake.##Feed one ally at a time, that is, each time he executes his special ability; Units fed by being more encouraged attack faster which gives them an advantage; the effect of this good food lasts a long time.";
+case 709:
+return "A lot of skill in the hands, patience and the necessary ideas to transform a piece of material into ... a more valuable material; be it making clothes to wear, wear and protect from the cold, dance shoes, furniture to visit or sleep dreaming of a world without wars, they will do it.##Every time his special ability is triggered, he will dress an allied unit in a cool shockproof cape, this gives the unit armor that is worn down by hits received.";
+case 710:
+return "These moles from the bowels of the earth extract the raw material for all manufacturing activities, they do not care about the noise of the crushing machines or breathe the dense underground air, that if, tirelessly they seek to find the gold, the diamond, the adamantium to get a ring or tooth.##They are good at the siege, they can knock down the enemy urban center as if it were just another fragile stone, they also collect the valuable in their sieges to repair their own urban center.";
+case 711:
+return "This rough-handed citizen does not bother with the heat of the foundry, he remains there transforming raw minerals into everyday artifacts such as: pots, glasses, pedestals, bars, and all kinds of iron twists; Among them the occasional machete, sword, battle ax ... Every so often he creates an extra weapon and gives it to an ally, the units with this additional weapon have more attack, but not everything is perfect, so sooner or later and with some bad luck the weapon will break.##";
+case 712:
+return "Health, the main thing for living and even more for good living; This role is in charge of ensuring the welfare of their own; Before reaching the end of a surgery or consuming strong chemicals, they try to spread good habits such as: hydrate well, exercise (flexibility + cardio), be happy and without stress, eat balanced without fats, or sugars and few meats, breathe deeply , sleep well, and occasionally a fast with healing spices.##And well, simulation-wise, they heal allies, be it physical damage or viral infections.";
+case 713:
+return "There have always been those inhabitants who have a voice of command, hyperactivity to carry out projects and a strong sense of honor and altruism, this role offers in society the ability to group and direct ideas, projects, initiatives, protests; To do this, he must listen to others, open discussion forums, put order and, most importantly, set an example.##Regardless of the behavior of other allies, this role persuades them to follow it, thus assembling a small group, in this way you will not go alone, another advantage of this is that the members will synchronize when responding to an attack on one of they.";
+case 714:
+return "He is the equivalent of a policeman, his specialty is protection so he carries a large shield, rather than going to war his mission is to put order within a society, making people feel safe, neutralizing any threat.##It is the most resistant unit, that is its ability; On the other hand, it provides a tower as a building, it shoots at the enemy, but it is slower than the campaign towers made directly in the war field, even so the latter are easily demolished compared to the internal one.##Resistant to attacks by criminals and explosives.";
+case 715:
+return "It is the equivalent of a military man, this is a brutal warrior who goes out to the battlefield with a thirst for blood, destroying the enemy.##Maybe you are thinking that in a war game what sense will the other roles have, well there is a balance, do not be fooled, all roles have advantages and disadvantages, and the community expresses itself with everyone as a matter of taste ... but yes , this is distinguished by being the one with the highest attack (passive ability).";
+case 716:
+return "He is a rarity, like a raven, with melancholy and deep thought he has seen many burials, many tears, many endings; They are usually solitary and meditative entities, their role is to give rest and lodging to the deceased; death, the greatest mystery in life, this role is constantly lived and is good for giving advice to the mourners.##When he kills an enemy on the battlefield, he recovers life points, as if it were a vampire.";
+case 717:
+return "Being a stranger who is dedicated to the arcane arts, to the mystical, to witchcraft, for the same reason he is usually silent about what he knows, it is said that he spends more time traveling in his dreams and meditation than in life itself; He tries to carry out the great alchemical work, scrutinizes the secrets of the cosmos and has talks with the most diverse entities.##When dying it becomes a spectrum that follows the enemy giving him bad luck in his attacks, this is an aura effect, so it affects several at the same time; in life it can hardly be converted by priests.";
+case 718:
+return "It has a temple to which it dedicates its devotion for life, this temple in turn symbolizes a god of the several that there are, some older than others, some more forgotten and others more fashionable; he watches over the morale of society, weighing its emotional burdens with the promise of supreme help.##Its function is to ideologically convert a unit, which means that it can make an enemy ally, but this is a probability with a single attempt, which can be affected by luck effects, for example: it will have a low chance before the curse of a specter.";
+case 719:
+return "Music, painting, sculpture, singing, acting ... very diverse and beautiful is the range of art and its infinite manifestation, this role undoubtedly captures dreams and nightmares on paper and sound, every society needs to express itself, this is the most transcendental.##In battle he will carry a guitar, which will polarize the air with inspiration, giving better luck to the attacks of the allies; even so, this effect is temporary, so it requires the constant presence of the aura.";
+case 720:
+return "A very energetic, flexible, strong, tireless, dexterous being, who only lives to be in his gym or traveling the world without stopping, he loves to compete and feel that he is better and better than himself and others; His only goal is to break goals, he enjoys unmatched health but is at the mercy of multiple injuries.##He runs and nothing faster than anyone else, which gives him great mobility on the battlefield, he also has the ability to deliver a great blow the first time he attacks, like a lunge with his accumulated inertia.";
+case 721:
+return "Games of chance, Chess, Chinese checkers, ladder, Parks, Poker, Uno, Magic, charades and much more, that you find here, in the building of this friendly, outgoing and happy character; There is definitely nothing like leisure and laughter, but watch out, you get addicted hahaha.##All a Russian roulette, this role carries with it a high-powered bomb with which it can detach the meat from the bone, from itself, from its allies and of course from the enemy; the explosion is random when it takes damage.";
+case 722:
+return "A healthy society expresses its sexuality without taboos or extreme moralities, here this role offers a place for erotic games, either with a reproductive spirit or better yet for leisure; And as if that were not enough, it provides its services as a special company (with freedom of choice).##Pick just one ally and light them up, giving them more hit points, attack points, and immunity to the effects of other roles; This will follow and when one of the two dies, the link with its benefits is broken forever; the enlightened ally's weakness is its basic companion.";
+case 723:
+return "Products made by manufacturing need to be sold, marketed, that is the function of this role, which also knows how to make good trade-offs because of its charisma because there is not always money in difficult times; his building is a hobby for those looking for little-needed gadgets; he is an expert in making fortunes, he extracts coins from where there are none.##You can take enemy weapons and capes and keep them, or give them to an ally; it basically turns enemy manufacturing into goods for allies.";
+case 724:
+return "He has an obsession to see everything clean, he cares a lot about the disposal of waste, his motto is Reduce, Reuse, Recycle; Because this helps to reduce pollution; he likes to see the trash cans sorted by Paper, Plastics, Electronics and Organic, as this reduces the work in his building; he also mows the lawn.##The war leaves many decomposed corpses, a whole mess, this role gains a little life with each corpse it processes.";
+case 725:
+return "A city needs parks and natural reserves, for the enjoyment, recreation and connection with the fauna and flora; This being protects these spaces and right there leads a life a little detached from the city; his blood has a certain dose of hallucinogenic mushrooms.##He can, under the pressure of peaceful protest, take away their role from enemies, stripping them of their special ability, this he does one by one each time he activates his ability.";
+case 726:
+return "The human relationship with other beings in nature is ancient, such as pack animals, hunting, companionship, consumption; This role raises dogs and tames and trains them, so that they serve as a company to all kinds of people, we all know that there are those who even see them as family members.##When he sees an enemy, he can call only a dog to help him fight, this entity will always follow him, has less attack and life than a human and usually dies of moral pain if its owner dies.";
+case 727:
+return "We live in a physical world, with distances that separate all points, transporting something or someone from A to B has always been an optimization challenge, the balloon or airships have been the optimal flying vehicle; in this building they provide their services to cross long distances.##Give balloons to the allies when they are in the water, in this way they can reach the destination faster, on land the balloon descends; It should be emphasized that aquatic combat gives an advantage to those who go in a balloon.";
+case 728:
+return "You want to express something to someone, an emotion, idea or business, but it is far away, well this role and building allow you to leave that message in expert hands, as if the telegraph existed.##Strategic, if its behavior is to defend: it will persuade defending allies to attack the neighboring enemy, without neglecting defense; if their behavior is to follow someone: it will encourage allies to defend the vulnerable center or rather those who defend attack in groups; for other behavior: it will make allies behave like him.##Upon reaching an enemy center, just once, will he move a unit in the creation queue from that center to his own.";
+case 729:
+return "A mixture of teacher and artist, since he likes to teach and transmit knowledge, and he also likes to write real or unreal things; its building is full of books, of all subjects, science, literature, spirituality, biographies, history, philosophy, lifestyle, etc.##Give best luck to allied attacks, hitting one at a time; this buff is very long-lasting and has high critical strike chances, because knowledge is power.";
+case 730:
+return "It offers energy, fire management is long gone, what is new is the domain of lightning (at least for this simulated time), wind turbines offer clean energy for everyone, and what to do with it? Well, a dream of humanity has been to create a homunculus, a golem; Let's make a tin one with artificial intelligence.##Create a robot, it has a limited life time due to its batteries, but any ally with this role can replace them; giant but does not attack, still it is a resistant decoy and a tower demolition par excellence; it weakens with water, it behaves like someone who programmed or re-programmed it.";
+case 731:
+return "What would a society be without buildings, be it a hut or a skyscraper, this being creates the largest and most dense of a city, without forgetting that its goal is to offer comfort, functionality, optimization and less environmental impact; provides a building for several citizens to live.##On the battlefield you can put a campaign tower that shoots at the enemy, it is not attacked by the citizens due to its toughness; Instead of making a new one you can level up an existing one.";
+case 732:
+return "Not everyone who lives in society works to improve it, there are those who for personal reasons create conflicts, thieves, murderers, gangsters, they are difficult subjects and are usually found at night, drinking beer mixing with honest citizens.##From time to time they attack their allies treacherously, it is usually a strong blow for being surprise; there is a small chance of receiving damage back, in general this role is chosen by whoever wishes to sabotage the area from within.";
+case 733:
+return "It is said that these subjects are crazy, they scrutinize everything they see, from the depths of outer space, to the intimacy of molecules, their language is mathematics and their lexicon is complex; In the building they provide, many experiments are usually carried out to test hypotheses.##In their flasks they have cultivated a very lethal virus, capable of killing and transmitting itself, now they use it in war to infect one enemy at a time; this attack is similar to poison, there is a chance to be healed or damaged.";
+case 734:
+return "Defensive:#Units look for their own or allied urban center and stay close to it, when it is war for continents, they can see if a center is being besieged and go to it.##Random Attack:#They will choose an enemy center at random and go to it, this can create dispersion of the troops, there are also certain cases in which the destination can be recalculated.##Attack the Strongest / Weakest:#They target the enemy center that has the most / least amount of available units, that is, add the alive ones with the reserve ones.";
+case 735:
+return "Attack Neighbor:#Ensures that the target enemy center is the closest to the unit that is currently looking for whom to attack.##Move in Group:#The centers calculate a few circles of groups, the units of said center that have this behavior, will meet in one of those circles; also in continent mode units can choose an allied circle.##Follow Another Unit:#An allied citizen is randomly selected to follow, but this must not be in defensive or follower behavior; Furthermore, if he does not find someone, he will tend to return to his urban center.";
+case 736:
+return "This software is of unhurried action, the strategies and profile edits are handled calmly, therefore, the global statistics are updated every hour, as well as the possibility of editing the profile.##The changes you make will be visible in the statistics in 1 hour!";
+case 737:
+return "At the top you can select the area or country to observe, the selection will be reflected on the map in red.##Below the map you can see:#- Number of users in the area.##- Percentage of females with respect to the total.#- Number of active users.#- Record of active users.#A user is active if he was in the application in the last week.";
+case 738:
+return "You can change the type of data to observe for the chosen area:#- Roles: users in each role.##- Zones: with respect to the current zone.##- Emotions: according to the faces of the avatar.#- Zodiac: signs for the zone.#The idea is to see the roles but not the behaviors, in this way an objective collective strategy can be made for the roles, and intuitive or external for the behavior.#- The save button allows you to export data.#- The camera button takes a screenshot.";
+case 739:
+return "Above, number of simulations:#Weekly (will be cleaned) / Accumulated.##You can select the area you want to observe, this will be reflected on the map in red.##The first simulation of the week is the Official, with the rest being Averaged, and the Record is of all time.##The data indicates the position of the zone, 1 is the best place, they can be repeated if they tie.##Icons: technical score, enemies hunted, siege done, zones conquered, time alive, units available, total units, final life.";
+case 740:
+return "The 4 buttons at the bottom start war:#1 Demo with random data.##2 Demo with custom data.##3 Official data but of skirmish.##4 Official data and results.#- Country mode / continent mode.#- The camera button takes a screenshot.#The custom data has the format of the file (txt) obtained in the statistics menu.#The official war will be on a black screen, the results are uploaded to the server, this is to avoid ending simulations at your convenience.";
+case 741:
+return "Get the file (txt) as indicated for the statistics menu.##In it you will see several matrices, the one that interests us is the one of (role), there you can change the values ​​according to how many units you want in each one, for each zone.##The columns are the roles as you see them in the header (role).##The rows are the zones, as you see them in the header (countries).#Behaviors will always be random; then the (active population) defines active users, put a very high number if you want.";
+case 742:
+return "- Zoom in with the mouse wheel.##- Move the camera with right-click.##- Select entities with left-click.#- Leave the simulation with Escape.#- Accelerate or slow down with Up and Down Top left: general information, final speed will depend on your PC, official data or not.#Upper right: general information: maximum population, living units, living entities, living entities record, total entities created.#Then the best 3 according to: units available, enemies hunted, siege done, areas conquered.#Finally, the positions according to vitality.#Bottom left, contextual (selection).";
+case 743:
+return "The gender and zodiac do not affect the simulation, but if the active state, life bonuses are given.##Entities can move by land or water, this last slows movement and attack; they can go towards an enemy, an ally or urban center, collisions are also detected.##Every so often they will look for enemies in their range of vision and will attack if they are close, with a little randomness; also from time to time the special abilities of each role will be executed.##Roles that apply effects to other units cannot be self-applied, nor do they affect allies or enemies of the same role, eg: a medic Cannot heal or heal another medic.";
+case 744:
+return "Each urban center has an initial population, of which it can only have a limit of living units at a time, and it will be evoking more as.##The life points of each center are a base value plus the initial population, from time to time the number of nearby enemies and allies are calculated, the siege received is the difference of this with a limit.##Unit roles are chosen randomly with priority, behaviors change only randomly.##Each center calculates the position of a few grouping circles, it does so by searching for groupings of units, enemy centers, and enemy groups.";
+case 745:
+return "To navigate faster use the Left / Right keys; press Enter to navigate to a random page, Space for random role.##The number in the image on the first page is the total number of registered users.##Note:#";
+
+// mini nombre de zona
+case 900:
+return "Dog";
+case 901:
+return "USES";
+case 902:
+return "Mex";
+case 903:
+return "Cabbage";
+case 904:
+return "Bra";
+case 905:
+return "Arg";
+case 906:
+return "Esp";
+case 907:
+return "Ing";
+case 908:
+return "Ale";
+case 909:
+return "Rus";
+case 910:
+return "Ara";
+case 911:
+return "Ind";
+case 912:
+return "Chi";
+case 913:
+return "Egi";
+case 914:
+return "With";
+case 915:
+return "South";
+case 916:
+return "Aus";
+case 917:
+return "N.A";
+case 918:
+return "S.A";
+case 919:
+return "EUR";
+case 920:
+return "ORI";
+case 921:
+return "AFR";
+case 922:
+return "TOT";
+
+// para nombres de comportamientos abreviados (no traducir)
+case 1000:
+return "Defend";
+case 1001:
+return "A.aza";
+case 1002:
+return "A. was";
+case 1003:
+return "A.déb";
+case 1004:
+return "A.cer";
+case 1005:
+return "Group";
+case 1006:
+return "Segui";
+
+// abreviacion roles (no traducir)
+case 1100:
+return "Family";
+case 1101:
+return "Agri";
+case 1102:
+return "Cooked";
+case 1103:
+return "Art";
+case 1104:
+return "Mine";
+case 1105:
+return "Herr";
+case 1106:
+return "Medi";
+case 1107:
+return "Leader";
+case 1108:
+return "Defe";
+case 1109:
+return "Guer";
+case 1110:
+return "Cepu";
+case 1111:
+return "Magician";
+case 1112:
+return "Sace";
+case 1113:
+return "Arti";
+case 1114:
+return "Depo";
+case 1115:
+return "Paya";
+case 1116:
+return "Acom";
+case 1117:
+return "Eat";
+case 1118:
+return "Clean";
+case 1119:
+return "Hipp";
+case 1120:
+return "Dome";
+case 1121:
+return "Pilo";
+case 1122:
+return "Mens";
+case 1123:
+return "Writing";
+case 1124:
+return "Inge";
+case 1125:
+return "Arch";
+case 1126:
+return "Aces";
+case 1127:
+return "Hundred";
+
+default: return "";
+}
+

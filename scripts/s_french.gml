@@ -1,0 +1,594 @@
+// arg0: ind de dialogo
+// ret: str del dialogo
+
+switch argument0 {
+
+// para objeto txt
+case 0:
+return "Nom ou email enregistré";
+case 1:
+return "Mot de passe pour entrer";
+case 2:
+return "Nouveau mot de passe (facultatif)";
+case 3:
+return "Email pour créer un compte";
+case 4:
+return "Votre nom d'utilisateur";
+case 5:
+return "Nom ou e-mail à rechercher";
+case 6:
+return "Texte libre";
+
+// para GUI
+case 100:
+return "Attention: veillez à ne pas utiliser votre mot de passe pour des réseaux importants (sécurité faible)";
+case 101:
+return "French";
+case 102:
+return "Web + Doux";
+case 103:
+return "Aucune erreur de connexion Internet";
+case 104:
+return "Reg:";
+case 105:
+return "Mod:";
+case 106:
+return "Acte:";
+case 107:
+return "Jan";
+case 108:
+return "fév";
+case 109:
+return "Mer";
+case 110:
+return "avr";
+case 111:
+return "peut";
+case 112:
+return "Juin";
+case 113:
+return "juil";
+case 114:
+return "Août";
+case 115:
+return "SEP";
+case 116:
+return "oct";
+case 117:
+return "nov";
+case 118:
+return "déc";
+case 119:
+return "bélier";
+case 120:
+return "Taureau";
+case 121:
+return "Gémeaux";
+case 122:
+return "Cancer";
+case 123:
+return "Leo";
+case 124:
+return "Vierge";
+case 125:
+return "Balance";
+case 126:
+return "Scorpion";
+case 127:
+return "Sagittaire";
+case 128:
+return "Capricorne";
+case 129:
+return "Aquarium";
+case 130:
+return "Poissons";
+case 131:
+return "Tout le monde";
+case 132:
+return "Seulement avec de longs textes";
+case 133:
+return "Seulement récemment actif";
+case 134:
+return "De tout le monde";
+case 135:
+return "Avertissement Vous devez être connecté pour effectuer une recherche automatique";
+case 136:
+return "Famille";
+case 137:
+return "Agriculteur";
+case 138:
+return "cuisiner";
+case 139:
+return "Artisan";
+case 140:
+return "Mineur";
+case 141:
+return "forgeron";
+case 142:
+return "Médecin";
+case 143:
+return "Leader";
+case 144:
+return "Défenseur";
+case 145:
+return "guerrier";
+case 146:
+return "Raboteuse";
+case 147:
+return "Magicien";
+case 148:
+return "Prêtre";
+case 149:
+return "Artiste";
+case 150:
+return "Athlète";
+case 151:
+return "Pitre";
+case 152:
+return "Un compagnon";
+case 153:
+return "Homme d'affaire";
+case 154:
+return "Nettoyeur";
+case 155:
+return "Hippie";
+case 156:
+return "Dompteur";
+case 157:
+return "Pilote";
+case 158:
+return "Courrier de livraison";
+case 159:
+return "Écrivain";
+case 160:
+return "Ingénieur";
+case 161:
+return "Architecte";
+case 162:
+return "Assassin";
+case 163:
+return "Scientifique";
+case 164:
+return "Rôles";
+case 165:
+return "Zones";
+case 166:
+return "Émotions";
+case 167:
+return "Zodiaque";
+case 168:
+return "Fem";
+case 169:
+return "Wat";
+case 170:
+return "Gro";
+case 171:
+return "Air";
+case 172:
+return "Mal";
+case 173:
+return "Neu";
+case 174:
+return "Aller";
+case 175:
+return "Pro";
+case 176:
+return "Moyen";
+case 177:
+return "Officiel";
+case 178:
+return "Record";
+case 179:
+return "Hebdomadaire:";
+case 180:
+return "Total:";
+case 181:
+return "Avertissement Vous devez être connecté pour faire une simulation officielle";
+
+// para nombre de zona
+case 200:
+return "Amérique du Nord (Canada)";
+case 201:
+return "Amérique du Nord (USA)";
+case 202:
+return "Amérique du Nord (Mexique)";
+case 203:
+return "Amérique du Sud (Colombie)";
+case 204:
+return "Amérique du Sud (Brésil)";
+case 205:
+return "Amérique du Sud (Argentine)";
+case 206:
+return "Europe (Espagne)";
+case 207:
+return "Europe (Angleterre)";
+case 208:
+return "Europe (Allemagne)";
+case 209:
+return "Europe (Russie)";
+case 210:
+return "Est (Arabie)";
+case 211:
+return "Est (Inde)";
+case 212:
+return "Est (Chine)";
+case 213:
+return "Afrique (Égypte)";
+case 214:
+return "Afrique (Congo)";
+case 215:
+return "Afrique (Afrique du Sud)";
+case 216:
+return "Océanie (Australie)";
+case 217:
+return "Amérique du Nord";
+case 218:
+return "Amérique du Sud";
+case 219:
+return "L'Europe ";
+case 220:
+return "est";
+case 221:
+return "Afrique";
+case 222:
+return "Monde (tous)";
+
+// para nombres de comportamientos
+case 300:
+return "Défends ton pays, ne pars pas";
+case 301:
+return "Attaquer un pays au hasard";
+case 302:
+return "Attaquez le pays le plus fort";
+case 303:
+return "Attaquez le pays le plus faible";
+case 304:
+return "Attaquer le pays le plus proche";
+case 305:
+return "Restez en groupe, suivez le groupe";
+case 306:
+return "Suivez un autre citoyen au hasard";
+
+// mensajes HTTP
+case 400:
+return "Erreur inconnue";
+case 401:
+return "Erreur de connexion au serveur";
+case 402:
+return "Erreur de base de données du serveur";
+case 403:
+return "Erreur La version de l'application est inappropriée";
+case 404:
+return "Erreur Paramètres insuffisants";
+case 405:
+return "Erreur de demande de serveur";
+case 406:
+return "Avertissement Le nom d'utilisateur existe déjà";
+case 407:
+return "Avertissement Ce que vous recherchiez n'a pas été trouvé";
+case 408:
+return "Avertissement Vous devez modifier une fois toutes les heures";
+case 409:
+return "Succès enregistré, vérifiez votre courrier";
+case 410:
+return "Avertissement Veuillez saisir une adresse e-mail ou un nom valide";
+case 411:
+return "Avertissement Le mot de passe doit comporter au moins 6 caractères";
+case 412:
+return "Succès Informations mises à jour";
+case 413:
+return "Avertissement Veuillez mettre à jour les données dans l'onglet drapeau";
+
+// titulos de los temas del libro
+case 500:
+return "À propos de DelRow";
+case 501:
+return "Se connecter et s'inscrire";
+case 502:
+return "Traitement des données";
+case 503:
+return "Icônes de profil";
+case 504:
+return "Édition de profil";
+case 505:
+return "Recherche de profil";
+case 506:
+return "Maison de famille)";
+case 507:
+return "Culture (agriculteur)";
+case 508:
+return "Boulangerie (cuisinier)";
+case 509:
+return "Couture (Artisan)";
+case 510:
+return "Mine (mineur)";
+case 511:
+return "Ferronnerie (forgeron)";
+case 512:
+return "Hôpital (médecin)";
+case 513:
+return "Forum (leader)";
+case 514:
+return "Tour (défenseur)";
+case 515:
+return "Caserne (guerrier)";
+case 516:
+return "Cimetière (Cepulturero)";
+case 517:
+return "Rituel (sorcier)";
+case 518:
+return "Temple (prêtre)";
+case 519:
+return "Conservatoire (artiste)";
+case 520:
+return "Gym (athlète)";
+case 521:
+return "Jeux (Clown)";
+case 522:
+return "Motel (compagnon)";
+case 523:
+return "Marché (commerçant)";
+case 524:
+return "Corbeille (nettoyeur)";
+case 525:
+return "Parc (Hippie)";
+case 526:
+return "Chatterie (Dompteur)";
+case 527:
+return "Port (pilote)";
+case 528:
+return "Messager (Messenger)";
+case 529:
+return "Bibliothèque (écrivain)";
+case 530:
+return "Turbine (ingénieur)";
+case 531:
+return "Bâtiment (Architecte)";
+case 532:
+return "Bar (tueur)";
+case 533:
+return "Laboratoire scientifique)";
+case 534:
+return "Comportement, partie 1";
+case 535:
+return "Comportement, partie 2";
+case 536:
+return "Mise à jour des statistiques";
+case 537:
+return "Statistiques générales";
+case 538:
+return "Données statistiques";
+case 539:
+return "Icônes de guerre";
+case 540:
+return "Boutons de guerre";
+case 541:
+return "Guerre personnalisée";
+case 542:
+return "Simulateur de commande";
+case 543:
+return "Simulateur d'unités";
+case 544:
+return "Centres de simulation";
+case 545:
+return "À propos de ce livre";
+
+// parrafos de los temas del libro
+case 700:
+return "Logiciel interactif créé par Omar Jordán (Omwekiatl), Colombie 2021 (v $).##Communauté virtuelle qui alimente une simulation de guerre mondiale, vous pouvez:##- Personnaliser votre avatar.##- Exprimez quelque chose textuellement.##- Recherchez d'autres profils.#- Sélectionnez la zone mondiale qu'il prend en charge.#- Choisissez votre rôle dans la société.#- Choisissez un mode de comportement.#- Afficher l'état actuel de la guerre et les statistiques.#Cette version pour PC dispose du moteur de simulation, avec des paramètres avancés.#Langue officielle: espagnol.";
+case 701:
+return "Pour vous inscrire, utilisez un e-mail, qui recevra un mot de passe.##Pour vous connecter, utilisez l'e-mail avec lequel vous vous êtes inscrit ou le nom d'utilisateur; Lors de votre inscription, vous verrez un nom d'utilisateur et un mot de passe aléatoires dans votre e-mail, ceux-ci peuvent être modifiés.##La troisième barre de la connexion consiste à mettre un nouveau mot de passe, au cas où vous voudriez changer le précédent, soyez prudent, n'utilisez pas de mots de passe importants.##Si vous ne vous souvenez pas de votre mot de passe, veuillez vous reconnecter pour en obtenir un au hasard.##Maj + Suppr: ligne de texte propre.";
+case 702:
+return "Vos informations ne seront ni vendues ni partagées avec des tiers, ni utilisées pour promouvoir la publicité, mais les statistiques mondiales de la communauté peuvent être vues publiquement, c'est de cela qu'il s'agit.##Votre mot de passe est crypté, mais soyez prudent.##Vous pouvez exprimer ce que vous voulez dans votre profil, il n'y a ni censure ni interdiction, donc ce n'est pas un système adapté aux mineurs ou aux personnes sensibles; nous faisons toujours confiance à votre éthique (soyez bon fluage).";
+case 703:
+return "À propos de l'image:#Nom / Zone / Rôle.##Image:#Bâtiment (Rôle) / Ávatar / Zodiac.##Sous Image: Texte libre, Comportement.#En bas à gauche, dates de: - Inscription dans le système.#- Modification de profil.#- Dernière fois actif.#Boutons en bas à droite: - Fermer la session (se déconnecter).#- Modifier le profil (1 fois toutes les heures).";
+case 704:
+return "- Modifiez votre nom (il doit être unique).##- Modifiez la zone qu'il prend en charge.##- Modifiez l'avatar avec les flèches vertes.#- Écrivez quelque chose (un fond rougeâtre indique une vaste).#- Modifiez le comportement.#Boutons en bas à droite:#- Vert: annule l'édition.#- Rouge: accepter et envoyer les modifications.#Maj + Suppr: ligne de texte propre.#Vous pouvez copier et coller (Ctrl + C) (Ctrl + V).";
+case 705:
+return "Vous pouvez rechercher un profil d'utilisateur s'il a son nom ou son adresse e-mail, le noter et cliquer sur la loupe; ou appuyez sur le stick si vous recherchez votre propre profil.##La recherche aléatoire vous permet de filtrer par:#- Zone.##- Profils avec texte vaste.##- Actif moins d'une semaine.#Frappez les dés pour rechercher.#Une fois dans un profil, il y a deux boutons pour:#- Faire une autre recherche.#- Prenez une capture d'écran (png).";
+case 706:
+return "Tout le monde peut avoir un travail et un foyer avec des enfants, enfin pas ici, il s'avère que ce rôle représente ceux qui vivent pour leur famille, leur foyer, élèvent et éduquent leur progéniture; ils vivent dans une maison confortable et s'associent avec un partenaire qui professe le même intérêt; c'est peut-être le rôle le plus ancien et le plus naturel.##Ce sont des unités de base, leurs capacités et paramètres sont ceux qu'aurait un monde sans rôles, mais ... ils portent une demi-graine, et quand deux de ce même rôle se rencontrent, ils deviendront un spawn, qui grandira et deviendra un habitant de plus.";
+case 707:
+return "Ils sont la base de la subsistance d'une ville ou d'une ville, sans aucun doute la nourriture la population est heureuse, ou vivante ... on les trouve généralement dans de vastes champs verts, avec des puits pour extraire l'eau souterraine, et entourés de légumes tels que: avoine, banane, maïs, haricots, quinoa, cacao, arachides, blé.##Dans la bataille, ils ont une aura de nourriture, donc ils donnent de la nourriture aux alliés; Les unités nourries en étant plus encouragées attaquent plus vite, ce qui leur donne un avantage; mais c'est de la nourriture crue, donc son effet ne dure pas longtemps, ils doivent rester dans l'aura.";
+case 708:
+return "Qui n'aime pas l'odeur du pain chaud, ou de tout aliment fraîchement préparé, car évoquer ce sentiment est le travail de ce rôle, et d'accord, aussi nourrir ... il est en charge de transformer la récolte en un délice nutritif, sa spécialité est: avoine à la cannelle, gâteau aux bananes, arepa de maïs, hamburger aux haricots, biscuits au quinoa, dessert au chocolat, gâteau aux fruits secs.##Nourrissez un allié à la fois, c'est-à-dire chaque fois qu'il exécute sa capacité spéciale; Les unités nourries en étant plus encouragées attaquent plus vite, ce qui leur donne un avantage; l'effet de cette bonne nourriture dure longtemps.";
+case 709:
+return "Beaucoup d'habileté dans les mains, de la patience et les idées nécessaires pour transformer un morceau de matériau en ... un matériau plus précieux; Qu'il s'agisse de confectionner des vêtements à porter, porter et protéger du froid, des chaussures de danse, des meubles à visiter ou dormir en rêvant d'un monde sans guerres, ils le feront.##Chaque fois que sa capacité spéciale est déclenchée, il habille une unité alliée d'une cape antichoc fraîche, ce qui donne l'armure de l'unité qui est usée par les coups reçus.";
+case 710:
+return "Ces taupes des entrailles de la terre extraient la matière première pour toutes les activités de fabrication, elles ne se soucient pas du bruit des machines de concassage ou respirent l'air souterrain dense, que si, inlassablement elles cherchent à trouver l'or, le diamant, le adamantium pour obtenir une bague ou une dent.##Ils sont bons au siège, ils peuvent abattre le centre urbain ennemi comme s'il ne s'agissait que d'une autre pierre fragile, ils collectent également les précieux dans leurs sièges pour réparer leur propre centre urbain.";
+case 711:
+return "Ce citoyen brutal ne s'embarrasse pas de la chaleur de la fonderie, il y reste en train de transformer des minéraux bruts en objets du quotidien tels que: pots, verres, piédestaux, barres et toutes sortes de torsades de fer; Parmi eux la machette occasionnelle, l'épée, la hache de combat ... De temps en temps, il crée une arme supplémentaire et la donne à un allié, les unités avec cette arme supplémentaire ont plus d'attaque, mais tout n'est pas parfait, donc tôt ou tard et avec un peu de malchance, l'arme se cassera.##";
+case 712:
+return "La santé, le principal pour vivre et encore plus pour bien vivre; Ce rôle est chargé d'assurer leur propre bien-être; Avant d'arriver au terme d'une chirurgie ou de consommer des produits chimiques puissants, ils essaient de répandre de bonnes habitudes telles que: bien s'hydrater, faire de l'exercice (souplesse + cardio), être heureux et sans stress, manger équilibré sans graisses, ni sucres et peu de viandes, respirer profondément.##, dormez bien, et parfois un jeûne avec des épices cicatrisantes. Et bien, en termes de simulation, ils guérissent les alliés, qu'il s'agisse de dommages physiques ou d'infections virales.";
+case 713:
+return "Il y a toujours eu ces habitants qui ont une voix de commandement, une hyperactivité pour mener à bien des projets et un fort sens de l'honneur et de l'altruisme, ce rôle offre dans la société la capacité de regrouper et de diriger des idées, des projets, des initiatives, des protestations; Pour ce faire, il doit écouter les autres, ouvrir des forums de discussion, mettre de l'ordre et surtout donner l'exemple.##Indépendamment du comportement des autres alliés, ce rôle les persuade de le suivre, assemblant ainsi un petit groupe, de cette façon vous n'irez pas seul, un autre avantage de ceci est que les membres se synchroniseront lorsqu'ils répondront à une attaque sur l'un d'eux. .";
+case 714:
+return "Il est l'équivalent d'un policier, sa spécialité est la protection donc il porte un grand bouclier, plutôt que d'aller à la guerre, sa mission est de mettre de l'ordre dans une société, de faire en sorte que les gens se sentent en sécurité, de neutraliser toute menace.##C'est l'unité la plus résistante, c'est sa capacité; Par contre, il fournit une tour comme bâtiment, il tire sur l'ennemi, mais il est plus lent que les tours de campagne fabriquées directement sur le terrain de guerre, même si ces dernières sont facilement démolies par rapport à l'intérieur.##Résistant aux attaques de criminels et d'explosifs.";
+case 715:
+return "C'est l'équivalent d'un militaire, c'est un guerrier brutal qui sort sur le champ de bataille avec une soif de sang, détruisant l'ennemi.##Peut-être pensez-vous que dans un jeu de guerre quel sens auront les autres rôles, eh bien il y a un équilibre, ne vous y trompez pas, tous les rôles ont des avantages et des inconvénients, et la communauté s'exprime avec tout le monde par goût ... mais oui, cela se distingue en étant celui avec l'attaque la plus élevée (capacité passive).";
+case 716:
+return "C'est une rareté, comme un corbeau, avec la mélancolie et la pensée profonde, il a vu beaucoup de sépultures, beaucoup de larmes, de nombreuses fins; Ce sont généralement des entités solitaires et méditatives, leur rôle est de donner repos et logement au défunt; la mort, le plus grand mystère de la vie, ce rôle est constamment vécu et est bon pour donner des conseils aux personnes en deuil.##Quand il tue un ennemi sur le champ de bataille, il récupère des points de vie, comme s'il s'agissait d'un vampire.";
+case 717:
+return "Étant un étranger voué aux arts des arcanes, au mystique, à la sorcellerie, pour la même raison qu'il se tait généralement sur ce qu'il sait, on dit qu'il passe plus de temps à voyager dans ses rêves et sa méditation que dans la vie elle-même; Il essaie de mener à bien le grand travail alchimique, scrute les secrets du cosmos et s'entretient avec les entités les plus diverses.##En mourant cela devient un spectre qui suit l'ennemi en lui donnant de la malchance dans ses attaques, c'est un effet d'aura, donc il en affecte plusieurs à la fois; dans la vie, il peut difficilement être converti par des prêtres.";
+case 718:
+return "Il possède un temple auquel il consacre sa dévotion pour la vie, ce temple symbolise à son tour un dieu des multiples qu'il y a, certains plus vieux que d'autres, certains plus oubliés et d'autres plus à la mode; il veille sur le moral de la société, pesant ses fardeaux émotionnels avec la promesse d'une aide suprême.##Sa fonction est de convertir idéologiquement une unité, ce qui signifie qu'elle peut faire un allié ennemi, mais c'est une probabilité avec une seule tentative, qui peut être affectée par des effets de chance, par exemple: elle aura une faible chance avant la malédiction de un spectre.";
+case 719:
+return "Musique, peinture, sculpture, chant, théâtre ... très diversifiée et belle est la gamme de l'art et sa manifestation infinie, ce rôle capture sans aucun doute les rêves et les cauchemars sur papier et son, chaque société a besoin de s'exprimer, c'est le plus transcendantal .##Au combat, il portera une guitare, qui polarisera l'air avec inspiration, donnant plus de chance aux attaques des alliés; même ainsi, cet effet est temporaire, il nécessite donc la présence constante de l'aura.";
+case 720:
+return "Un être très énergique, flexible, fort, infatigable, adroit, qui ne vit que pour être dans sa salle de sport ou pour parcourir le monde sans s'arrêter, il aime la compétition et se sent de mieux en mieux que lui et les autres; Son seul objectif est de briser les buts, il jouit d'une santé inégalée mais est à la merci de multiples blessures.##Il court et rien plus vite que quiconque, ce qui lui donne une grande mobilité sur le champ de bataille, il a également la capacité de porter un grand coup la première fois qu'il attaque, comme une fente avec son inertie accumulée.";
+case 721:
+return "Jeux de hasard, échecs, dames chinoises, ladder, Parks, Poker, Uno, Magic, charades et bien plus, que vous trouvez ici, dans la construction de ce personnage sympathique, extraverti et joyeux; Il n'y a certainement rien de tel que les loisirs et le rire, mais attention, vous devenez accro hahaha.##Tout une roulette russe, ce rôle porte avec lui une bombe de grande puissance avec laquelle il peut détacher la viande de l'os, de lui-même, de ses alliés et bien sûr de l'ennemi; l'explosion est aléatoire lorsqu'elle subit des dégâts.";
+case 722:
+return "Une société saine exprime sa sexualité sans tabous ni moralités extrêmes, ici ce rôle offre une place aux jeux érotiques, soit dans un esprit reproductif, soit mieux encore pour les loisirs; Et comme si cela ne suffisait pas, elle fournit ses services en tant qu'entreprise spéciale (avec liberté de choix).##Choisissez un seul allié et allumez-le, lui donnant plus de points de vie, de points d'attaque et d'immunité aux effets d'autres rôles; Cela suivra et quand l'un des deux meurt, le lien avec ses bienfaits est rompu à jamais; la faiblesse de l'allié éclairé est son compagnon de base.";
+case 723:
+return "Les produits fabriqués par la fabrication ont besoin d'être vendus, commercialisés, c'est la fonction de ce rôle, qui sait aussi faire de bons arbitrages en raison de son charisme car il n'y a pas toujours d'argent dans les moments difficiles; son bâtiment est un passe-temps pour ceux qui recherchent des gadgets peu nécessaires; c'est un expert dans la fortune, il extrait des pièces là où il n'y en a pas.##Vous pouvez prendre des armes et des capes ennemies et les garder, ou les donner à un allié; il transforme essentiellement la fabrication ennemie en marchandises pour les alliés.";
+case 724:
+return "Il a une obsession de tout voir propre, il se soucie beaucoup de l'élimination des déchets, sa devise est Réduire, Réutiliser, Recycler; Parce que cela contribue à réduire la pollution; il aime voir les poubelles triées par papier, plastique, électronique et organique, car cela réduit le travail dans son bâtiment; il tond également la pelouse.##La guerre laisse de nombreux cadavres décomposés, tout un gâchis, ce rôle gagne un peu de vie à chaque cadavre qu'il traite.";
+case 725:
+return "Une ville a besoin de parcs et de réserves naturelles, pour le plaisir, les loisirs et la connexion avec la faune et la flore; Cet être protège ces espaces et y mène une vie un peu détachée de la ville; son sang a une certaine dose de champignons hallucinogènes.##Il peut, sous la pression d'une protestation pacifique, retirer leur rôle aux ennemis, les dépouillant de leur capacité spéciale, ce qu'il fait un par un chaque fois qu'il active sa capacité.";
+case 726:
+return "La relation humaine avec les autres êtres de la nature est ancienne, comme les bêtes de somme, la chasse, la compagnie, la consommation; Ce rôle élève les chiens et les apprivoise et les forme, afin qu'ils servent de compagnie à toutes sortes de personnes, nous savons tous qu'il y a ceux qui les voient même comme des membres de la famille.##Quand il voit un ennemi, il ne peut appeler qu'un chien pour l'aider à se battre, cette entité le suivra toujours, a moins d'attaque et de vie qu'un humain et meurt généralement de douleur morale si son propriétaire meurt.";
+case 727:
+return "Nous vivons dans un monde physique, avec des distances qui séparent tous les points, transporter quelque chose ou quelqu'un de A à B a toujours été un défi d'optimisation, le ballon ou les dirigeables ont été le véhicule volant optimal; dans ce bâtiment, ils fournissent leurs services pour traverser de longues distances.##Donnez des ballons aux alliés lorsqu'ils sont dans l'eau, de cette façon ils peuvent atteindre la destination plus rapidement, sur terre le ballon descend; Il faut souligner que le combat aquatique donne un avantage à ceux qui partent en ballon.";
+case 728:
+return "Vous voulez exprimer quelque chose à quelqu'un, une émotion, une idée ou une entreprise, mais c'est loin, eh bien ce rôle et ce bâtiment vous permettent de laisser ce message entre des mains expertes, comme si le télégraphe existait.##Stratégique, si son comportement est de se défendre: il persuadera les alliés en défense d'attaquer l'ennemi voisin, sans négliger la défense; si leur comportement est de suivre quelqu'un: cela encouragera les alliés à défendre le centre vulnérable ou plutôt ceux qui défendent l'attaque en groupe; pour un autre comportement: cela incitera les alliés à se comporter comme lui.##En atteignant un centre ennemi, une seule fois, il déplacera une unité dans la file d'attente de création de ce centre vers le sien.";
+case 729:
+return "Un mélange d'enseignant et d'artiste, car il aime enseigner et transmettre des connaissances, et il aime aussi écrire des choses réelles ou irréelles; son bâtiment regorge de livres, de tous les sujets, de science, de littérature, de spiritualité, de biographies, d'histoire, de philosophie, de style de vie, etc.##Donnez la meilleure chance aux attaques alliées, en frappant une à la fois; ce buff est très durable et a des chances de coup critique élevées, car la connaissance est le pouvoir.";
+case 730:
+return "Il offre de l'énergie, la gestion des incendies est révolue depuis longtemps, ce qui est nouveau est le domaine de la foudre (du moins pour ce temps simulé), les éoliennes offrent une énergie propre à tous, et que faire avec? Eh bien, un rêve de l'humanité a été de créer un homoncule, un golem; Faisons un étain avec l'intelligence artificielle.##Créer un robot, il a une durée de vie limitée du fait de ses batteries, mais tout allié avec ce rôle peut les remplacer; géant mais n'attaque pas, c'est quand même un leurre résistant et une tour de démolition par excellence; il s'affaiblit avec l'eau, il se comporte comme quelqu'un qui l'a programmé ou reprogrammé.";
+case 731:
+return "Que serait une société sans bâtiments, que ce soit une cabane ou un gratte-ciel, cet être crée le plus grand et le plus dense d'une ville, sans oublier que son objectif est d'offrir confort, fonctionnalité, optimisation et moins d'impact environnemental; fournit un bâtiment pour plusieurs citoyens à vivre.##Sur le champ de bataille, vous pouvez mettre une tour de campagne qui tire sur l'ennemi, elle n'est pas attaquée par les citoyens en raison de sa résistance; Au lieu d'en créer un nouveau, vous pouvez augmenter le niveau d'un existant.";
+case 732:
+return "Tout le monde qui vit dans la société ne travaille pas pour l'améliorer, il y a ceux qui pour des raisons personnelles créent des conflits, des voleurs, des meurtriers, des gangsters, ce sont des sujets difficiles et se retrouvent généralement la nuit, buvant de la bière en mélangeant avec des citoyens honnêtes.##De temps en temps, ils attaquent leurs alliés de manière perfide, c'est généralement un coup dur d'être surpris; il y a une petite chance de recevoir des dégâts en retour, en général ce rôle est choisi par quiconque souhaite saboter la zone de l'intérieur.";
+case 733:
+return "On dit que ces sujets sont fous, ils scrutent tout ce qu'ils voient, des profondeurs de l'espace, à l'intimité des molécules, leur langage est les mathématiques et leur lexique est complexe; Dans le bâtiment qu'ils fournissent, de nombreuses expériences sont généralement menées pour tester des hypothèses.##Dans leurs flacons, ils ont cultivé un virus très mortel, capable de se tuer et de se transmettre, maintenant ils l'utilisent en temps de guerre pour infecter un ennemi à la fois; cette attaque est similaire au poison, il y a une chance d'être guéri ou endommagé.";
+case 734:
+return "Défensif:#les unités recherchent leur propre centre urbain ou allié et restent proches de celui-ci, quand c'est la guerre pour les continents, elles peuvent voir si un centre est assiégé et s'y rendre.##Attaque aléatoire:#Ils choisiront un centre ennemi au hasard et s'y rendront, cela peut créer une dispersion des troupes, il existe également certains cas dans lesquels la destination peut être recalculée.##Attaquer les plus forts / les plus faibles:#ils ciblent le centre ennemi qui a le plus / le moins d'unités disponibles, c'est-à-dire ajouter les unités vivantes aux unités de réserve.";
+case 735:
+return "Attaquer le voisin:#garantit que le centre ennemi ciblé est le plus proche de l'unité qui cherche actuellement qui attaquer.##Déplacement en groupe:#Les centres calculent quelques cercles de groupes, les unités dudit centre qui ont ce comportement, se réuniront dans l'un de ces cercles; également en mode continent, les unités peuvent choisir un cercle allié.##Suivre une autre unité:#Un citoyen allié est choisi au hasard pour suivre, mais cela ne doit pas être dans un comportement défensif ou suiveur; De plus, s'il ne trouve personne, il aura tendance à retourner dans son centre urbain.";
+case 736:
+return "Ce logiciel est d'une action sans hâte, les stratégies et les modifications de profil sont gérées calmement, par conséquent, les statistiques globales sont mises à jour toutes les heures, ainsi que la possibilité d'éditer le profil.##Les modifications que vous apportez seront visibles dans les statistiques dans 1 heure!";
+case 737:
+return "En haut, vous pouvez sélectionner la zone ou le pays à observer, la sélection sera reflétée sur la carte en rouge.##Ci-dessous la carte, vous pouvez voir:#- Nombre d'utilisateurs dans la zone.##- Pourcentage de femmes par rapport au total.#- Nombre d'utilisateurs actifs.#- Enregistrement des utilisateurs actifs.#Un utilisateur est actif s'il était dans l'application la semaine dernière.";
+case 738:
+return "Vous pouvez modifier le type de données à observer pour la zone choisie:#- Rôles: utilisateurs dans chaque rôle.##- Zones: par rapport à la zone actuelle.##- Émotions: selon les visages de l'avatar.#- Zodiaque: signes de la zone.#L'idée est de voir les rôles mais pas les comportements, de cette manière une stratégie collective objective peut être faite pour les rôles, et intuitive ou externe pour le comportement.#- Le bouton Enregistrer vous permet d'exporter des données.#- Le bouton de l'appareil photo prend une capture d'écran.";
+case 739:
+return "Ci-dessus, nombre de simulations:#Hebdomadaire (sera nettoyé) / Accumulé.##Vous pouvez sélectionner la zone que vous souhaitez observer, cela sera reflété sur la carte en rouge.##La première simulation de la semaine est l'officiel, le reste étant moyenné, et le record est de tous les temps.##Les données indiquent la position de la zone, 1 est le meilleur endroit, elles peuvent être répétées si elles sont égales.##Icônes: score technique, ennemis chassés, siège terminé, zones conquises, temps de vie, unités disponibles, unités totales, vie finale.";
+case 740:
+return "Les 4 boutons en bas commencent la guerre:#1 Démo avec des données aléatoires.##2 Démo avec des données personnalisées.##3 Données officielles mais d'escarmouche.##4 Données et résultats officiels.#- Mode pays / mode continent.#- Le bouton de l'appareil photo prend une capture d'écran.#Les données personnalisées ont le format du fichier (txt) obtenu dans le menu statistiques.#La guerre officielle sera sur un écran noir, les résultats sont téléchargés sur le serveur, ceci afin d'éviter de terminer les simulations à votre convenance.";
+case 741:
+return "Récupérez le fichier (txt) comme indiqué pour le menu des statistiques.##Vous y verrez plusieurs matrices, celle qui nous intéresse est celle de (rôle), vous pouvez y changer les valeurs en fonction du nombre d'unités que vous voulez dans chacune, pour chaque zone.##Les colonnes sont les rôles tels que vous les voyez dans l'en-tête (rôle).##Les lignes sont les zones, telles que vous les voyez dans l'en-tête (pays).#Les comportements seront toujours aléatoires; puis la (population active) définit les utilisateurs actifs, mettez un nombre très élevé si vous le souhaitez.";
+case 742:
+return "- Effectuez un zoom avant avec la molette de la souris.##- Déplacez la caméra avec un clic droit.##- Sélectionnez les entités avec un clic gauche.#- Quittez la simulation avec Escape.#- Accélérez ou ralentissez avec Haut et Bas En haut à gauche: informations générales, la vitesse finale dépendra de votre PC, des données officielles ou non.#En haut à droite: informations générales: population maximale, unités de vie, entités vivantes, enregistrement des entités vivantes, total des entités créées.#Puis les 3 meilleurs selon: unités disponibles, ennemis chassés, siège terminé, zones conquises.#Enfin, les positions selon la vitalité.#En bas à gauche, contextuel (sélection).";
+case 743:
+return "Le sexe et le zodiaque n'affectent pas la simulation, mais si l'état actif, des bonus de vie sont donnés.##Les entités peuvent se déplacer par terre ou par eau, ce dernier ralentit le mouvement et l'attaque; ils peuvent aller vers un ennemi, un allié ou un centre urbain, des collisions sont également détectées.##De temps en temps, ils chercheront des ennemis dans leur champ de vision et attaqueront s'ils sont proches, avec un peu de hasard; aussi de temps en temps les capacités spéciales de chaque rôle seront exécutées.##Les rôles qui appliquent des effets à d'autres unités ne peuvent pas être auto-appliqués, ni n'affectent les alliés ou les ennemis du même rôle, par exemple: un infirmier ne peut pas soigner ou soigner un autre médecin.";
+case 744:
+return "Chaque centre urbain a une population initiale, dont il ne peut avoir qu'une limite d'unités d'habitation à la fois, et il évoquera davantage comme.##Les points de vie de chaque centre sont une valeur de base plus la population initiale, de temps en temps le nombre d'ennemis et d'alliés proches est calculé, le siège reçu est la différence de cela avec une limite.##Les rôles des unités sont choisis au hasard avec priorité, les comportements ne changent que de manière aléatoire.##Chaque centre calcule la position de quelques cercles de groupement, il le fait en recherchant des groupements d'unités, des centres ennemis et des groupes ennemis.";
+case 745:
+return "Pour naviguer plus rapidement, utilisez les touches Gauche / Droite; appuyez sur Entrée pour accéder à une page aléatoire, Espace pour un rôle aléatoire.##Le nombre dans l'image sur la première page correspond au nombre total d'utilisateurs enregistrés.##Noter:#";
+
+// mini nombre de zona
+case 900:
+return "Chien";
+case 901:
+return "LES USAGES";
+case 902:
+return "Mex";
+case 903:
+return "Choux";
+case 904:
+return "Soutien-gorge";
+case 905:
+return "Arg";
+case 906:
+return "Esp";
+case 907:
+return "Ing";
+case 908:
+return "Ale";
+case 909:
+return "Rus";
+case 910:
+return "Ara";
+case 911:
+return "Indiana";
+case 912:
+return "Chi";
+case 913:
+return "Egi";
+case 914:
+return "Avec";
+case 915:
+return "Sud";
+case 916:
+return "Aus";
+case 917:
+return "N / A";
+case 918:
+return "S.A";
+case 919:
+return "EUR";
+case 920:
+return "OU JE";
+case 921:
+return "AFR";
+case 922:
+return "TOT";
+
+// para nombres de comportamientos abreviados (no traducir)
+case 1000:
+return "Défendre";
+case 1001:
+return "A.aza";
+case 1002:
+return "A. était";
+case 1003:
+return "A.déb";
+case 1004:
+return "A.cer";
+case 1005:
+return "Grouper";
+case 1006:
+return "Segui";
+
+// abreviacion roles (no traducir)
+case 1100:
+return "Famille";
+case 1101:
+return "Agri";
+case 1102:
+return "Cuit";
+case 1103:
+return "Art";
+case 1104:
+return "Exploiter";
+case 1105:
+return "Herr";
+case 1106:
+return "Medi";
+case 1107:
+return "Leader";
+case 1108:
+return "Defe";
+case 1109:
+return "Guer";
+case 1110:
+return "Cepu";
+case 1111:
+return "Magicien";
+case 1112:
+return "Sace";
+case 1113:
+return "Arti";
+case 1114:
+return "Depo";
+case 1115:
+return "Paya";
+case 1116:
+return "Acom";
+case 1117:
+return "Manger";
+case 1118:
+return "Faire le ménage";
+case 1119:
+return "Hipp";
+case 1120:
+return "Dôme";
+case 1121:
+return "Pilo";
+case 1122:
+return "Pour des hommes";
+case 1123:
+return "L'écriture";
+case 1124:
+return "Inge";
+case 1125:
+return "Cambre";
+case 1126:
+return "As";
+case 1127:
+return "Cent";
+
+default: return "";
+}
+

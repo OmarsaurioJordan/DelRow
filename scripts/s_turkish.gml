@@ -1,0 +1,594 @@
+// arg0: ind de dialogo
+// ret: str del dialogo
+
+switch argument0 {
+
+// para objeto txt
+case 0:
+return "İsim veya kayıtlı e-posta";
+case 1:
+return "Girilecek şifre";
+case 2:
+return "Yeni şifre (isteğe bağlı)";
+case 3:
+return "Hesap oluşturmak için e-posta";
+case 4:
+return "Kullanıcı adınızı";
+case 5:
+return "Aramak için ad veya e-posta";
+case 6:
+return "Ücretsiz Metin";
+
+// para GUI
+case 100:
+return "Uyarı: Önemli ağlar için şifrenizi kullanmamaya dikkat edin (düşük güvenlik)";
+case 101:
+return "Turkish";
+case 102:
+return "Web + Yumuşak";
+case 103:
+return "İnternet bağlantı hatası yok";
+case 104:
+return "Kayıt:";
+case 105:
+return "Mod:";
+case 106:
+return "Davranmak:";
+case 107:
+return "Oca";
+case 108:
+return "Şubat";
+case 109:
+return "Deniz";
+case 110:
+return "Nis";
+case 111:
+return "Mayıs";
+case 112:
+return "Haz";
+case 113:
+return "Tem";
+case 114:
+return "Ağu";
+case 115:
+return "Eylül";
+case 116:
+return "Ekim";
+case 117:
+return "Kasım";
+case 118:
+return "Aralık";
+case 119:
+return "Koç";
+case 120:
+return "Boğa Burcu";
+case 121:
+return "ikizler burcu";
+case 122:
+return "Kanser";
+case 123:
+return "Aslan";
+case 124:
+return "Başak";
+case 125:
+return "Terazi burcu";
+case 126:
+return "Akrep";
+case 127:
+return "yay Burcu";
+case 128:
+return "Oğlak burcu";
+case 129:
+return "Akvaryum";
+case 130:
+return "balık Burcu";
+case 131:
+return "Herkes";
+case 132:
+return "Sadece uzun metinlerle";
+case 133:
+return "Sadece son zamanlarda aktif";
+case 134:
+return "Tüm dünyanın";
+case 135:
+return "Uyarı Otomatik arama yapmak için giriş yapmalısınız";
+case 136:
+return "Aile";
+case 137:
+return "Çiftçi";
+case 138:
+return "pişirmek";
+case 139:
+return "Zanaatkar";
+case 140:
+return "Madenci";
+case 141:
+return "demirci";
+case 142:
+return "Doktor";
+case 143:
+return "Önder";
+case 144:
+return "Defans oyuncusu";
+case 145:
+return "Savaşçı";
+case 146:
+return "Planya";
+case 147:
+return "Büyücü";
+case 148:
+return "Rahip";
+case 149:
+return "Sanatçı";
+case 150:
+return "Atlet";
+case 151:
+return "Palyaço";
+case 152:
+return "Arkadaş";
+case 153:
+return "İşadamı";
+case 154:
+return "Temizleyici";
+case 155:
+return "Hippi";
+case 156:
+return "Tamer";
+case 157:
+return "Pilot";
+case 158:
+return "Teslimat kuryesi";
+case 159:
+return "yazar";
+case 160:
+return "Mühendis";
+case 161:
+return "Mimar";
+case 162:
+return "Suikastçı";
+case 163:
+return "İlmi";
+case 164:
+return "Roller";
+case 165:
+return "Bölgeler";
+case 166:
+return "Duygular";
+case 167:
+return "Zodyak";
+case 168:
+return "Fem";
+case 169:
+return "Wat";
+case 170:
+return "Gro";
+case 171:
+return "Hava";
+case 172:
+return "Kötü";
+case 173:
+return "Neu";
+case 174:
+return "Goo";
+case 175:
+return "Pro";
+case 176:
+return "Ortalama";
+case 177:
+return "Resmi";
+case 178:
+return "Kayıt";
+case 179:
+return "Haftalık:";
+case 180:
+return "Toplam:";
+case 181:
+return "Uyarı Resmi bir simülasyon yapmak için giriş yapmalısınız";
+
+// para nombre de zona
+case 200:
+return "Kuzey Amerika (Kanada)";
+case 201:
+return "Kuzey Amerika (ABD)";
+case 202:
+return "Kuzey Amerika (Meksika)";
+case 203:
+return "Güney Amerika (Kolombiya)";
+case 204:
+return "Güney Amerika (Brezilya)";
+case 205:
+return "Güney Amerika (Arjantin)";
+case 206:
+return "Avrupa (İspanya)";
+case 207:
+return "Avrupa (İngiltere)";
+case 208:
+return "Avrupa (Almanya)";
+case 209:
+return "Avrupa (Rusya)";
+case 210:
+return "Doğu (Arabistan)";
+case 211:
+return "Doğu (Hindistan)";
+case 212:
+return "Doğu (Çin)";
+case 213:
+return "Afrika (Mısır)";
+case 214:
+return "Afrika (Kongo)";
+case 215:
+return "Afrika (Güney Afrika)";
+case 216:
+return "Okyanusya (Avustralya)";
+case 217:
+return "Kuzey Amerika";
+case 218:
+return "Güney Amerika";
+case 219:
+return "Avrupa";
+case 220:
+return "Doğu";
+case 221:
+return "Afrika";
+case 222:
+return "Dünya (Hepsi)";
+
+// para nombres de comportamientos
+case 300:
+return "Ülkeni savun, gitme";
+case 301:
+return "Rastgele bir ülkeye saldır";
+case 302:
+return "En güçlü ülkeye saldırın";
+case 303:
+return "En zayıf ülkeye saldırın";
+case 304:
+return "En yakın ülkeye saldırın";
+case 305:
+return "Grupta kalın, grubu takip edin";
+case 306:
+return "Rastgele başka bir vatandaşı takip edin";
+
+// mensajes HTTP
+case 400:
+return "Bilinmeyen hata";
+case 401:
+return "Sunucu Bağlantı Hatası";
+case 402:
+return "Sunucu veritabanı hatası";
+case 403:
+return "Hata Uygulama sürümü uygun değil";
+case 404:
+return "Hata Yetersiz parametreler";
+case 405:
+return "Sunucu İsteği Hatası";
+case 406:
+return "Uyarı Kullanıcı adı zaten mevcut";
+case 407:
+return "Uyarı Aradığınız şey bulunamadı";
+case 408:
+return "Uyarı Saatte bir düzenlemelisiniz";
+case 409:
+return "Başarı Kaydedildi, postanızı kontrol edin";
+case 410:
+return "Uyarı Lütfen geçerli bir e-posta veya ad girin";
+case 411:
+return "Uyarı Şifre en az 6 karakter uzunluğunda olmalıdır";
+case 412:
+return "Başarı Güncellenen bilgiler";
+case 413:
+return "Uyarı Lütfen bayrak sekmesindeki verileri güncelleyin";
+
+// titulos de los temas del libro
+case 500:
+return "DelRow hakkında";
+case 501:
+return "Giriş ve Kayıt";
+case 502:
+return "Veri işleme";
+case 503:
+return "Profil Simgeleri";
+case 504:
+return "Profil Sürümü";
+case 505:
+return "Profil Arama";
+case 506:
+return "Aile Evi)";
+case 507:
+return "Mahsul (Çiftçi)";
+case 508:
+return "Fırın (Aşçı)";
+case 509:
+return "Terzilik (Zanaatkar)";
+case 510:
+return "Maden (Madenci)";
+case 511:
+return "Metal İşleri (Demirci)";
+case 512:
+return "Hastane (Doktor)";
+case 513:
+return "Forum (Lider)";
+case 514:
+return "Kule (Savunmacı)";
+case 515:
+return "Kışla (Savaşçı)";
+case 516:
+return "Mezarlık (Cepulturero)";
+case 517:
+return "Ritüel (Sihirbaz)";
+case 518:
+return "Tapınak (Rahip)";
+case 519:
+return "Konservatuar (Sanatçı)";
+case 520:
+return "Spor Salonu (Atlet)";
+case 521:
+return "Oyunlar (Palyaço)";
+case 522:
+return "Motel (Refakatçi)";
+case 523:
+return "Pazar (Tüccar)";
+case 524:
+return "Çöp (Temizleyici)";
+case 525:
+return "Park (Hippi)";
+case 526:
+return "Cattery (Avcı)";
+case 527:
+return "Liman (Pilot)";
+case 528:
+return "Messenger (Messenger)";
+case 529:
+return "Kütüphane (Yazar)";
+case 530:
+return "Türbin (Mühendis)";
+case 531:
+return "Bina (Mimar)";
+case 532:
+return "Bar (Katil)";
+case 533:
+return "Bilimsel laboratuvar)";
+case 534:
+return "Davranış Bölüm 1";
+case 535:
+return "Davranış Bölüm 2";
+case 536:
+return "İstatistik Güncellemesi";
+case 537:
+return "Genel istatistikler";
+case 538:
+return "İstatistik Verileri";
+case 539:
+return "Savaş Simgeleri";
+case 540:
+return "Savaş Düğmeleri";
+case 541:
+return "Özel Savaş";
+case 542:
+return "Komut Simülatörü";
+case 543:
+return "Birim Simülatörü";
+case 544:
+return "Simülatör Merkezleri";
+case 545:
+return "Bu kitap hakkında";
+
+// parrafos de los temas del libro
+case 700:
+return "Omar Jordán (Omwekiatl), Kolombiya 2021 (v $) tarafından oluşturulan etkileşimli yazılım.##Bir dünya savaşı simülasyonunu besleyen sanal topluluk, şunları yapabilirsiniz:##- Avatarınızı özelleştirin.##- Bir şeyi kelimesi kelimesine ifade edin.##- Diğer profilleri arayın.#- Desteklediği dünya bölgesini seçin.#- Toplumdaki rolünüzü seçin.#- Bir davranış biçimi seçin.#- Mevcut savaş durumunu ve istatistiklerini görüntüleyin.#PC için olan bu sürüm, gelişmiş parametrelere sahip simülasyon motoruna sahiptir.#Resmi dil: İspanyolca.";
+case 701:
+return "Kayıt olmak için bir şifre alacak bir e-posta kullanın.##Giriş yapmak için kayıt olduğunuz e-postayı veya kullanıcı adını kullanın; Kayıt olurken, e-postanızda rastgele bir kullanıcı adı ve şifre göreceksiniz, bunlar değiştirilebilir.##Girişin üçüncü çubuğu yeni bir şifre koymaktır, bir öncekini değiştirmek istemeniz durumunda dikkatli olun, Önemli şifreler kullanmayın.##Şifrenizi hatırlamıyorsanız, rastgele bir şifre almak için lütfen tekrar oturum açın.##Shift + Sil: metin satırını temizler.";
+case 702:
+return "Bilgileriniz satılmayacak veya üçüncü şahıslarla paylaşılmayacak, reklamları tanıtmak için kullanılmayacak, ancak topluluğun küresel istatistikleri kamuya açık olarak görülebilir, konu budur.##Parolanız şifrelenmiştir, ancak dikkatli olun.##Profilinizde istediğinizi ifade edebilirsiniz, sansür ya da yasak yoktur, bu nedenle reşit olmayanlara veya hassas kişilere uygun bir sistem değildir; Hala sizin etiğinize güveniyoruz (iyi sürüngen olun).";
+case 703:
+return "Resim Hakkında:#İsim / Bölge / Rol.##Resim:#Yapı (Rol) / Ávatar / Zodiac.##Resmin Altında: Serbest Metin, Davranış.#Sol alt, tarihler: - Sisteme kayıt.#- Profil değişikliği.#- En son aktif.#Sağ alttaki düğmeler: - Oturumu kapat (oturumu kapat).#- Profili düzenleyin (her saat 1 kez).";
+case 704:
+return "- Adınızı değiştirin (benzersiz olmalıdır).##- Desteklediği bölgeyi değiştirin.##- Avatarı yeşil oklarla değiştirin.#- Bir şeyler yazın (kırmızımsı arka plan geniş olduğunu gösterir).#- Davranışı değiştirin.#Sağ alttaki düğmeler:#- Yeşil: düzenlemeyi iptal edin.#- Kırmızı: değişiklikleri kabul edin ve gönderin.#Shift + Sil: metin satırını temizler.#Kopyalayıp yapıştırabilirsiniz (Ctrl + C) (Ctrl + V).";
+case 705:
+return "Adı veya e-postası varsa bir kullanıcı profilini arayabilir, not alabilir ve büyüteci tıklayabilirsiniz; veya kendi profilinizi arıyorsanız çubuğa basın.##Rastgele arama, aşağıdakilere göre filtreleme yapmanızı sağlar:#- Bölge.##- Geniş metinli profiller.##- Bir haftadan daha az aktif.#Aramak için zara vurun.#Bir profile girdiğinizde, aşağıdakileri yapmak için iki düğme vardır:#- Başka bir arama yapın.#- Bir ekran görüntüsü (png) alın.";
+case 706:
+return "Herkesin bir işi ve çocuklu bir evi olabilir, pekala burada değil, bu rolün aileleri, evleri için yaşayanları, çocuklarını büyüten ve eğitenleri temsil ettiği ortaya çıktı; rahat bir evde yaşıyorlar ve aynı ilgiye sahip bir partnerle ilişki kuruyorlar; belki de en eski ve en doğal roldür.##Temel birimlerdir, yetenekleri ve parametreleri, rolleri olmayan bir dünyanın sahip olabileceği şeylerdir, ancak ... yarım tohum taşırlar ve bu aynı rollerden ikisi bir araya geldiğinde, büyüyecek ve olacak bir yumurtlamaya dönüşeceklerdir. bir sakini daha.";
+case 707:
+return "Bir kasabanın veya şehrin geçiminin temelini oluştururlar, kuşkusuz gıda olmadan nüfus mutlu veya canlıdır ... genellikle yeşil ve geniş tarlalarda, yer altı sularını çıkarmak için kuyularda bulunurlar ve aşağıdakiler gibi sebzelerle çevrelenmişlerdir: yulaf, muz, mısır, fasulye, kinoa, kakao, yer fıstığı, buğday.##Savaşta yiyecek auraları var, bu yüzden müttefiklere yiyecek veriyorlar; Birimler daha cesaretlendirilerek saldırıya daha hızlı beslenerek onlara avantaj sağlar; ama çiğ besindir, bu yüzden etkisi uzun sürmez, aurada kalmaları gerekir.";
+case 708:
+return "Sıcak ekmeğin kokusunu ya da taze yapılmış yiyecekleri sevmeyen, çünkü bu hissi uyandırmak bu rolün işidir ve tamam, beslemek de ... hasadı besleyici bir inceliğe dönüştürmekle görevlidir, uzmanlık alanı is: tarçınlı yulaf, muzlu kek, mısır arepası, fasulye burger, kinoa kurabiye, çikolatalı tatlı, kuru meyveli kek.##Her seferinde bir müttefiki besleyin, yani özel yeteneğini her gerçekleştirdiğinde; Birimler daha cesaretlendirilerek saldırıya daha hızlı beslenerek onlara avantaj sağlar; Bu güzel yemeğin etkisi uzun sürüyor.";
+case 709:
+return "Ellerde çok fazla beceri, sabır ve bir malzemeyi daha değerli bir malzemeye dönüştürmek için gerekli fikirler; İster giymek, giymek ve soğuktan korunmak için kıyafet yapsın, ister dans ayakkabılarını, ziyaret etmek için, ister uyumak için, savaşsız bir dünyanın hayalini kurarak, yapacaklar.##Özel yeteneği her tetiklendiğinde, müttefik bir birimi soğuk darbeye dayanıklı bir pelerinle giydirecek, bu da alınan isabetlerle yıpranan birim zırhını veriyor.";
+case 710:
+return "Toprağın bağırsaklarından bu moller, tüm üretim faaliyetleri için hammadde çıkarırlar, kırma makinelerinin gürültüsünü umursamazlar veya yoğun yer altı havasını solurlar, yorulmadan altını, elması, altınları bulmaya çalışırlarsa yüzük veya diş almak için adamantium.##Kuşatma konusunda iyidirler, düşman şehir merkezini kırılgan bir taş gibi yıkabilirler, ayrıca kendi şehir merkezlerini onarmak için kuşatmalarındaki değerli şeyleri toplarlar.";
+case 711:
+return "Bu kaba elli vatandaş, dökümhanenin sıcaklığıyla uğraşmaz, orada kalır, ham mineralleri, örneğin tencere, bardaklar, kaideler, çubuklar ve her türlü demir bükülme gibi gündelik eserlere dönüştürür; Aralarında arada sırada pala, kılıç, savaş baltası ... Sık sık fazladan bir silah yaratır ve onu bir müttefike verir, bu ek silaha sahip birimler daha fazla saldırıya sahiptir, ancak her şey mükemmel değildir, bu yüzden er ya da geç ve Silahın kırılacağı bazı kötü şanslar.##";
+case 712:
+return "Sağlık, yaşamak için ve hatta iyi yaşam için en önemli şey; Bu rol, kendi refahını sağlamaktan sorumludur; Ameliyatın sonuna gelmeden veya güçlü kimyasallar tüketmeden önce, iyi su içmek, egzersiz yapmak (esneklik + kardiyo), mutlu ve stressiz olmak, yağsız ve şekersiz ve az etsiz dengeli beslenmek, derin nefes almak gibi iyi alışkanlıklar yaymaya çalışırlar.##iyi uyuyun ve ara sıra şifalı baharatlarla oruç tutun. Simülasyon açısından, fiziksel hasar veya viral enfeksiyonlar gibi müttefikleri iyileştirirler.";
+case 713:
+return "Her zaman komuta sesi, projeleri yürütmek için hiperaktivite ve güçlü bir onur ve fedakarlık duygusu olan sakinler olmuştur, bu rol toplumda fikirleri, projeleri, girişimleri, protestoları gruplama ve yönlendirme yeteneği sunar; Bunu yapmak için başkalarını dinlemeli, tartışma forumları açmalı, düzen koymalı ve en önemlisi bir örnek oluşturmalıdır.##Diğer müttefiklerin davranışlarından bağımsız olarak, bu rol onları onu takip etmeye ikna eder, böylece küçük bir grup oluşturur, bu şekilde tek başınıza gitmezsiniz, bunun bir başka avantajı da üyelerden birine yapılan bir saldırıya yanıt verirken senkronize olacaklardır. .";
+case 714:
+return "O bir polise eşdeğerdir, uzmanlığı korumadır, bu yüzden büyük bir kalkan taşır, savaşmaktan çok, bir toplumda düzen sağlamak, insanları güvende hissettirmek, herhangi bir tehdidi etkisiz hale getirmek.##En dayanıklı birim, yani kabiliyetidir; Öte yandan bina olarak bir kule sağlar, düşmana ateş eder, ancak doğrudan savaş alanında yapılan sefer kulelerinden daha yavaştır, hatta ikincisi iç kulesine göre daha kolay yıkılır.##Suçluların ve patlayıcıların saldırılarına karşı dayanıklıdır.";
+case 715:
+return "Bu, askeri bir adama eşdeğerdir, bu, savaş alanına kan susuzluğuyla giden, düşmanı yok eden acımasız bir savaşçıdır.##Belki bir savaş oyununda diğer rollerin ne anlamı olacak, iyi bir denge var, aldanmayın, tüm rollerin avantajları ve dezavantajları var ve toplum kendini herkesle zevk meselesi olarak ifade ediyor diye düşünüyorsunuz ... ama evet, bu, en yüksek saldırıya (pasif yetenek) sahip olmasıyla ayırt edilir.";
+case 716:
+return "O bir kuzgun gibi enderdir, melankoli ve derin düşünceleri ile birçok cenaze töreni, birçok gözyaşı, birçok son görmüştür; Genellikle yalnız ve meditatif varlıklardır, rolleri ölen kişiye dinlenme ve barınma sağlamaktır; hayatın en büyük gizemi olan ölüm, bu rol sürekli yaşanır ve yas tutanlara öğüt vermek için iyidir.##Savaş alanında bir düşmanı öldürdüğünde, sanki bir vampirmiş gibi yaşam puanı kurtarır.";
+case 717:
+return "Gizemli sanatlara, mistik olana, büyücülüğe kendini adamış bir yabancı olarak, genellikle bildiklerine sessiz kaldığı için, rüyalarında ve meditasyonunda hayatın kendisinden daha fazla zaman geçirdiği söylenir; Büyük simya çalışmasını gerçekleştirmeye çalışır, kozmosun sırlarını inceler ve çok çeşitli varlıklarla konuşur.##Ölürken, düşmanı takip eden ve saldırılarında ona kötü şans veren bir spektrum haline gelir, bu bir aura etkisidir, bu nedenle aynı anda birkaçını etkiler; hayatta ise rahipler tarafından pek dönüştürülemez.";
+case 718:
+return "Yaşama bağlılığını adadığı bir tapınağı var, bu tapınak da var olan, bazıları diğerlerinden daha eski, bazıları daha unutulmuş ve diğerleri daha moda olan bir çok kişinin tanrısını sembolize ediyor; o, yüce yardım vaadiyle duygusal yüklerini tartarak toplumun moralini gözetir.##İşlevi, bir birimi ideolojik olarak dönüştürmektir, bu da düşman bir müttefik olabileceği anlamına gelir, ancak bu, şans etkilerinden etkilenebilecek tek bir girişimle bir olasılıktır, örneğin: Lanetten önce düşük bir şansı olacaktır. bir hayalet.";
+case 719:
+return "Müzik, resim, heykel, şarkı söyleme, oyunculuk ... çok çeşitli ve güzel sanatın kapsamı ve sonsuz tezahürüdür, bu rol kuşkusuz kağıt ve ses üzerinde hayalleri ve kabusları yakalar, her toplumun kendini ifade etmesi gerekir, bu en aşkın olanıdır.##. Savaşta havayı ilhamla kutuplaştıracak ve müttefiklerin saldırılarına daha iyi şanslar verecek bir gitar taşıyacak; öyle olsa bile, bu etki geçicidir, bu nedenle auranın sürekli varlığını gerektirir.";
+case 720:
+return "Çok enerjik, esnek, güçlü, yorulmak bilmeyen, hünerli, sadece spor salonunda olmak ya da durmadan dünyayı dolaşmak için yaşayan, rekabet etmeyi sever ve kendisinden ve diğerlerinden daha iyi ve daha iyi olduğunu hisseder; Tek amacı hedeflere ulaşmaktır, eşsiz bir sağlığa sahiptir, ancak birden fazla yaralanmanın insafına kalmıştır.##Koşar ve herkesten daha hızlı değildir, bu ona savaş alanında büyük hareket kabiliyeti sağlar, aynı zamanda birikmiş ataletiyle bir hamle gibi ilk saldırısında büyük bir darbe vurma yeteneğine de sahiptir.";
+case 721:
+return "Şans oyunları, satranç, Çin daması, merdiven, Parklar, Poker, Uno, Sihir, sessiz sinema ve çok daha fazlası, burada bulacağınız bu dost canlısı, giden ve mutlu karakterin yapısında; Boş zaman ve kahkaha gibisi kesinlikle yoktur, ama dikkat edin, hahaha bağımlısı olursunuz.##Tüm bir Rus ruleti olan bu rol, eti kemikten, kendisinden, müttefiklerinden ve tabii ki düşmandan ayırabileceği güçlü bir bomba taşır; patlama hasar aldığında rastgeledir.";
+case 722:
+return "Sağlıklı bir toplum, cinselliğini tabular veya aşırı ahlaki değerler olmaksızın ifade eder, burada bu rol, ya üreme ruhu ile ya da daha iyisi boş zaman için erotik oyunlar için bir yer sunar; Ve bu yetmezmiş gibi, hizmetlerini özel bir şirket olarak (seçme özgürlüğü ile) sunuyor.##Sadece bir müttefik seçin ve onları aydınlatarak onlara daha fazla can puanı, saldırı puanı ve diğer rollerin etkilerine karşı bağışıklık kazandırın; Bunu takip edecek ve ikisinden biri öldüğünde, faydalarıyla olan bağ sonsuza dek kopacak; aydınlanmış müttefikin zayıflığı onun temel yoldaşıdır.";
+case 723:
+return "İmalat yoluyla yapılan ürünlerin satılması, pazarlanması gerekir, bu rolün işlevi budur; karizması nedeniyle nasıl iyi ödünleşmeler yapılacağını da bilir, çünkü zor zamanlarda her zaman para yoktur; binası, çok az ihtiyaç duyulan aletleri arayanlar için bir hobidir; o, servet yapma konusunda uzmandır, hiç olmayan yerden bozuk para çıkarır.##Düşman silahlarını ve pelerinlerini alıp saklayabilir veya bir müttefike verebilirsiniz; temelde düşman üretimini müttefikler için mallara dönüştürür.";
+case 724:
+return "Her şeyi temiz görme takıntısı var, atıkların bertaraf edilmesine çok önem veriyor, sloganı Azalt, Yeniden Kullan, Geri Dönüştür; Çünkü bu, kirliliği azaltmaya yardımcı olur; Binasındaki işi azalttığı için Kağıt, Plastik, Elektronik ve Organik olarak sınıflandırılan çöp kutularını görmekten hoşlanıyor; o da çimleri biçiyor.##Savaş birçok çürümüş ceset, bir karmaşa bırakır, bu rol işlediği her cesetle biraz canlanır.";
+case 725:
+return "Bir şehir, fauna ve flora ile eğlenmek, dinlenmek ve bağlantı kurmak için parklara ve doğal rezervlere ihtiyaç duyar; Bu varlık, bu mekanları koruyor ve tam orada, şehirden biraz kopuk bir hayat sürüyor; kanında belli bir doz halüsinojenik mantar var.##Barışçıl protesto baskısı altında, rollerini düşmanlarından alıp özel yeteneklerinden mahrum bırakabilir, bunu yeteneğini her etkinleştirdiğinde tek tek yapar.";
+case 726:
+return "İnsanın doğadaki diğer varlıklarla ilişkisi eskidir, örneğin yük hayvanları, avlanma, arkadaşlık, tüketim; Bu rol, köpekleri yetiştirir, evcilleştirir ve eğitir, böylece her tür insana bir şirket olarak hizmet ederler, hepimiz onları aile üyesi olarak görenlerin bile olduğunu biliyoruz.##Bir düşman gördüğünde, savaşmasına yardım etmesi için sadece bir köpeği çağırabilir, bu varlık onu her zaman takip eder, bir insandan daha az saldırıya ve yaşama sahiptir ve sahibi ölürse genellikle ahlaki acıdan ölür.";
+case 727:
+return "Tüm noktaları ayıran mesafelerle fiziksel bir dünyada yaşıyoruz, bir şeyi veya birini A'dan B'ye taşımak her zaman bir optimizasyon zorluğu olmuştur, balon veya hava gemileri en uygun uçan araç olmuştur; Bu binada uzun mesafeleri geçmek için hizmet veriyorlar.##Müttefiklere sudayken balon verin, bu şekilde hedefe daha hızlı ulaşabilirler, karada balon alçalır; Balona girenlere su muharebesinin avantaj sağladığı vurgulanmalıdır.";
+case 728:
+return "Birine bir şeyi, bir duyguyu, fikri veya işi ifade etmek istiyorsunuz, ancak bu çok uzakta, bu rol ve yapı, bu mesajı, sanki telgraf varmış gibi uzman ellere bırakmanıza izin veriyor.##Stratejik, eğer davranışı savunmaksa: müttefikleri savunmayı, savunmayı ihmal etmeden komşu düşmana saldırmaya ikna edecektir; davranışları birini takip etmekse: müttefikleri savunmasız merkezi veya daha doğrusu saldırıyı gruplar halinde savunanları savunmaya teşvik edecektir; diğer davranışlar için: müttefiklerin onun gibi davranmasını sağlayacaktır.##Bir düşman merkezine ulaştığında, sadece bir kez, yaratma kuyruğundaki bir birimi o merkezden kendi merkezine taşıyacak.";
+case 729:
+return "Öğretmeyi ve bilgiyi aktarmayı sevdiği ve aynı zamanda gerçek ya da gerçek dışı şeyler yazmayı sevdiği için öğretmen ve sanatçı karışımı; binası tüm konularda, bilim, edebiyat, maneviyat, biyografiler, tarih, felsefe, yaşam tarzı vb.##kitaplarla doludur. Her seferinde birini vurarak müttefik saldırılarına en iyi şansı verin; bu güçlendirme çok uzun ömürlüdür ve kritik vuruş şansı yüksektir, çünkü bilgi güçtür.";
+case 730:
+return "Enerji sunuyor, yangın yönetimi çoktan gitti, yıldırımın alanı yeni olan (en azından bu simüle edilen süre için), rüzgar türbinleri herkese temiz enerji sunuyor ve bununla ne yapmalı? Eh, insanlığın hayali bir homunculus, bir golem yaratmak olmuştur; Yapay zeka ile bir teneke yapalım.##Bir robot yaratın, pilleri nedeniyle sınırlı bir ömrü vardır, ancak bu role sahip herhangi bir müttefik bunların yerini alabilir; dev ama saldırmaz, yine de dirençli bir tuzak ve mükemmel bir kule yıkımıdır; suyla zayıflar, onu programlayan veya yeniden programlayan biri gibi davranır.";
+case 731:
+return "Binasız bir toplum ne olurdu, bir kulübe veya bir gökdelen olsun, bu varlık, amacının konfor, işlevsellik, optimizasyon ve daha az çevresel etki sunmak olduğunu unutmadan, bir şehrin en büyük ve en yoğun olanını yaratır; birkaç vatandaşın yaşaması için bir bina sağlar.##Savaş alanına düşmana ateş eden bir harekat kulesi koyabilirsiniz, sağlamlığından dolayı vatandaşlar tarafından saldırıya uğramaz; Yenisini yapmak yerine mevcut olanın seviyesini yükseltebilirsiniz.";
+case 732:
+return "Toplumda yaşayan herkes onu geliştirmek için çalışmaz, kişisel nedenlerle çatışmalar yaratanlar, hırsızlar, katiller, gangsterler vardır, bunlar zor konulardır ve genellikle geceleri dürüst vatandaşlarla karıştırılarak bira içerek bulunurlar.##Zaman zaman müttefiklerine haince saldırırlar, bu genellikle sürpriz olmak için güçlü bir darbedir; Küçük bir hasar alma şansı vardır, genel olarak bu rol alanı içeriden sabote etmek isteyen kişi tarafından seçilir.";
+case 733:
+return "Bu konuların çılgınca olduğu, uzayın derinliklerinden moleküllerin yakınlığına kadar gördükleri her şeyi inceledikleri, dillerinin matematik olduğu ve sözlüğünün karmaşık olduğu söyleniyor; Sağladıkları binada, hipotezleri test etmek için genellikle birçok deney yapılır.##Şişelerinde çok ölümcül bir virüs geliştirdiler, kendi kendini öldürme ve bulaşma yeteneğine sahipler, şimdi onu savaşta her seferinde bir düşmana bulaştırmak için kullanıyorlar; bu saldırı zehire benzer, iyileşme veya hasar görme şansı vardır.";
+case 734:
+return "Savunma:#Birimler kendi veya müttefik şehir merkezlerini ararlar ve ona yakın dururlar, kıta savaşı olduğunda, bir merkezin kuşatılıp kuşatılmadığını görebilir ve oraya gidebilirler.##Rastgele Saldırı:#Rastgele bir düşman merkezi seçecekler ve oraya gidecekler, bu birliklerin dağılmasına neden olabilir, ayrıca hedefin yeniden hesaplanabileceği belirli durumlar da vardır.##En Güçlü / En Zayıf Olanlara Saldırın:#En fazla / en az sayıda mevcut birime sahip olan düşman merkezini hedef alırlar, yani canlı olanları yedek olanlarla eklerler.";
+case 735:
+return "Saldırı Komşusu:#Hedef düşman merkezinin, şu anda kimi saldıracağını arayan birime en yakın olmasını sağlar.##Grupta Hareket Etme:#Merkezler, grupların birkaç çemberini hesaplar, söz konusu merkezin bu davranışa sahip birimleri, bu çemberlerden birinde buluşacaktır; ayrıca kıta modunda birimler müttefik bir daire seçebilir.##Başka Bir Birimi Takip Et:#Müttefik bir vatandaş takip etmesi için rastgele seçilir, ancak bu savunma veya takipçi davranışı olmamalıdır; Dahası, birini bulamazsa, şehir merkezine dönme eğiliminde olacaktır.";
+case 736:
+return "Bu yazılım telaşsız bir eylemdir, stratejiler ve profil düzenlemeleri sakince yapılır, bu nedenle küresel istatistikler her saat güncellenir ve profili düzenleme olanağı sağlanır.##Yaptığınız değişiklikler 1 saat içinde istatistiklerde görünecek!";
+case 737:
+return "En üstte gözlemlenecek bölgeyi veya ülkeyi seçebilirsiniz, seçim haritaya kırmızı olarak yansıtılacaktır.##Haritanın altında şunları görebilirsiniz:#- Bölgedeki kullanıcı sayısı.##- Toplama göre kadınların yüzdesi.#- Aktif kullanıcı sayısı.#- Aktif kullanıcıların kaydı.#Bir kullanıcı geçen hafta uygulamadaysa aktiftir.";
+case 738:
+return "Seçilen alan için gözlemlenecek veri türünü değiştirebilirsiniz:#- Roller: her roldeki kullanıcılar.##- Bölgeler: mevcut bölgeye göre.##- Duygular: Avatarın yüzlerine göre.#- Zodyak: bölge için işaretler.#Buradaki fikir, davranışları değil rolleri görmektir, bu şekilde roller için nesnel bir kolektif strateji yapılabilir ve davranış için sezgisel veya dışsal bir strateji yapılabilir.#- Kaydet düğmesi, verileri dışa aktarmanıza olanak tanır.#- Kamera düğmesi bir ekran görüntüsü alır.";
+case 739:
+return "Yukarıdaki simülasyon sayısı:#Haftalık (temizlenecek) / Birikmiş.##Gözlemlemek istediğiniz alanı seçebilirsiniz, bu kırmızı ile haritaya yansıyacaktır.##Haftanın ilk simülasyonu Görevlidir, geri kalanı Ortalamalıdır ve Kayıt tüm zamanlara aittir.##Veriler bölgenin konumunu gösterir, 1 en iyi yerdir, bağlanırlarsa tekrarlanabilirler.##Simgeler: teknik skor, avlanan düşmanlar, kuşatma yapıldı, fethedilen bölgeler, hayatta kalma süresi, mevcut birimler, toplam birimler, son ömür.";
+case 740:
+return "Alttaki 4 düğme savaşı başlatır:#Rastgele verilerle 1 Demo.##2 Özel verilerle demo.##3 Resmi veriler ancak çatışmalar.##4 Resmi veriler ve sonuçlar.#- Ülke modu / kıta modu.#- Kamera düğmesi bir ekran görüntüsü alır.#Özel veriler, istatistik menüsünde elde edilen dosyanın (txt) biçimine sahiptir.#Resmi savaş siyah bir ekranda olacak, sonuçlar sunucuya yüklenecek, bu simülasyonları size uygun bir şekilde bitirmekten kaçınmak içindir.";
+case 741:
+return "İstatistik menüsünde belirtildiği gibi dosyayı (txt) alın.##İçinde birkaç matris göreceksiniz, bizi ilgilendiren (rol) 'den biri, burada değerleri her bir bölge için kaç birim istediğinize göre değiştirebilirsiniz.##Sütunlar, başlıkta (rol) gördüğünüz rollerdir.##Satırlar, başlıkta (ülkeler) gördüğünüz gibi bölgelerdir.#Davranışlar her zaman rastgele olacaktır; daha sonra (aktif nüfus) aktif kullanıcıları tanımlar, isterseniz çok yüksek bir sayı girin.";
+case 742:
+return "- Fare tekerleği ile yakınlaştırın.##- Sağ tıklama ile kamerayı hareket ettirin.##- Sol tıklama ile varlıkları seçin.#- Simülasyonu Escape ile bırakın.#- Yukarı ve Aşağı Sol üst ile hızlanın veya yavaşlayın: genel bilgiler, son hız PC'nize, resmi verilere bağlı olacaktır.#Sağ üst: genel bilgi: maksimum nüfus, yaşam birimleri, canlı varlıklar, canlı varlıklar kaydı, yaratılan toplam varlık.#Ardından en iyi 3'e göre: mevcut birimler, avlanan düşmanlar, kuşatma yapıldı, fethedilen alanlar.#Son olarak, canlılığa göre pozisyonlar.#Sol alt, bağlamsal (seçim).";
+case 743:
+return "Cinsiyet ve zodyak simülasyonu etkilemez, ancak aktif durumda ise yaşam primi verilir.##Varlıklar karada veya suda hareket edebilir, bu sonuncusu hareketi ve saldırıyı yavaşlatır; bir düşmana, bir müttefike veya şehir merkezine doğru gidebilirler, çarpışmalar da tespit edilir.##Arada sırada görüş alanlarındaki düşmanları arayacaklar ve yakınlarsa biraz rastlantısal olarak saldıracaklar; ayrıca zaman zaman her rolün özel yetenekleri uygulanacaktır.##Diğer birimlere etki uygulayan roller kendi kendine uygulanamaz veya aynı role sahip müttefikleri veya düşmanları etkilemez, örneğin: bir doktor başka bir doktoru iyileştiremez veya iyileştiremez.";
+case 744:
+return "Her kent merkezinin bir başlangıç ​​nüfusu vardır ve bu nüfusta bir seferde yalnızca sınırlı yaşam birimine sahip olabilir ve daha fazlasını çağrıştıracaktır.##Her merkezin yaşam puanları bir temel değer artı ilk nüfustur, zaman zaman yakındaki düşmanların ve müttefiklerin sayısı hesaplanır, alınan kuşatma bunun farkı sınırlıdır.##Birim rolleri öncelikli olarak rastgele seçilir, davranışlar yalnızca rastgele değişir.##Her merkez birkaç gruplama çemberinin konumunu hesaplar, bunu birim gruplarını, düşman merkezlerini ve düşman gruplarını arayarak yapar.";
+case 745:
+return "Daha hızlı gezinmek için Sol / Sağ tuşlarını kullanın; Rastgele bir sayfaya, Rastgele rol için Space'e gitmek için Enter tuşuna basın.##İlk sayfadaki görselde yer alan sayı, kayıtlı toplam kullanıcı sayısıdır.##Not:#";
+
+// mini nombre de zona
+case 900:
+return "Köpek";
+case 901:
+return "KULLANIMI";
+case 902:
+return "Mex";
+case 903:
+return "Lahana";
+case 904:
+return "Sutyen";
+case 905:
+return "Bağımsız değişken";
+case 906:
+return "Esp";
+case 907:
+return "Ing";
+case 908:
+return "Ale";
+case 909:
+return "Rus";
+case 910:
+return "Ara";
+case 911:
+return "Ind";
+case 912:
+return "Chi";
+case 913:
+return "Egi";
+case 914:
+return "İle";
+case 915:
+return "Güney";
+case 916:
+return "Aus";
+case 917:
+return "NA";
+case 918:
+return "S.A";
+case 919:
+return "EUR";
+case 920:
+return "ORI";
+case 921:
+return "AFR";
+case 922:
+return "TOT";
+
+// para nombres de comportamientos abreviados (no traducir)
+case 1000:
+return "Savun";
+case 1001:
+return "A.aza";
+case 1002:
+return "A. oldu";
+case 1003:
+return "A.déb";
+case 1004:
+return "A.cer";
+case 1005:
+return "Grup";
+case 1006:
+return "Segui";
+
+// abreviacion roles (no traducir)
+case 1100:
+return "Aile";
+case 1101:
+return "Ağrı";
+case 1102:
+return "Pişmiş";
+case 1103:
+return "Sanat";
+case 1104:
+return "Benim";
+case 1105:
+return "Herr";
+case 1106:
+return "Medi";
+case 1107:
+return "Önder";
+case 1108:
+return "Defe";
+case 1109:
+return "Guer";
+case 1110:
+return "Cepu";
+case 1111:
+return "Büyücü";
+case 1112:
+return "Sace";
+case 1113:
+return "Arti";
+case 1114:
+return "depo";
+case 1115:
+return "Paya";
+case 1116:
+return "Acom";
+case 1117:
+return "Yemek";
+case 1118:
+return "Temiz";
+case 1119:
+return "Hipp";
+case 1120:
+return "Kubbe";
+case 1121:
+return "Pilo";
+case 1122:
+return "Erkeklerin";
+case 1123:
+return "yazı";
+case 1124:
+return "Inge";
+case 1125:
+return "Kemer";
+case 1126:
+return "Aslar";
+case 1127:
+return "Yüz";
+
+default: return "";
+}
+

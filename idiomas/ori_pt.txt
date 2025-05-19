@@ -1,0 +1,565 @@
+Nome ou email cadastrado
+
+Senha para entrar
+
+Nova senha (opcional)
+
+Email para criar conta
+
+Seu nome de usuário
+
+Nome ou e-mail para pesquisar
+
+Texto livre
+
+Aviso: tome cuidado para não usar sua senha para redes importantes (baixa segurança)
+
+espanhol
+
+Web + Soft
+
+Nenhum erro de conexão de internet
+
+Reg:
+
+Mod:
+
+Ato:
+
+Jan
+
+Fev
+
+Mar
+
+Abr
+
+maio
+
+Junho
+
+Jul
+
+Agosto
+
+Set
+
+Out
+
+Nov
+
+Dez
+
+Áries
+
+Touro
+
+Gêmeos
+
+Câncer
+
+Leo
+
+Virgem
+
+Libra
+
+Escorpião
+
+Sagitário
+
+Capricórnio
+
+Aquário
+
+Peixes
+
+Todo o mundo
+
+Só com textos longos
+
+Apenas recentemente ativo
+
+De todo o mundo
+
+Aviso Você deve estar logado para pesquisa automática
+
+Família
+
+Agricultor
+
+cozinheiro
+
+Artesão
+
+Mineiro
+
+ferreiro
+
+Doutora
+
+Líder
+
+Defensor
+
+Guerreiro
+
+Planer
+
+Mágico
+
+Padre
+
+Artista
+
+Atleta
+
+Palhaço
+
+Companheiro
+
+Homem de negocios
+
+Limpador
+
+Hippie
+
+Domador
+
+Piloto
+
+Correio de entrega
+
+escritor
+
+Engenheiro
+
+Arquiteto
+
+Assassino
+
+Científico
+
+Funções
+
+Zonas
+
+Emoções
+
+Zodíaco
+
+Fem
+
+Wat
+
+Gro
+
+Ar
+
+Mau
+
+Neu
+
+Gosma
+
+Pró
+
+Média
+
+Oficial
+
+Registro
+
+Semanalmente:
+
+Total:
+
+Aviso Você deve estar logado para fazer uma simulação oficial
+
+América do Norte (Canadá)
+
+América do Norte (EUA)
+
+América do Norte (México)
+
+América do Sul (Colômbia)
+
+América do Sul (Brasil)
+
+América do Sul (Argentina)
+
+Europa (Espanha)
+
+Europa (Inglaterra)
+
+Europa (Alemanha)
+
+Europa (Rússia)
+
+Leste (Arábia)
+
+Leste (Índia)
+
+Leste (China)
+
+África (Egito)
+
+África (Congo)
+
+África (África do Sul)
+
+Oceania (Austrália)
+
+América do Norte
+
+América do Sul
+
+Europa
+
+leste
+
+África
+
+Mundo (tudo)
+
+Defenda seu país, não saia
+
+Ataque um país aleatório
+
+Ataque o país mais forte
+
+Ataque o país mais fraco
+
+Ataque o país mais próximo
+
+Fique no grupo, siga o grupo
+
+Siga outro cidadão aleatório
+
+Erro desconhecido
+
+Erro de conexão do servidor
+
+Erro de banco de dados do servidor
+
+A versão do aplicativo de erro é inadequada
+
+Parâmetros insuficientes de erro
+
+Erro de solicitação de servidor
+
+Aviso Nome de usuário já existe
+
+Aviso O que você estava procurando não foi encontrado
+
+Aviso Você deve editar uma vez a cada hora
+
+Sucesso registrado, verifique seu e-mail
+
+Aviso Por favor, insira um e-mail ou nome válido
+
+Aviso A senha deve ter pelo menos 6 caracteres
+
+Informação atualizada de sucesso
+
+Aviso Por favor, atualize os dados na guia da bandeira
+
+Sobre DelRow
+
+Faça login e registre-se
+
+Tratamento de dados
+
+Ícones de Perfil
+
+Edição de Perfil
+
+Pesquisa de Perfil
+
+Casa de família)
+
+Colheita (Fazendeiro)
+
+Padaria (cozinheira)
+
+Alfaiataria (Artesão)
+
+Meu (mineiro)
+
+Metalurgia (ferreiro)
+
+Hospital (médico)
+
+Fórum (Líder)
+
+Torre (Defensor)
+
+Quartel (guerreiro)
+
+Cemitério (Cepulturero)
+
+Ritual (assistente)
+
+Templo (sacerdote)
+
+Conservatório (Artista)
+
+Ginásio (atleta)
+
+Jogos (palhaço)
+
+Motel (acompanhante)
+
+Mercado (comerciante)
+
+Lixo (limpador)
+
+Park (hippie)
+
+Gatil (Domador)
+
+Porto (piloto)
+
+Messenger (Messenger)
+
+Biblioteca (Escritor)
+
+Turbina (Engenheiro)
+
+Edifício (arquiteto)
+
+Bar (assassino)
+
+Laboratório científico)
+
+Comportamento Parte 1
+
+Comportamento Parte 2
+
+Atualização de estatísticas
+
+Estatísticas Gerais
+
+Dados estatísticos
+
+Ícones de guerra
+
+Botões de guerra
+
+Guerra Customizada
+
+Simulador de Comando
+
+Simulador de unidades
+
+Centros de Simulador
+
+Sobre este livro
+
+Software interativo criado por Omar Jordán (Omwekiatl), Colômbia 2021 (v $). Comunidade virtual que alimenta uma simulação de guerra mundial, você pode: - Personalizar seu avatar. - Expresse algo literalmente. - Pesquise outros perfis. - Selecione a zona mundial que suporta. - Escolha seu papel na sociedade. - Escolha um modo de comportamento. - Veja o status e as estatísticas da guerra atual. Esta versão para PC possui motor de simulação, com parâmetros avançados. Língua oficial: espanhol.
+
+Para se cadastrar utilize um e-mail, que receberá uma senha. Para fazer o login, use o e-mail com o qual você se cadastrou ou o nome de usuário; Ao se registrar, você verá um nome de usuário e uma senha aleatórios em seu e-mail, que podem ser alterados. A terceira barra do login é colocar uma nova senha, caso queira alterar a anterior, tome cuidado, não use senhas importantes. Se você não se lembra da sua senha, faça login novamente para obter uma senha aleatória. Shift + Delete: linha de texto limpa.
+
+Suas informações não serão vendidas ou compartilhadas com terceiros, nem serão utilizadas para promover publicidade, mas as estatísticas globais da comunidade podem ser vistas publicamente, é disso que se trata. Sua senha está criptografada, mas tenha cuidado. Você pode expressar o que quiser em seu perfil, não há censura ou proibição, portanto não é um sistema adequado para menores ou pessoas sensíveis; nós ainda confiamos em sua ética (seja bom creep).
+
+Sobre a imagem: Nome / Zona / Função. Imagem: Building (Role) / Ávatar / Zodiac. Em Imagem: Texto Livre, Comportamento. Embaixo à esquerda, datas de: - Registro no sistema. - Modificação de perfil. - Última vez ativo. Botões inferior direito: - Fechar sessão (log out). - Editar perfil (1 vez a cada hora).
+
+- Modifique seu nome (deve ser único). - Modifique a zona que suporta. - Modifique o avatar com as setas verdes. - Escreva algo (fundo avermelhado indica vasto). - Modifique o comportamento. Botões inferiores direitos: - Verde: cancela a edição. - Vermelho: aceitar e enviar alterações. Shift + Delete: linha de texto limpa. Você pode copiar e colar (Ctrl + C) (Ctrl + V).
+
+Você pode pesquisar um perfil de usuário se ele tiver seu nome ou e-mail, anote e clique na lupa; ou pressione o stick se estiver procurando seu próprio perfil. A pesquisa aleatória permite filtrar por: - Zona. - Perfis com texto vasto. - Ativo por menos de uma semana. Acerte os dados para pesquisar. Uma vez em um perfil, existem dois botões para: - Fazer outra pesquisa. - Faça uma captura de tela (png).
+
+Todos podem ter um emprego e uma casa com filhos, bom não aqui, verifica-se que este papel representa quem vive para a sua família, para a sua casa, cria e educa a sua prole; moram em casa confortável e convivem com companheiro que professa o mesmo interesse; talvez seja o papel mais antigo e natural. Eles são unidades básicas, suas habilidades e parâmetros são aqueles que um mundo sem funções teria, mas ... eles carregam meia semente, e quando dois desse mesmo papel se encontram, eles crescerão em um desova, que crescerá e se tornará mais um habitante.
+
+São a base da subsistência de uma vila ou cidade, sem comida duvidosamente que a população esteja feliz, ou viva ... encontram-se geralmente em campos verdes e vastos, com poços para extrair água subterrânea, e rodeados de vegetais como: aveia, banana, milho, feijão, quinua, cacau, amendoim, trigo. Na batalha eles têm uma aura alimentar, portanto dão comida aos aliados; As unidades alimentadas por serem mais encorajadas atacam mais rápido, o que lhes dá uma vantagem; mas é comida crua, então seu efeito não dura muito, eles devem permanecer na aura.
+
+Quem não gosta de cheirar a pão quente, nem a qualquer comida acabada de fazer, pois evocar esse sentimento é a função deste papel, e tudo bem, alimentar também ... fica encarregado de fazer da colheita uma iguaria nutritiva, a sua especialidade é: aveia com canela, bolo de banana, arepa de milho, hambúrguer de feijão, biscoito de quinua, sobremesa de chocolate, bolo de frutas secas. Alimente um aliado de cada vez, ou seja, cada vez que ele executar sua habilidade especial; As unidades alimentadas por serem mais encorajadas atacam mais rápido, o que lhes dá uma vantagem; o efeito desta boa comida dura muito tempo.
+
+Muita habilidade nas mãos, paciência e as ideias necessárias para transformar um pedaço de material em ... um material mais valioso; seja fazendo roupas para vestir, usar e proteger do frio, sapatos de dança, móveis para visitar ou dormir sonhando com um mundo sem guerras, eles o farão. Cada vez que sua habilidade especial é ativada, ele vestirá uma unidade aliada com uma capa à prova de choque, isso dá à unidade uma armadura que é desgastada pelos golpes recebidos.
+
+Essas toupeiras das entranhas da terra extraem a matéria-prima para todas as atividades manufatureiras, não ligam para o barulho das trituradoras nem respiram o denso ar subterrâneo, que se, incansavelmente buscarem o ouro, o diamante, o adamantium para obter um anel ou dente. Eles são bons no cerco, podem derrubar o centro urbano inimigo como se fosse apenas mais uma pedra frágil, eles também coletam o valioso em seus cercos para reparar seu próprio centro urbano.
+
+O rude cidadão não se incomoda com o calor da fundição, fica lá transformando minerais brutos em artefatos do cotidiano como: potes, vidros, pedestais, grades e todo tipo de torção de ferro; Entre eles o ocasional facão, espada, machado de batalha ... De vez em quando ele cria uma arma extra e dá a um aliado, as unidades com esta arma adicional têm mais ataque, mas nem tudo é perfeito, então mais cedo ou mais tarde e com algum azar a arma vai quebrar.
+
+Saúde, principal coisa para viver e mais ainda para bem viver; Essa função é responsável por garantir o bem-estar dos próprios; Antes de chegar ao final de uma cirurgia ou de consumir produtos químicos fortes, eles tentam espalhar bons hábitos como: hidratar bem, fazer exercícios (flexibilidade + cardio), ser feliz e sem estresse, comer balanceado sem gorduras, ou açúcares e poucas carnes, respirar fundo , durma bem e, ocasionalmente, jejue com especiarias curativas. E bem, em termos de simulação, eles curam aliados, sejam danos físicos ou infecções virais.
+
+Sempre existiram aqueles habitantes que têm voz de comando, hiperatividade para realizar projetos e um forte sentido de honra e altruísmo, este papel oferece na sociedade a capacidade de agrupar e dirigir ideias, projetos, iniciativas, protestos; Para fazer isso, ele deve ouvir os outros, abrir fóruns de discussão, colocar ordem e, o mais importante, dar o exemplo. Independentemente do comportamento dos outros aliados, este papel os persuade a segui-lo, montando assim um pequeno grupo, desta forma você não irá sozinho, outra vantagem disso é que os membros irão sincronizar ao responder a um ataque a um deles .
+
+Ele é o equivalente a um policial, sua especialidade é a proteção, então ele carrega um grande escudo, ao invés de ir para a guerra sua missão é colocar ordem na sociedade, fazendo as pessoas se sentirem seguras, neutralizando qualquer ameaça. É a unidade mais resistente, essa é sua habilidade; Por outro lado, fornece uma torre como edifício, atira no inimigo, mas é mais lenta que as torres de campanha feitas diretamente no campo de guerra, embora estas últimas sejam facilmente demolidas em comparação com as internas. Resistente a ataques de criminosos e explosivos.
+
+É o equivalente a um militar, este é um guerreiro brutal que sai para o campo de batalha com sede de sangue, destruindo o inimigo. Talvez você esteja pensando que em um jogo de guerra qual o sentido dos outros papéis, bem, há um equilíbrio, não se deixe enganar, todos os papéis têm vantagens e desvantagens, e a comunidade se expressa com todos por uma questão de gosto ... mas sim, este se distingue por ser aquele com o maior ataque (habilidade passiva).
+
+Ele é uma raridade, como um corvo, com melancolia e pensamento profundo, ele viu muitos enterros, muitas lágrimas, muitos finais; Geralmente são entidades solitárias e meditativas, sua função é dar descanso e alojamento ao falecido; morte, o maior mistério da vida, este papel é vivido constantemente e é bom para dar conselhos aos enlutados. Quando ele mata um inimigo no campo de batalha, ele recupera pontos vitais, como se fosse um vampiro.
+
+Sendo um estranho que se dedica às artes arcanas, à mística, à feitiçaria, pela mesma razão que costuma se calar sobre o que sabe, diz-se que passa mais tempo viajando em seus sonhos e meditação do que na própria vida; Tenta realizar o grande trabalho alquímico, perscruta os segredos do cosmos e conversa com as mais diversas entidades. Ao morrer torna-se um espectro que segue o inimigo dando-lhe azar em seus ataques, este é um efeito de aura, portanto afeta vários ao mesmo tempo; em vida dificilmente pode ser convertido por padres.
+
+Tem um templo ao qual dedica a sua devoção pela vida, este templo por sua vez simboliza um deus dos vários que existem, uns mais antigos que outros, uns mais esquecidos e outros mais modernos; ele zela pelo moral da sociedade, pesando seus fardos emocionais com a promessa de ajuda suprema. Sua função é converter ideologicamente uma unidade, o que significa que ela pode fazer um aliado inimigo, mas esta é uma probabilidade com uma única tentativa, que pode ser afetada por efeitos de sorte, por exemplo: terá uma chance baixa antes da maldição de um espectro.
+
+Música, pintura, escultura, canto, atuação ... muito diversa e bela é a gama da arte e sua infinita manifestação, esse papel sem dúvida captura sonhos e pesadelos no papel e no som, toda sociedade precisa se expressar, isso é o mais transcendental . Na batalha ele carregará um violão, que polarizará o ar com inspiração, dando mais sorte aos ataques dos aliados; mesmo assim, esse efeito é temporário, por isso requer a presença constante da aura.
+
+Um ser muito enérgico, flexível, forte, incansável, ágil, que só vive para estar no ginásio ou para viajar o mundo sem parar, adora competir e se sentir cada vez melhor que ele e os outros; Seu único objetivo é quebrar gols, ele goza de uma saúde incomparável, mas está à mercê de múltiplas lesões. Ele corre e nada mais rápido que qualquer outro, o que lhe dá grande mobilidade no campo de batalha, ele também tem a capacidade de desferir um grande golpe na primeira vez que ataca, como uma estocada com sua inércia acumulada.
+
+Jogos de azar, Xadrez, Damas chinesas, escada, Parks, Poker, Uno, Magic, charadas e muito mais, que tu encontras aqui, na construção deste simpático, extrovertido e alegre personagem; Definitivamente não há nada como lazer e risos, mas cuidado, você fica viciado hahaha. Toda uma roleta russa, esse papel carrega consigo uma bomba de alta potência com a qual pode separar a carne do osso, de si mesma, de seus aliados e, claro, do inimigo; a explosão é aleatória quando causa dano.
+
+Uma sociedade saudável expressa sua sexualidade sem tabus ou moralidades extremas, aqui esse papel oferece um lugar para jogos eróticos, seja com espírito reprodutivo ou, melhor ainda, para lazer; E como se não bastasse, oferece seus serviços como uma empresa especial (com liberdade de escolha). Escolha apenas um aliado e ilumine-o, dando-lhe mais pontos de vida, pontos de ataque e imunidade aos efeitos de outras funções; Isso acontecerá e quando um dos dois morrer, o vínculo com seus benefícios será quebrado para sempre; a fraqueza do aliado iluminado é sua companheira básica.
+
+Os produtos feitos pela manufatura precisam ser vendidos, comercializados, essa é a função dessa função, que também sabe fazer bons trade-offs pelo seu carisma porque nem sempre há dinheiro nos momentos difíceis; seu prédio é um hobby para quem procura aparelhos pouco necessários; ele é um especialista em fazer fortunas, extrai moedas de onde não há. Você pode pegar armas e capas inimigas e mantê-las, ou dá-las a um aliado; basicamente transforma a manufatura inimiga em bens para os aliados.
+
+Ele tem obsessão em ver tudo limpo, se preocupa muito com o descarte do lixo, seu lema é Reduzir, Reutilizar, Reciclar; Porque isso ajuda a reduzir a poluição; gosta de ver as latas de lixo separadas por Papel, Plástico, Eletrônico e Orgânico, pois isso diminui o trabalho em seu prédio; ele também corta a grama. A guerra deixa muitos cadáveres decompostos, uma bagunça inteira, esse papel ganha um pouco de vida a cada cadáver que processa.
+
+Uma cidade precisa de parques e reservas naturais, para a diversão, lazer e conexão com a fauna e a flora; Esse ser protege esses espaços e aí leva uma vida um pouco desligada da cidade; seu sangue contém uma certa dose de cogumelos alucinógenos. Ele pode, sob a pressão de um protesto pacífico, tirar o papel deles dos inimigos, despojando-os de suas habilidades especiais, isso ele faz um a um cada vez que ativa sua habilidade.
+
+A relação humana com outros seres na natureza é antiga, como animais de carga, caça, companheirismo, consumo; Este papel cria os cães e os doma e treina, para que sirvam de companhia a todo o tipo de pessoas, todos sabemos que há quem os veja até como familiares. Quando ele vê um inimigo, ele pode chamar apenas um cachorro para ajudá-lo a lutar, esta entidade sempre o seguirá, tem menos ataque e vida que um humano e geralmente morre de dor moral se seu dono morrer.
+
+Vivemos em um mundo físico, com distâncias que separam todos os pontos, transportar algo ou alguém de A para B sempre foi um desafio de otimização, o balão ou dirigíveis têm sido o veículo voador ideal; neste edifício prestam os seus serviços para atravessar longas distâncias. Dê balões aos aliados quando eles estiverem na água, assim eles podem chegar mais rápido ao destino, em terra o balão desce; Vale ressaltar que o combate aquático dá uma vantagem para quem anda de balão.
+
+Você quer expressar algo para alguém, uma emoção, ideia ou negócio, mas está longe, bem esse papel e construção permitem que você deixe essa mensagem em mãos experientes, como se o telégrafo existisse. Estratégico, se seu comportamento é o de defesa: persuadirá os aliados defensores a atacar o inimigo vizinho, sem descuidar da defesa; se o seu comportamento é seguir alguém: irá encorajar os aliados a defenderem o centro vulnerável ou melhor, aqueles que defendem o ataque em grupos; para outro comportamento: fará com que os aliados se comportem como ele. Ao chegar a um centro inimigo, apenas uma vez, ele moverá uma unidade na fila de criação desse centro para a sua.
+
+Uma mistura de professor e artista, pois gosta de ensinar e transmitir conhecimentos, e também de escrever coisas reais ou irreais; seu prédio está cheio de livros, de todos os assuntos, ciência, literatura, espiritualidade, biografias, história, filosofia, estilo de vida, etc. Dê melhor sorte aos ataques aliados, acertando um de cada vez; este buff é muito duradouro e tem grandes chances de acerto crítico, porque conhecimento é poder.
+
+Oferece energia, a gestão do fogo já se foi, o que há de novo no domínio dos raios (pelo menos neste tempo simulado), as turbinas eólicas oferecem energia limpa para todos, e o que fazer com isso? Bem, um sonho da humanidade é criar um homúnculo, um golem; Vamos fazer uma lata com inteligência artificial. Crie um robô, ele tem uma vida útil limitada devido às suas baterias, mas qualquer aliado com esta função pode substituí-las; gigante mas não ataca, ainda é um engodo resistente e uma demolição de torre por excelência; enfraquece com a água, comporta-se como quem o programou ou reprogramou.
+
+O que seria uma sociedade sem edifícios, seja uma cabana ou um arranha-céus, este ser cria o maior e mais denso de uma cidade, sem esquecer que o seu objetivo é oferecer conforto, funcionalidade, otimização e menor impacto ambiental; fornece um edifício para vários cidadãos viverem. No campo de batalha você pode colocar uma torre de campanha que atira no inimigo, ela não é atacada pelos cidadãos devido à sua resistência; Em vez de fazer um novo, você pode subir de nível um existente.
+
+Nem todo mundo que vive em sociedade trabalha para melhorá-la, há quem por motivos pessoais criem conflitos, ladrões, assassinos, gangsters, são assuntos difíceis e costumam ser encontrados à noite, bebendo cerveja se misturando com cidadãos honestos. De vez em quando eles atacam seus aliados de forma traiçoeira, geralmente é um golpe forte para ser surpresa; há uma pequena chance de receber dano de volta, em geral esse papel é escolhido por quem deseja sabotar a área por dentro.
+
+Diz-se que esses sujeitos são malucos, examinam tudo o que veem, desde as profundezas do espaço sideral, à intimidade das moléculas, sua linguagem é matemática e seu léxico é complexo; No prédio que fornecem, muitos experimentos são normalmente realizados para testar hipóteses. Em seus frascos, eles cultivaram um vírus muito letal, capaz de se matar e se transmitir, agora o usam na guerra para infectar um inimigo de cada vez; este ataque é semelhante ao veneno, há uma chance de ser curado ou danificado.
+
+Defensiva: As unidades procuram o centro urbano próprio ou aliado e ficam perto dele, quando é guerra de continentes, podem ver se um centro está sendo sitiado e ir até ele. Ataque Aleatório: Eles vão escolher um centro inimigo ao acaso e ir até ele, isso pode criar dispersão das tropas, também há certos casos em que o destino pode ser recalculado. Ataque os mais fortes / fracos: Eles têm como alvo o centro inimigo que possui a maior / menor quantidade de unidades disponíveis, ou seja, somam as vivas às reservas.
+
+Ataque Vizinho: Garante que o centro inimigo alvo seja o mais próximo da unidade que está procurando por quem atacar. Mover em Grupo: Os centros calculam alguns círculos de grupos, as unidades desse centro que têm este comportamento, irão se reunir em um desses círculos; também no modo continente, as unidades podem escolher um círculo aliado. Seguir outra unidade: Um cidadão aliado é selecionado aleatoriamente para seguir, mas isso não deve ser um comportamento defensivo ou de seguidor; Além disso, se ele não conseguir encontrar alguém, ele tenderá a retornar ao seu centro urbano.
+
+Este software é de ação sem pressa, as estratégias e edições de perfil são tratadas com tranquilidade, portanto, as estatísticas globais são atualizadas a cada hora, bem como a possibilidade de edição do perfil. As alterações que você fizer ficarão visíveis nas estatísticas em 1 hora!
+
+No topo você pode selecionar a área ou país a observar, a seleção será refletida no mapa em vermelho. Abaixo do mapa você pode ver: - Número de usuários na área. - Porcentagem de mulheres em relação ao total. - Número de usuários ativos. - Registro de usuários ativos. Um usuário está ativo se ele estava no aplicativo na última semana.
+
+Você pode alterar o tipo de dados a observar para a área escolhida: - Funções: usuários em cada função. - Zonas: em relação à zona atual. - Emoções: de acordo com os rostos do avatar. - Zodíaco: signos da zona. A ideia é ver os papéis, mas não os comportamentos, dessa forma uma estratégia coletiva objetiva pode ser feita para os papéis, e intuitiva ou externa para o comportamento. - O botão Salvar permite exportar dados. - O botão da câmera faz uma captura de tela.
+
+Acima, número de simulações: Semanais (serão limpas) / Acumuladas. Você pode selecionar a área que deseja observar, isso será refletido no mapa em vermelho. A primeira simulação da semana é a Oficial, com as demais sendo a Média, e o Recorde é de todos os tempos. Os dados indicam a posição da zona, 1 é o melhor local, podem ser repetidos se empatarem. Ícones: pontuação técnica, inimigos caçados, cerco feito, zonas conquistadas, tempo de vida, unidades disponíveis, total de unidades, vida final.
+
+Os 4 botões na parte inferior iniciam a guerra: 1 Demo com dados aleatórios. 2 Demonstração com dados personalizados. 3 Dados oficiais mas de escaramuça. 4 Dados oficiais e resultados. - Modo país / modo continente. - O botão da câmera faz uma captura de tela. Os dados personalizados têm o formato do arquivo (txt) obtido no menu de estatísticas. A guerra oficial será em tela preta, os resultados são enviados para o servidor, isso é para evitar o encerramento das simulações conforme sua conveniência.
+
+Obtenha o arquivo (txt) conforme indicado no menu de estatísticas. Nele você verá várias matrizes, a que nos interessa é a de (papel), aí você pode alterar os valores de acordo com quantas unidades quiser em cada uma, para cada zona. As colunas são as funções conforme você as vê no cabeçalho (função). As linhas são as zonas, como você as vê no cabeçalho (países). Os comportamentos sempre serão aleatórios; então (população ativa) define usuários ativos, coloque um número muito alto se quiser.
+
+- Aumente o zoom com a roda do mouse. - Mova a câmera com um clique com o botão direito. - Selecione entidades com o botão esquerdo. - Saia da simulação com Escape. - Acelere ou desacelere com Up e Down Top left: informações gerais, a velocidade final dependerá do seu PC, dados oficiais ou não. Superior direito: informações gerais: população máxima, unidades vivas, entidades vivas, registro de entidades vivas, total de entidades criadas. Então os 3 melhores de acordo com: unidades disponíveis, inimigos caçados, cerco feito, áreas conquistadas. Por fim, as posições de acordo com a vitalidade. Inferior esquerdo, contextual (seleção).
+
+O gênero e o zodíaco não afetam a simulação, mas se for o estado ativo, são dados bônus de vida. As entidades podem se mover por terra ou água, este último retarda o movimento e o ataque; eles podem ir em direção a um inimigo, um aliado ou centro urbano, colisões também são detectadas. De vez em quando, eles procurarão inimigos em seu campo de visão e atacarão se estiverem próximos, com um pouco de aleatoriedade; também, de tempos em tempos, as habilidades especiais de cada função serão executadas. Funções que aplicam efeitos a outras unidades não podem ser autoaplicadas, nem afetam aliados ou inimigos da mesma função, por exemplo: um médico Não pode curar ou curar outro médico.
+
+Cada centro urbano tem uma população inicial, da qual só pode haver um limite de unidades habitacionais por vez, e irá evocando mais como. Os pontos vitais de cada centro são um valor base mais a população inicial, de vez em quando calcula-se o número de inimigos e aliados próximos, o cerco recebido é a diferença deste com um limite. Os papéis da unidade são escolhidos aleatoriamente com prioridade, os comportamentos mudam apenas aleatoriamente. Cada centro calcula a posição de alguns círculos de agrupamento, ele o faz procurando agrupamentos de unidades, centros inimigos e grupos inimigos.
+
+Para navegar mais rápido use as teclas Esquerda / Direita; pressione Enter para navegar até uma página aleatória, Espaço para função aleatória. O número na imagem da primeira página é o número total de usuários registrados. Observação:
+
+Cão
+
+USOS
+
+Mex
+
+Repolho
+
+Sutiã
+
+Arg
+
+Esp
+
+Ing
+
+Ale
+
+Rus
+
+Ara
+
+Ind
+
+Chi
+
+Egi
+
+Com
+
+Sul
+
+Aus
+
+N / D
+
+S.A
+
+EUR
+
+ORI
+
+AFR
+
+TOT
+
+Defender
+
+A.aza
+
+A. era
+
+A.déb
+
+A.cer
+
+Grupo
+
+Segui
+
+Família
+
+Agri
+
+Cozinhou
+
+Arte
+
+Minha
+
+Herr
+
+Medi
+
+Líder
+
+Defe
+
+Guer
+
+Cepu
+
+Mágico
+
+Sace
+
+Arti
+
+Depo
+
+Paya
+
+Acom
+
+Comer
+
+Limpar
+
+Hipp
+
+cúpula
+
+Pilo
+
+Masculino
+
+Escrevendo
+
+Inge
+
+Arco
+
+Ases
+
+Centenas
